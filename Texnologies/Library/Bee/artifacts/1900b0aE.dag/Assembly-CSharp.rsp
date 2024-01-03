@@ -109,6 +109,7 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
+-define:UNITY_PRO_LICENSE
 -define:ENABLE_CUSTOM_RENDER_TEXTURE
 -define:ENABLE_DIRECTOR
 -define:ENABLE_LOCALIZATION
@@ -442,6 +443,9 @@
 "Assets/TextMesh_Pro/Examples & Extras/Scripts/VertexShakeB.cs"
 "Assets/TextMesh_Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh_Pro/Examples & Extras/Scripts/WarpTextExample.cs"
+"Assets/_Scripts/DoorScript.cs"
+"Assets/_Scripts/NewDialogue.cs"
+"Assets/_Scripts/NPCSystem.cs"
 "Assets/_Scripts/PauseMenu.cs"
 "Assets/_Scripts/SettingsMenu.cs"
 -langversion:9.0
