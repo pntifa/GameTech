@@ -1,0 +1,351 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.11f1 (d00248457e15) revision 13632072'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 15791 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Phivos Theodorides/Desktop/UnityEnixerw/GameTech/Texnologies
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+59442
+Successfully changed project path to: C:/Users/Phivos Theodorides/Desktop/UnityEnixerw/GameTech/Texnologies
+C:/Users/Phivos Theodorides/Desktop/UnityEnixerw/GameTech/Texnologies
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13580] Host "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 3674000520 [EditorId] 3674000520 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7F5CPF2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [13580] Host "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 3674000520 [EditorId] 3674000520 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7F5CPF2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 9.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.11f1 (d00248457e15)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Phivos Theodorides/Desktop/UnityEnixerw/GameTech/Texnologies/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Vendor:   NVIDIA
+    VRAM:     3949 MB
+    Driver:   31.0.15.3734
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56024
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006832 seconds.
+- Loaded All Assemblies, in  0.339 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.246 seconds
+Domain Reload Profiling: 586ms
+	BeginReloadAssembly (100ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (139ms)
+		LoadAssemblies (98ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (135ms)
+				TypeCache.ScanAssembly (123ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (248ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (187ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (123ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.886 seconds
+Refreshing native plugins compatible for Editor in 3.89 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Texnologies Anaptixis
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.001 seconds
+Domain Reload Profiling: 1884ms
+	BeginReloadAssembly (148ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (650ms)
+		LoadAssemblies (422ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (316ms)
+			TypeCache.Refresh (266ms)
+				TypeCache.ScanAssembly (248ms)
+			ScanForSourceGeneratedMonoScriptInfo (36ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1001ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (775ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (580ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 3.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7791 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 265 unused Assets / (15.5 MB). Loaded Objects now: 8158.
+Memory consumption went from 386.9 MB to 371.3 MB.
+Total: 8.113700 ms (FindLiveObjects: 1.000600 ms CreateObjectMapping: 0.379300 ms MarkObjects: 3.803800 ms  DeleteObjects: 2.927000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 717702.594811 seconds.
+  path: Assets/Fences
+  artifactKey: Guid(59520bb03f647e943a2bf4e1f0d97a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences using Guid(59520bb03f647e943a2bf4e1f0d97a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd590c4a257fb865ff609ab81872c61ed') in 0.005995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.285138 seconds.
+  path: Assets/Fences/Prefabs
+  artifactKey: Guid(23b6cab9fb71be54a8cd8378fd4f99d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/Prefabs using Guid(23b6cab9fb71be54a8cd8378fd4f99d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f677de02a642aaab6c83e4a16c6591db') in 0.000599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.966376 seconds.
+  path: Assets/Fences/Prefabs/fences
+  artifactKey: Guid(515655855f1805b499ab9e5ec6e7311f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/Prefabs/fences using Guid(515655855f1805b499ab9e5ec6e7311f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8cd19df77a047d96749e0143e06d583') in 0.000974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.052207 seconds.
+  path: Assets/Fences/Prefabs/fences/SM_fence_base.prefab
+  artifactKey: Guid(6879d9d2a9a87e149b2c8df8c1d358f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/Prefabs/fences/SM_fence_base.prefab using Guid(6879d9d2a9a87e149b2c8df8c1d358f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a369bd102f6e5d9909a35893cb8b77a') in 0.380330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 5.998169 seconds.
+  path: Assets/Fences/Materials
+  artifactKey: Guid(97cb8f3485c42bb4b92957542b28f02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/Materials using Guid(97cb8f3485c42bb4b92957542b28f02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8850311c1f3e4bdf482f8f16254c48d9') in 0.000803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.752512 seconds.
+  path: Assets/Fences/Materials/fences
+  artifactKey: Guid(596a3a4be1b01bc4abbce895e3942d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/Materials/fences using Guid(596a3a4be1b01bc4abbce895e3942d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131f896a6976e46b9e6fd94327942e31') in 0.000552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.037783 seconds.
+  path: Assets/Fences/Materials/fences/M_fence_base_crete.mat
+  artifactKey: Guid(f69e21c079dc96145b619c43f38a5805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/Materials/fences/M_fence_base_crete.mat using Guid(f69e21c079dc96145b619c43f38a5805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5391f9a47422799b1a4aaf1580dfb9f') in 0.057968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Fences/Materials/fences/M_fence_stand_small_mtl.mat
+  artifactKey: Guid(871a13f6031172847a283110c32de2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/Materials/fences/M_fence_stand_small_mtl.mat using Guid(871a13f6031172847a283110c32de2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d74f5526d338a12b4108c8260c14849') in 0.081542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 10.187914 seconds.
+  path: Assets/Fences/Meshes
+  artifactKey: Guid(66d03aa53ad78194288824b5f20eeefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/Meshes using Guid(66d03aa53ad78194288824b5f20eeefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6786860f69c0f4b6431ec58b3d58cd81') in 0.000673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.741166 seconds.
+  path: Assets/Fences/Meshes/fences
+  artifactKey: Guid(898193b99a94f2b4797347aa9f027736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/Meshes/fences using Guid(898193b99a94f2b4797347aa9f027736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8777032ca600a4d6f458c680c775ae7') in 0.000548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.052505 seconds.
+  path: Assets/Fences/Meshes/fences/SM_fence_base.FBX
+  artifactKey: Guid(519d021c75022d443a7361c5aced69b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/Meshes/fences/SM_fence_base.FBX using Guid(519d021c75022d443a7361c5aced69b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61af6e16d1bec1f92b81a57490c437db') in 0.099096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 26.405221 seconds.
+  path: Assets/Fences/Textures
+  artifactKey: Guid(58a3b0ae6a3eb8745b9667b1a5d31365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/Textures using Guid(58a3b0ae6a3eb8745b9667b1a5d31365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fed7f3c88f817514f696e995e63b5a9') in 0.000895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.812465 seconds.
+  path: Assets/Fences/Textures/fences
+  artifactKey: Guid(6ce5b275fcd2b1740a1683c7612aa1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/Textures/fences using Guid(6ce5b275fcd2b1740a1683c7612aa1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2d99d5fb54485de4550e23b1ae37a6') in 0.000615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.021994 seconds.
+  path: Assets/Fences/Textures/fences/T_detail_crete_N.tga
+  artifactKey: Guid(ecc32927cdc2f8c47b5264a4f647a9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/Textures/fences/T_detail_crete_N.tga using Guid(ecc32927cdc2f8c47b5264a4f647a9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab35f7ae88db86970955bc415f1cd41') in 0.038254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Fences/Textures/fences/T_fence_stand_small_MT.tga
+  artifactKey: Guid(630ba0ec3c8507645a6db99845080adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/Textures/fences/T_fence_stand_small_MT.tga using Guid(630ba0ec3c8507645a6db99845080adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bee192bf81bc9929ba18f2f46770da0') in 0.054985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Fences/Textures/fences/T_fence_base_MT.tga
+  artifactKey: Guid(ca13569098f3a9448af0d078fd377f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/Textures/fences/T_fence_base_MT.tga using Guid(ca13569098f3a9448af0d078fd377f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ce200101770c7c8f43336b964afbe7') in 0.033854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.470257 seconds.
+  path: Assets/Fences/Textures/fences/Materials
+  artifactKey: Guid(d5ce857b298bd06469f845e6cd445ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/Textures/fences/Materials using Guid(d5ce857b298bd06469f845e6cd445ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6168f1813925f706c3066cc7e55f67e') in 0.000666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.063529 seconds.
+  path: Assets/Fences/Textures/fences/Materials/T_fence_base_D.mat
+  artifactKey: Guid(eed6f9196822de74bb8eb6a9618fa0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/Textures/fences/Materials/T_fence_base_D.mat using Guid(eed6f9196822de74bb8eb6a9618fa0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c637a99b20d350e018a61617f72190c3') in 0.022354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 133.730051 seconds.
+  path: Assets/Fences/Textures/fences/Materials/T_fence_base_AO.mat
+  artifactKey: Guid(6724a6c11afcad549b8ae5ee0e3327f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/Textures/fences/Materials/T_fence_base_AO.mat using Guid(6724a6c11afcad549b8ae5ee0e3327f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5498d33cf47d78f0b30647def9d8e3') in 0.020409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fences/Textures/fences/Materials/T_fence_stand_small_MT.mat
+  artifactKey: Guid(b072f9f3e5cde9146a682b2538575d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/Textures/fences/Materials/T_fence_stand_small_MT.mat using Guid(b072f9f3e5cde9146a682b2538575d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9dda87bcf9783e1d587fd52ffb43e7') in 0.025768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Fences/Textures/fences/Materials/T_fence_stand_small_D.mat
+  artifactKey: Guid(34d29915570fd394cbddb64e8845d61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/Textures/fences/Materials/T_fence_stand_small_D.mat using Guid(34d29915570fd394cbddb64e8845d61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79247802a2d9be6605a019039a66a087') in 0.019424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
