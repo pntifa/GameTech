@@ -69,7 +69,11 @@
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+    <Compile Include="Assets\TrueClouds\ExampleScenes\Scenes\Sky\CloudsGenerator.cs" />
+    <Compile Include="Assets\TrueClouds\ExampleScenes\Scripts\FPS60.cs" />
+    <Compile Include="Assets\TrueClouds\ExampleScenes\Scripts\ScriptPerformanceMeasure.cs" />
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+    <Compile Include="Assets\TrueClouds\Scripts\CloudsReadonlyAttribute.cs" />
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets\_Scripts\PauseMenu.cs" />
@@ -79,6 +83,7 @@
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+    <Compile Include="Assets\TrueClouds\Scripts\CloudCamera.cs" />
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\EasyNpcs\Player\CameraCon.cs" />
@@ -105,13 +110,16 @@
     <Compile Include="Assets\IgniteCoders\Simple Water Shader\Info\Scripts\ReadmeStarSparrow.cs" />
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\_Scripts\NewDialogue.cs" />
+    <Compile Include="Assets\TrueClouds\Scripts\CloudCamera3D.cs" />
     <Compile Include="Assets\Crates_0\Scene\Scripts\RotateCube.cs" />
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\PBR_Grass_Textures\Scripts\CameraFreeflight.cs" />
+    <Compile Include="Assets\TrueClouds\Scripts\CloudPointLight.cs" />
     <Compile Include="Assets\Crates_0\Scene\Scripts\FlickeringLights.cs" />
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+    <Compile Include="Assets\TrueClouds\ExampleScenes\Scripts\FPSDisplay.cs" />
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
@@ -119,18 +127,28 @@
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\TrueClouds\Resources\Shaders\Depth.shader" />
     <None Include="Assets\TerrainSampleAssets\ThirdPartyNotices.txt" />
     <None Include="Assets\TextMesh_Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh_Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TrueClouds\Resources\Shaders\Light\CloudsPointLight.shader" />
     <None Include="Assets\Rocks_and_Boulders_2\Shaders\Blend SM2.shader" />
+    <None Include="Assets\Toby Fredson\Dwarven Expedition Pack - Stylized Assets\Materials\1. Main Material Folder.txt" />
+    <None Include="Assets\TrueClouds\Resources\Shaders\Light\CloudsTintSubtractiveTwosided.shader" />
     <None Include="Assets\TextMesh_Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TrueClouds\Resources\Shaders\BlurHQ.shader" />
+    <None Include="Assets\TrueClouds\Resources\Shaders\Light\CloudsTintAdditive.shader" />
     <None Include="Assets\TextMesh_Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
     <None Include="Assets\Army Bunker\Info.txt" />
     <None Include="Assets\TextMesh_Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
     <None Include="Assets\TextMesh_Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh_Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\Toby Fredson\Dwarven Expedition Pack - Stylized Assets\Models\1. Models.txt" />
     <None Include="Assets\SciFi_Door\readme.txt" />
     <None Include="Assets\TextMesh_Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\TrueClouds\Resources\Shaders\Light\CloudsTintSubtractive.shader" />
+    <None Include="Assets\Toby Fredson\Dwarven Expedition Pack - Stylized Assets\Textures\1. Main Texture Folder.txt" />
+    <None Include="Assets\TrueClouds\Resources\Shaders\DepthBlur.shader" />
     <None Include="Assets\Rocks_and_Boulders_2\Shaders\Blend SM3.shader" />
     <None Include="Assets\TextMesh_Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh_Pro\Sprites\EmojiOne Attribution.txt" />
@@ -138,21 +156,34 @@
     <None Include="Assets\Rocks_and_Boulders_2\Shaders\shader info.txt" />
     <None Include="Assets\TextMesh_Pro\Shaders\TMP_SDF.shader" />
     <None Include="Assets\TextMesh_Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\TrueClouds\Resources\Shaders\Light\CloudsTintTransparentTwosided.shader" />
     <None Include="Assets\TextMesh_Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TrueClouds\Resources\Shaders\ClearColor.shader" />
     <None Include="Assets\TextMesh_Pro\Shaders\TMPro_Properties.cginc" />
-    <None Include="Assets\Toby Fredson\Hand Painted Tiles - SleepingForest\Author&apos;s note!.txt" />
+    <None Include="Assets\TrueClouds\Resources\Shaders\Normal.shader" />
+    <None Include="Assets\Toby_Fredson\Hand Painted Tiles - SleepingForest\Author&apos;s note!.txt" />
+    <None Include="Assets\TrueClouds\Resources\Shaders\Light\CloudsTintAdditiveTwosided.shader" />
     <None Include="Assets\TextMesh_Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\TrueClouds\Resources\Shaders\BlurFast.shader" />
+    <None Include="Assets\Toby Fredson\Dwarven Expedition Pack - Stylized Assets\1. Read Me!.txt" />
     <None Include="Assets\TextMesh_Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\StarSparrow\Textures\Masks\Readme.txt" />
+    <None Include="Assets\TrueClouds\Resources\Shaders\Light\CloudsTintTransparent.shader" />
+    <None Include="Assets\Toby Fredson\Dwarven Expedition Pack - Stylized Assets\Prefabs\1. Main Prefab Folder.txt" />
     <None Include="Assets\TextMesh_Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\TrueClouds\Resources\Shaders\Light\CloudsTint.cginc" />
+    <None Include="Assets\TrueClouds\Resources\Shaders\Clouds.shader" />
     <None Include="Assets\TextMesh_Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TrueClouds\Resources\Shaders\Blur.shader" />
     <None Include="Assets\TextMesh_Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh_Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\Sci-Fi_Styled_Modular_Pack\Readme.txt" />
     <None Include="Assets\TextMesh_Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\Toby Fredson\Dwarven Expedition Pack - Stylized Assets\FreePack vs Full Pack\1. Free vs Full.txt" />
     <None Include="Assets\TerrainSampleAssets\ShaderGraphs\CustomFunctions\CustomLighting.hlsl" />
     <None Include="Assets\TextMesh_Pro\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\TextMesh_Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
+    <None Include="Assets\TrueClouds\Resources\Shaders\CloudsDepth.cginc" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -493,6 +524,22 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>Library\PackageCache\com.unity.analytics@3.8.1\Unity.Analytics.Tracker.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>Library\PackageCache\com.unity.analytics@3.8.1\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>Library\PackageCache\com.unity.analytics@3.8.1\Unity.Analytics.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">
@@ -983,12 +1030,20 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Services.Analytics.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Analytics.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualEffectGraph.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.Stores">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Purchasing.Stores.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
@@ -1003,12 +1058,20 @@
       <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.AI.Navigation">
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Animation.Rigging.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Services.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
@@ -1035,6 +1098,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Services.Core.Environments">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.RenderPipelines.HighDefinition.Config.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Config.Runtime.dll</HintPath>
       <Private>False</Private>
@@ -1051,12 +1118,28 @@
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="UnityEngine.Purchasing.SecurityCore">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityCore.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.Codeless">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Purchasing.Codeless.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="PPv2URPConverters">
       <HintPath>Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.Purchasing">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.Purchasing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Services.Core.Analytics">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
@@ -1077,6 +1160,10 @@
     </Reference>
     <Reference Include="Unity.RenderPipelines.HighDefinition.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Purchasing.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
@@ -1103,6 +1190,14 @@
       <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="UnityEngine.Purchasing.SecurityStub">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityStub.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Advertisements.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1123,6 +1218,14 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Purchasing.Common">
+      <HintPath>Library\ScriptAssemblies\Purchasing.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements.Editor">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
       <Private>False</Private>
@@ -1133,6 +1236,10 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Analytics">
+      <HintPath>Library\ScriptAssemblies\Analytics.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UI">
@@ -1161,6 +1268,10 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Services.Analytics">
+      <HintPath>Library\ScriptAssemblies\Unity.Services.Analytics.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">

@@ -15,7 +15,7 @@ C:/Users/Phivos Theodorides/Desktop/UnityEnixerw/GameTech/Texnologies
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-59442
+65280
 Successfully changed project path to: C:/Users/Phivos Theodorides/Desktop/UnityEnixerw/GameTech/Texnologies
 C:/Users/Phivos Theodorides/Desktop/UnityEnixerw/GameTech/Texnologies
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/Phivos Theodorides/Desktop/UnityEnixerw/GameTech/Texnologies
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23040] Host "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 818612040 [EditorId] 818612040 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7F5CPF2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [17272] Host "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 1101857788 [EditorId] 1101857788 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7F5CPF2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [23040] Host "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 818612040 [EditorId] 818612040 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7F5CPF2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17272] Host "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 1101857788 [EditorId] 1101857788 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7F5CPF2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 11.37 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 14.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.11f1 (d00248457e15)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007400 seconds.
-- Loaded All Assemblies, in  0.355 seconds
+Registered in 0.008275 seconds.
+- Loaded All Assemblies, in  0.589 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.258 seconds
-Domain Reload Profiling: 612ms
-	BeginReloadAssembly (108ms)
+- Finished resetting the current domain, in  0.324 seconds
+Domain Reload Profiling: 913ms
+	BeginReloadAssembly (212ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (59ms)
-	LoadAllAssembliesAndSetupDomain (140ms)
-		LoadAssemblies (105ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (245ms)
+		LoadAssemblies (213ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (138ms)
-			TypeCache.Refresh (137ms)
-				TypeCache.ScanAssembly (125ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (240ms)
+			TypeCache.Refresh (238ms)
+				TypeCache.ScanAssembly (208ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (258ms)
+	FinalizeReload (325ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (199ms)
+		SetupLoadedEditorAssemblies (256ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (131ms)
-			ProcessInitializeOnLoadMethodAttributes (49ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (165ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,35 +115,9 @@ Domain Reload Profiling: 612ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.982 seconds
-Refreshing native plugins compatible for Editor in 3.62 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.032 seconds
+Refreshing native plugins compatible for Editor in 4.51 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
-Error loading file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\Phivos Theodorides\Desktop\UnityEnixerw\GameTech\Texnologies\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <834b2ded5dad441e8c7a4287897d63c7>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <834b2ded5dad441e8c7a4287897d63c7>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00055] in <834b2ded5dad441e8c7a4287897d63c7>:0 
-  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks) [0x00000] in <834b2ded5dad441e8c7a4287897d63c7>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string,System.Text.Encoding,bool)
-  at System.IO.File.InternalReadAllText (System.String path, System.Text.Encoding encoding) [0x00000] in <834b2ded5dad441e8c7a4287897d63c7>:0 
-  at System.IO.File.ReadAllText (System.String path, System.Text.Encoding encoding) [0x00034] in <834b2ded5dad441e8c7a4287897d63c7>:0 
-  at UnityEditor.StateCache`1[T].GetState (UnityEngine.Hash128 key, T defaultValue) [0x00041] in <9920ff0c944845d7b9f9a61ef1478edc>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:GetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:OnEnable ()
-UnityEngine.ScriptableObject:CreateInstance (System.Type)
-UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
-UnityEditor.Tools:get_get ()
-UnityEditor.Tools:get_visibleLayers ()
-UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs:121)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
-
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-Texnologies Anaptixis
@@ -152,47 +126,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.077 seconds
-Domain Reload Profiling: 2056ms
-	BeginReloadAssembly (151ms)
+- Finished resetting the current domain, in  1.143 seconds
+Domain Reload Profiling: 2172ms
+	BeginReloadAssembly (180ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
+		CreateAndSetChildDomain (25ms)
 	RebuildCommonClasses (37ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (734ms)
-		LoadAssemblies (409ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (753ms)
+		LoadAssemblies (430ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (413ms)
-			TypeCache.Refresh (359ms)
-				TypeCache.ScanAssembly (338ms)
-			ScanForSourceGeneratedMonoScriptInfo (40ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1078ms)
+		AnalyzeDomain (417ms)
+			TypeCache.Refresh (340ms)
+				TypeCache.ScanAssembly (313ms)
+			ScanForSourceGeneratedMonoScriptInfo (52ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (1143ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (828ms)
+		SetupLoadedEditorAssemblies (883ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (7ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (106ms)
-			ProcessInitializeOnLoadAttributes (619ms)
-			ProcessInitializeOnLoadMethodAttributes (84ms)
+			BeforeProcessingInitializeOnLoad (111ms)
+			ProcessInitializeOnLoadAttributes (669ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 4.85 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 7791 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 265 unused Assets / (15.6 MB). Loaded Objects now: 8158.
-Memory consumption went from 387.0 MB to 371.5 MB.
-Total: 10.389600 ms (FindLiveObjects: 0.749700 ms CreateObjectMapping: 0.768600 ms MarkObjects: 4.270700 ms  DeleteObjects: 4.598800 ms)
+Memory consumption went from 387.3 MB to 371.7 MB.
+Total: 9.143300 ms (FindLiveObjects: 0.697600 ms CreateObjectMapping: 0.608700 ms MarkObjects: 3.989800 ms  DeleteObjects: 3.845500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -209,50 +183,167 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 717693.880780 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(4bb17ef7a48f5c74299683dc27f7c0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(4bb17ef7a48f5c74299683dc27f7c0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a042155187c63aa439744447362419') in 0.003388 seconds
+  Time since last request: 787590.672892 seconds.
+  path: Assets/_Scenes/Main.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Scenes/Main.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef05dc829c73480b2524a58b09874621') in 0.003287 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/PBR_Grass_Textures
-  artifactKey: Guid(95a7b819aa9b02144963c5d8916a2a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PBR_Grass_Textures using Guid(95a7b819aa9b02144963c5d8916a2a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8953673091bfea9588fc2a83f29b8e42') in 0.000579 seconds
+  Time since last request: 1135.912013 seconds.
+  path: Assets/LiquidFire Assets/Mausoleum/Materials/Mausoleum_MetallicSmoothness.mat
+  artifactKey: Guid(86fcccf398db3074da0058afa8f1653a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LiquidFire Assets/Mausoleum/Materials/Mausoleum_MetallicSmoothness.mat using Guid(86fcccf398db3074da0058afa8f1653a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a58fab301ead4c7654d9e26ee32f0bcf') in 0.463721 seconds
+Number of updated asset objects reloaded before import = 12
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.029 seconds
+Refreshing native plugins compatible for Editor in 8.29 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Texnologies Anaptixis
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 28.604 seconds
+Domain Reload Profiling: 29626ms
+	BeginReloadAssembly (248ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (693ms)
+		LoadAssemblies (496ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (273ms)
+			TypeCache.Refresh (197ms)
+				TypeCache.ScanAssembly (178ms)
+			ScanForSourceGeneratedMonoScriptInfo (37ms)
+			ResolveRequiredComponents (37ms)
+	FinalizeReload (28605ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (815ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (537ms)
+			ProcessInitializeOnLoadMethodAttributes (146ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 19.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8424 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 233 unused Assets / (15.5 MB). Loaded Objects now: 9283.
+Memory consumption went from 341.2 MB to 325.6 MB.
+Total: 18.738400 ms (FindLiveObjects: 1.140600 ms CreateObjectMapping: 1.016800 ms MarkObjects: 10.704100 ms  DeleteObjects: 5.875000 ms)
+
+Prepare: number of updated asset objects reloaded= 6
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 309.804162 seconds.
+  path: Assets/pumpkin monster/Material/matBody.mat
+  artifactKey: Guid(c50d5a868339f4948882c480166108f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pumpkin monster/Material/matBody.mat using Guid(c50d5a868339f4948882c480166108f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829e2c50b05c88ee6aab4b4e3622b696') in 0.992712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 70
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/pumpkin monster/Material
+  artifactKey: Guid(cac4f7bef63f0d841ac9967b352919a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pumpkin monster/Material using Guid(cac4f7bef63f0d841ac9967b352919a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc79d67552b149fb8a414d4d863300b') in 0.001841 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 19.285216 seconds.
-  path: Assets/Fences/Materials/fences/M_fence_stand_small_crete.mat
-  artifactKey: Guid(b3eea57714dfeb1499b7171b93fd96d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fences/Materials/fences/M_fence_stand_small_crete.mat using Guid(b3eea57714dfeb1499b7171b93fd96d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57357ba168785f9245f109ed5c95de94') in 0.439368 seconds
+  Time since last request: 0.000091 seconds.
+  path: Assets/pumpkin monster
+  artifactKey: Guid(d7e1d3662f4000544bd9f902c457c995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pumpkin monster using Guid(d7e1d3662f4000544bd9f902c457c995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d717dce0757cff41ecff635ed97aa3b') in 0.001013 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 38.175508 seconds.
-  path: Assets/Fences/Textures/fences/T_fence_base_D.tga
-  artifactKey: Guid(237d741e0bf551846a5b57d1b638b614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fences/Textures/fences/T_fence_base_D.tga using Guid(237d741e0bf551846a5b57d1b638b614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fca6a5a241164626c67e7866ef941c0') in 0.038224 seconds
+  Time since last request: 0.000095 seconds.
+  path: Assets/pumpkin monster/Prefab/pumpkin.prefab
+  artifactKey: Guid(149914faacece2940a120e1783c4c6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pumpkin monster/Prefab/pumpkin.prefab using Guid(149914faacece2940a120e1783c4c6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30228818d12bd81d98258e2a85087dbe') in 0.577942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 312
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/pumpkin monster/Material/matGround.mat
+  artifactKey: Guid(b13970a921ff97d4dabb962472af1f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pumpkin monster/Material/matGround.mat using Guid(b13970a921ff97d4dabb962472af1f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e259a1fcb873adb97ee4f8e853166de4') in 0.018153 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Fences/Textures/fences/T_fence_stand_small_D.tga
-  artifactKey: Guid(582457a90a6c47540b1924fa58fca5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fences/Textures/fences/T_fence_stand_small_D.tga using Guid(582457a90a6c47540b1924fa58fca5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce0ff1bf6612ee2c09fc97c737dc10e6') in 0.044343 seconds
+  Time since last request: 3.685642 seconds.
+  path: Assets/pumpkin monster/Textures/low_matBody_Emission.png
+  artifactKey: Guid(158b7f4a3520b3c43a6dbb001c20cb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pumpkin monster/Textures/low_matBody_Emission.png using Guid(158b7f4a3520b3c43a6dbb001c20cb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2626b63784dbe5553fc689dbb008025') in 0.056891 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Fences/Textures/fences/T_fence_base_N.tga
-  artifactKey: Guid(3deb39455a53ff44eb7afff346d4a303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fences/Textures/fences/T_fence_base_N.tga using Guid(3deb39455a53ff44eb7afff346d4a303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87fcf09ca6cf1ac3ba21ce65bf613d99') in 0.049021 seconds
+  Time since last request: 0.000045 seconds.
+  path: Assets/pumpkin monster/Textures/low_matHead_AlbedoTransparency.png
+  artifactKey: Guid(747e6675d2f0bc64c80d220457241cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pumpkin monster/Textures/low_matHead_AlbedoTransparency.png using Guid(747e6675d2f0bc64c80d220457241cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ded510eb15fb9f4af745475224734c') in 0.039842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/pumpkin monster/Textures/low_matHead_MetallicSmoothness.png
+  artifactKey: Guid(b1fa87786a4554f40a73a137d309fc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pumpkin monster/Textures/low_matHead_MetallicSmoothness.png using Guid(b1fa87786a4554f40a73a137d309fc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7741f75d482b06f924ae0a338a28901d') in 0.060735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/pumpkin monster/Textures/matHead_Mixed_AO.png
+  artifactKey: Guid(c0e44877c95d1d645ba9855202d69dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pumpkin monster/Textures/matHead_Mixed_AO.png using Guid(c0e44877c95d1d645ba9855202d69dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7771f1ca4842a5ec5d7b3269337286e') in 0.048621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/pumpkin monster/Textures/low_matBody_Normal.png
+  artifactKey: Guid(9ffd7fb2884986c4ebdfa0eba7e56fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pumpkin monster/Textures/low_matBody_Normal.png using Guid(9ffd7fb2884986c4ebdfa0eba7e56fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f840639c52831040ebaa11a0667d30c8') in 0.074687 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
