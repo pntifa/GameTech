@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.11f1 (d00248457e15) revision 13632072'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 15791 MB
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16264 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Unity.exe
 -name
 AssetImportWorker2
 -projectPath
-C:/Users/Phivos Theodorides/Desktop/UnityEnixerw/GameTech/Texnologies
+C:/Users/ZE BEBE/Desktop/GameTech/Texnologies
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-65280
-Successfully changed project path to: C:/Users/Phivos Theodorides/Desktop/UnityEnixerw/GameTech/Texnologies
-C:/Users/Phivos Theodorides/Desktop/UnityEnixerw/GameTech/Texnologies
+61712
+Successfully changed project path to: C:/Users/ZE BEBE/Desktop/GameTech/Texnologies
+C:/Users/ZE BEBE/Desktop/GameTech/Texnologies
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,65 +49,65 @@ C:/Users/Phivos Theodorides/Desktop/UnityEnixerw/GameTech/Texnologies
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [5116] Host "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 67294008 [EditorId] 67294008 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7F5CPF2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [40792] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 4165004841 [EditorId] 4165004841 [Version] 1048832 [Id] WindowsEditor(7,ZEBEBE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [5116] Host "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 67294008 [EditorId] 67294008 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7F5CPF2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [40792] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 4165004841 [EditorId] 4165004841 [Version] 1048832 [Id] WindowsEditor(7,ZEBEBE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 15.57 ms, found 3 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 81.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.11f1 (d00248457e15)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Phivos Theodorides/Desktop/UnityEnixerw/GameTech/Texnologies/Assets
+[Subsystems] Discovering subsystems at path C:/Users/ZE BEBE/Desktop/GameTech/Texnologies/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c91)
     Vendor:   NVIDIA
-    VRAM:     3949 MB
-    Driver:   31.0.15.3734
+    VRAM:     2995 MB
+    Driver:   31.0.15.3713
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56644
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009097 seconds.
-- Loaded All Assemblies, in  0.406 seconds
+Registered in 0.035358 seconds.
+- Loaded All Assemblies, in  1.018 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.274 seconds
-Domain Reload Profiling: 680ms
-	BeginReloadAssembly (130ms)
+- Finished resetting the current domain, in  0.538 seconds
+Domain Reload Profiling: 1549ms
+	BeginReloadAssembly (302ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (72ms)
-	LoadAllAssembliesAndSetupDomain (153ms)
-		LoadAssemblies (128ms)
+	RebuildCommonClasses (99ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (174ms)
+	LoadAllAssembliesAndSetupDomain (407ms)
+		LoadAssemblies (296ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (151ms)
-			TypeCache.Refresh (150ms)
-				TypeCache.ScanAssembly (136ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (275ms)
+		AnalyzeDomain (402ms)
+			TypeCache.Refresh (400ms)
+				TypeCache.ScanAssembly (361ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (539ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (208ms)
+		SetupLoadedEditorAssemblies (420ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (14ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (134ms)
-			ProcessInitializeOnLoadMethodAttributes (51ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (267ms)
+			ProcessInitializeOnLoadMethodAttributes (113ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,8 +115,9 @@ Domain Reload Profiling: 680ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.056 seconds
-Refreshing native plugins compatible for Editor in 4.09 ms, found 3 plugins.
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  3.123 seconds
+Refreshing native plugins compatible for Editor in 38.35 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
@@ -126,47 +127,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.333 seconds
-Domain Reload Profiling: 2384ms
-	BeginReloadAssembly (162ms)
+- Finished resetting the current domain, in  2.906 seconds
+Domain Reload Profiling: 6012ms
+	BeginReloadAssembly (328ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (795ms)
-		LoadAssemblies (523ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (78ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (101ms)
+	LoadAllAssembliesAndSetupDomain (2579ms)
+		LoadAssemblies (1598ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (363ms)
-			TypeCache.Refresh (304ms)
-				TypeCache.ScanAssembly (282ms)
-			ScanForSourceGeneratedMonoScriptInfo (43ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1333ms)
+		AnalyzeDomain (1185ms)
+			TypeCache.Refresh (957ms)
+				TypeCache.ScanAssembly (822ms)
+			ScanForSourceGeneratedMonoScriptInfo (183ms)
+			ResolveRequiredComponents (41ms)
+	FinalizeReload (2906ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1060ms)
+		SetupLoadedEditorAssemblies (2388ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (116ms)
-			ProcessInitializeOnLoadAttributes (778ms)
-			ProcessInitializeOnLoadMethodAttributes (145ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (271ms)
+			ProcessInitializeOnLoadAttributes (1565ms)
+			ProcessInitializeOnLoadMethodAttributes (504ms)
+			AfterProcessingInitializeOnLoad (23ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 5.89 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (14ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 54.97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7789 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 370 unused Assets / (30.0 MB). Loaded Objects now: 8051.
-Memory consumption went from 379.9 MB to 349.8 MB.
-Total: 16.313800 ms (FindLiveObjects: 0.829900 ms CreateObjectMapping: 0.849400 ms MarkObjects: 4.654500 ms  DeleteObjects: 9.978000 ms)
+Unloading 8783 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 297 unused Assets / (15.6 MB). Loaded Objects now: 9123.
+Memory consumption went from 410.4 MB to 394.8 MB.
+Total: 77.505600 ms (FindLiveObjects: 6.985000 ms CreateObjectMapping: 5.363900 ms MarkObjects: 20.617300 ms  DeleteObjects: 44.531800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -183,1963 +184,166 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 788747.492721 seconds.
-  path: Assets/LiquidFire Assets/Mausoleum/Scene
-  artifactKey: Guid(c5ee3bdd8c619e94fa8453f47d9a00ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LiquidFire Assets/Mausoleum/Scene using Guid(c5ee3bdd8c619e94fa8453f47d9a00ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '263ca6b9c083958d59504609e2af5e9b') in 0.002934 seconds
+  Time since last request: 659846.457682 seconds.
+  path: Assets/StylizedSpruceTree/OutdoorsScene
+  artifactKey: Guid(ed320aee8d90c72469918a43d1cd3df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedSpruceTree/OutdoorsScene using Guid(ed320aee8d90c72469918a43d1cd3df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd602158ec0755756ac69be74e4f67464') in 0.024393 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.632252 seconds.
-  path: Assets/LiquidFire Assets/Mausoleum/Scene/MausoleumSettings.lighting
-  artifactKey: Guid(39c7e9c5655f9974ea1c9cffcb2fc67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LiquidFire Assets/Mausoleum/Scene/MausoleumSettings.lighting using Guid(39c7e9c5655f9974ea1c9cffcb2fc67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
- -> (artifact id: '76e8d0d86ef0fc33b937143c6099c5cc') in 0.014312 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 12.612533 seconds.
-  path: Assets/LiquidFire Assets/Mausoleum/Scene/Mausoleum.unity
-  artifactKey: Guid(de3f02b86100a764887cdcd466e0470c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LiquidFire Assets/Mausoleum/Scene/Mausoleum.unity using Guid(de3f02b86100a764887cdcd466e0470c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d6331172f379b8a163c8b2c148d579') in 0.000960 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.953 seconds
-Refreshing native plugins compatible for Editor in 8.82 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-Texnologies Anaptixis
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 28.319 seconds
-Domain Reload Profiling: 29268ms
-	BeginReloadAssembly (187ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (58ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (681ms)
-		LoadAssemblies (482ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (280ms)
-			TypeCache.Refresh (226ms)
-				TypeCache.ScanAssembly (205ms)
-			ScanForSourceGeneratedMonoScriptInfo (38ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (28320ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (925ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (116ms)
-			ProcessInitializeOnLoadAttributes (639ms)
-			ProcessInitializeOnLoadMethodAttributes (153ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 20.75 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 8529 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 338 unused Assets / (29.6 MB). Loaded Objects now: 9008.
-Memory consumption went from 356.7 MB to 327.1 MB.
-Total: 28.493200 ms (FindLiveObjects: 1.107800 ms CreateObjectMapping: 1.132400 ms MarkObjects: 11.784300 ms  DeleteObjects: 14.466100 ms)
-
-Prepare: number of updated asset objects reloaded= 6
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 276.146241 seconds.
-  path: Assets/pumpkin monster/Material/matCloth.mat
-  artifactKey: Guid(990dd171bdb025e4e956181c2d413363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pumpkin monster/Material/matCloth.mat using Guid(990dd171bdb025e4e956181c2d413363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a696f353f476b0ae8d43b416afd846c') in 1.593117 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 69
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/pumpkin monster/Material/matHead.mat
-  artifactKey: Guid(8daa4a86554ea684087a4d7760d854f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pumpkin monster/Material/matHead.mat using Guid(8daa4a86554ea684087a4d7760d854f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7115b020abe4106a40ac5ccf6621ccab') in 0.148126 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/pumpkin monster/Prefab
-  artifactKey: Guid(59b7fbc5050ff5c4fb6435d43a8cbef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pumpkin monster/Prefab using Guid(59b7fbc5050ff5c4fb6435d43a8cbef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb91da7f00e1a14eb0971060b29e952') in 0.001352 seconds
+  Time since last request: 1036.208062 seconds.
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/Helpers
+  artifactKey: Guid(85defe6e06b63d54e820348d3c3a1e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/Helpers using Guid(85defe6e06b63d54e820348d3c3a1e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5b4ebe33fc8ab697a1807141178d38') in 0.000983 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 3.633202 seconds.
-  path: Assets/pumpkin monster/Textures
-  artifactKey: Guid(40218175d4a054248b73ef9ece78293e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pumpkin monster/Textures using Guid(40218175d4a054248b73ef9ece78293e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51017e7494eb7f0c01406b1bb95ff85c') in 0.000981 seconds
+  Time since last request: 0.039900 seconds.
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/Helpers/Dirctions.prefab
+  artifactKey: Guid(af1691fe3ffd0504c84a2d8e77c1dc0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/Helpers/Dirctions.prefab using Guid(af1691fe3ffd0504c84a2d8e77c1dc0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccee2d3fb1a94d190027a2ecd71bc837') in 0.486530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 1.845770 seconds.
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/Examples
+  artifactKey: Guid(4af7eadf076df4f4f97d67f65a557982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/Examples using Guid(4af7eadf076df4f4f97d67f65a557982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4669f2053fbbf240779909955bdfe6fc') in 0.000905 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.042332 seconds.
-  path: Assets/pumpkin monster/Textures/low_matBody_AlbedoTransparency.png
-  artifactKey: Guid(22fcc0a20a65d3f488c047327b9ff98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pumpkin monster/Textures/low_matBody_AlbedoTransparency.png using Guid(22fcc0a20a65d3f488c047327b9ff98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5398cfb612f6fc2108b5d6f51f9ef69b') in 0.063294 seconds
+  Time since last request: 0.026283 seconds.
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/Examples/Example_01.prefab
+  artifactKey: Guid(d4b56e6809c4abd4a94ed45b71dfeefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/Examples/Example_01.prefab using Guid(d4b56e6809c4abd4a94ed45b71dfeefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec1501f7bcf9430058fff0a13e5dbb0') in 0.426859 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 169
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/pumpkin monster/Textures/matCloth_Mixed_AO.png
-  artifactKey: Guid(719b97bad2d55bc419c48a62f5449fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pumpkin monster/Textures/matCloth_Mixed_AO.png using Guid(719b97bad2d55bc419c48a62f5449fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d85eacbe63a5a7accd14515216c6be6') in 0.038817 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/pumpkin monster/Textures/low_matCloth_Normal.png
-  artifactKey: Guid(e299f34bb4da1fb43873accf540e6112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pumpkin monster/Textures/low_matCloth_Normal.png using Guid(e299f34bb4da1fb43873accf540e6112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4707afbb0b0823d831b3d4e65afd8c') in 0.069029 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/pumpkin monster/Textures/matBody_Mixed_AO.png
-  artifactKey: Guid(ddd09dbf92c4aa142beca3679c4bb7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pumpkin monster/Textures/matBody_Mixed_AO.png using Guid(ddd09dbf92c4aa142beca3679c4bb7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1918a0a8cf3500f064b346ef48f54166') in 0.048745 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/pumpkin monster/Textures/low_matCloth_MetallicSmoothness.png
-  artifactKey: Guid(fbd6c0c62fd55334db597a178ae60659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pumpkin monster/Textures/low_matCloth_MetallicSmoothness.png using Guid(fbd6c0c62fd55334db597a178ae60659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba17eb46ec603cafec804fda7e96d9b') in 0.062673 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/pumpkin monster/Textures/low_matBody_MetallicSmoothness.png
-  artifactKey: Guid(76e5f9ff30c40194aadf42e667d16cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pumpkin monster/Textures/low_matBody_MetallicSmoothness.png using Guid(76e5f9ff30c40194aadf42e667d16cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84c1f36222422932a20bd981114ce2c') in 0.052790 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/pumpkin monster/Textures/low_matCloth_AlbedoTransparency.png
-  artifactKey: Guid(c24b7886bc37884469e6b6d4bcb37521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pumpkin monster/Textures/low_matCloth_AlbedoTransparency.png using Guid(c24b7886bc37884469e6b6d4bcb37521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36054e3c7fcd94bf162dfc90db58e51f') in 0.051950 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 162.249419 seconds.
-  path: Assets/pumpkin monster/Base mesh
-  artifactKey: Guid(7e70ff3daa105494d94356ad3824a5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pumpkin monster/Base mesh using Guid(7e70ff3daa105494d94356ad3824a5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a89258bb31377846f12d98aa80385fc') in 0.000770 seconds
+  Time since last request: 22.101784 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials
+  artifactKey: Guid(a01e7db3b03471643afd9f103c6b5fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials using Guid(a01e7db3b03471643afd9f103c6b5fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '155e1193fdbd6c75099138c513977fe9') in 0.001988 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.040197 seconds.
-  path: Assets/pumpkin monster/Base mesh/pumpkin.fbx
-  artifactKey: Guid(698d7543eef02b44eb8758d362a8f1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pumpkin monster/Base mesh/pumpkin.fbx using Guid(698d7543eef02b44eb8758d362a8f1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd265f99765e3ae8edb86a870cd24f375') in 0.157152 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 156
-========================================================================
-Received Import Request.
-  Time since last request: 302.120606 seconds.
-  path: Assets/pumpkin monster/Prefab/pumpkin.prefab
-  artifactKey: Guid(149914faacece2940a120e1783c4c6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pumpkin monster/Prefab/pumpkin.prefab using Guid(149914faacece2940a120e1783c4c6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c33fbd04cda2de6af9af9adba4e3d543') in 1.401112 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 309
-========================================================================
-Received Import Request.
-  Time since last request: 3.293804 seconds.
-  path: Assets/pumpkin monster/pumpkin demo.unity
-  artifactKey: Guid(f708003aec3530c4c85c318057613da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pumpkin monster/pumpkin demo.unity using Guid(f708003aec3530c4c85c318057613da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f988a5931ede21a35123757a9aaccb0e') in 0.001055 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 6.844633 seconds.
-  path: Assets/pumpkin monster/Material/matBody.mat
-  artifactKey: Guid(c50d5a868339f4948882c480166108f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pumpkin monster/Material/matBody.mat using Guid(c50d5a868339f4948882c480166108f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8bc013b2242e0c3bae5ffc9491d736') in 0.074867 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/pumpkin monster/Material/matHead.mat
-  artifactKey: Guid(8daa4a86554ea684087a4d7760d854f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pumpkin monster/Material/matHead.mat using Guid(8daa4a86554ea684087a4d7760d854f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07dd3552eb91259c7f09af5a2dfe0799') in 0.055412 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/pumpkin monster/Material/matGround.mat
-  artifactKey: Guid(b13970a921ff97d4dabb962472af1f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pumpkin monster/Material/matGround.mat using Guid(b13970a921ff97d4dabb962472af1f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2420471fc1705cce5e018c2ecb223cce') in 0.017188 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1664.817438 seconds.
-  path: Assets/New_Terrain.asset
-  artifactKey: Guid(48573248e7d15ab429101e24366f4fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New_Terrain.asset using Guid(48573248e7d15ab429101e24366f4fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d1fa1505dca6053ae3b6179b1d9f93') in 0.143910 seconds
+  Time since last request: 0.033846 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/BackgroundTest_Day.mat
+  artifactKey: Guid(766f970160b785b45806e363a24103e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/BackgroundTest_Day.mat using Guid(766f970160b785b45806e363a24103e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e16b28eca94ef8d38d46b5c894f02c5') in 0.124939 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 47.729461 seconds.
-  path: Assets/Resources
-  artifactKey: Guid(344b689dad991f24b9ffe2d36c14bce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources using Guid(344b689dad991f24b9ffe2d36c14bce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3790c00ec80f212e41fe0dbd5b41efd') in 0.001062 seconds
+  Time since last request: 0.000074 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (5).mat
+  artifactKey: Guid(94dce9bbd67ed6b439e02ee018ba8456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (5).mat using Guid(94dce9bbd67ed6b439e02ee018ba8456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a94f60f8704acaace57b1c747776bde') in 2.627549 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 6
 ========================================================================
 Received Import Request.
-  Time since last request: 46.182544 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/DungeonGateDEP_ST.mat
-  artifactKey: Guid(db872190dd6beda4f8d77f0a3d7496ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/DungeonGateDEP_ST.mat using Guid(db872190dd6beda4f8d77f0a3d7496ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '661a1ca5c964377849dfaa8eb06dd0af') in 0.107435 seconds
+  Time since last request: 0.000060 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (27).mat
+  artifactKey: Guid(999f7008f037ee343b5dc41af9674fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (27).mat using Guid(999f7008f037ee343b5dc41af9674fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b255c60a61860dfff0c1bd5a740bb2bf') in 0.039516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/Vegetation.mat
+  artifactKey: Guid(419f2b72f0c939447a816ab8743b2a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/Vegetation.mat using Guid(419f2b72f0c939447a816ab8743b2a9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5f9f0f12a65e31687adf602a21d052') in 0.079806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/Mushrooms.mat
+  artifactKey: Guid(3ba41fdcb68bd8d47adca13ea876b1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/Mushrooms.mat using Guid(3ba41fdcb68bd8d47adca13ea876b1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b01d3555552a36187641514e88b4ffc') in 2.572932 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 5
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/DungeonStructureHeadDEP_ST.mat
-  artifactKey: Guid(34a7af6d02350254e9cb395769830b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/DungeonStructureHeadDEP_ST.mat using Guid(34a7af6d02350254e9cb395769830b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '944310d4117bf94459a099fe91073af0') in 0.052030 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/DungeonStructureGround_ST_MetalnessAoGloss.tif
-  artifactKey: Guid(c35e174cf33b8854e9bacfad61f126d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/DungeonStructureGround_ST_MetalnessAoGloss.tif using Guid(c35e174cf33b8854e9bacfad61f126d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b93a7e5cc93b669f8ba560aabcbe3326') in 0.036672 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/DungeonStructureTowerDEP_ST_Normal.png
-  artifactKey: Guid(40bdea1147c1491418912041a0579391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/DungeonStructureTowerDEP_ST_Normal.png using Guid(40bdea1147c1491418912041a0579391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1405fdfaf4f1756ce9e8c14b2522d8af') in 0.049421 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/Dwarven Dungeon Entrance_Scene.fbx
-  artifactKey: Guid(eb9e95a556e5c564b8353689b7a14f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/Dwarven Dungeon Entrance_Scene.fbx using Guid(eb9e95a556e5c564b8353689b7a14f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec695e294620944f59c7fce0cdad8ae') in 0.125422 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 40
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/DungeonStructureTowerDEP_ST_Albedo.png
-  artifactKey: Guid(f961051a6b09131479bbaa0ecf14540a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/DungeonStructureTowerDEP_ST_Albedo.png using Guid(f961051a6b09131479bbaa0ecf14540a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7692be7f633e2c0191ef9515b06f72c') in 0.040533 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/DungeonGateDEP_ST_MetalnessAoGloss.tif
-  artifactKey: Guid(076f4a8546d47fd439387c728ef8e2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/DungeonGateDEP_ST_MetalnessAoGloss.tif using Guid(076f4a8546d47fd439387c728ef8e2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '410481da00d3040ed38ee35cf664252b') in 0.031276 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/DungeonStructureTowerDEP_ST_MetalnessAoGloss.tif
-  artifactKey: Guid(c9f2e5cace4d0af449f1469e90717acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/DungeonStructureTowerDEP_ST_MetalnessAoGloss.tif using Guid(c9f2e5cace4d0af449f1469e90717acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b48b0703373f6723ffde0649dd6614') in 0.055750 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/DungeonGateDEP_ST.fbx
-  artifactKey: Guid(99dd9b95e7db4224090a751307f19f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/DungeonGateDEP_ST.fbx using Guid(99dd9b95e7db4224090a751307f19f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a302d509073b2ceefb832c1110d6f5b9') in 0.035762 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/DungeonStructureTowerDEP_ST.mat
-  artifactKey: Guid(2697c580dc1962c4f9786a4da0e12629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/DungeonStructureTowerDEP_ST.mat using Guid(2697c580dc1962c4f9786a4da0e12629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc44ae586ffda9cf9c8a04cefd40b96c') in 0.058248 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/DungeonStructureHeadDEP_ST_Albedo.png
-  artifactKey: Guid(c48878ad1b0623f4981b2a62f47e16f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Textures/DungeonStructureHeadDEP_ST_Albedo.png using Guid(c48878ad1b0623f4981b2a62f47e16f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774a0671172bdecf9f1b329efcfc8a19') in 0.045612 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/Dwarven Dungeon Entrance_Scene.prefab
-  artifactKey: Guid(6cd36f5ade0ee474ab43ad38e0ba25b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/Dwarven Dungeon Entrance_Scene.prefab using Guid(6cd36f5ade0ee474ab43ad38e0ba25b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cfe9aa4b86d101fd5d37906a290fc22') in 0.249894 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 71
-========================================================================
-Received Import Request.
-  Time since last request: 10.521245 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/Dirctions.fbx
-  artifactKey: Guid(5ba48a5df40adc2488fbf4f1253c9f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/Dirctions.fbx using Guid(5ba48a5df40adc2488fbf4f1253c9f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4dd3905256a0b3d553df5200979cfef') in 0.057134 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/WallPropsBottomB_ST.fbx
-  artifactKey: Guid(b02adadd5bc61b24db65519981458219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/WallPropsBottomB_ST.fbx using Guid(b02adadd5bc61b24db65519981458219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5860b7f74a8e7f59603279e04a88f459') in 0.049783 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/SuportBeamDDEP_ST.fbx
-  artifactKey: Guid(f3a2699f825a7f341bb8d15facee3980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/SuportBeamDDEP_ST.fbx using Guid(f3a2699f825a7f341bb8d15facee3980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d9684f021b59ae3dae7b919582e808c') in 0.041233 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/WallBlockA02ADEP.fbx
-  artifactKey: Guid(cfe43512fab166f4dabe233ed848057a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/WallBlockA02ADEP.fbx using Guid(cfe43512fab166f4dabe233ed848057a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d6324a37b6339b8d6e6688947090406') in 0.026939 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/WallPropsWindowA1_ST.fbx
-  artifactKey: Guid(0d4b51e4a607d7f4cb6b6a29c4daf918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/WallPropsWindowA1_ST.fbx using Guid(0d4b51e4a607d7f4cb6b6a29c4daf918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9532888e39c23d3cea2fc247232faab') in 0.025471 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/SuportBeamBDEP_ST.fbx
-  artifactKey: Guid(4b06f7320d445b24eb38b888be970d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/SuportBeamBDEP_ST.fbx using Guid(4b06f7320d445b24eb38b888be970d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '826c4bb9bcd9febc433dec20629740b7') in 0.026152 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/StoneArchDEP_ST.fbx
-  artifactKey: Guid(03f6cc0eed8ff5345a5f3ca972c5c017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/StoneArchDEP_ST.fbx using Guid(03f6cc0eed8ff5345a5f3ca972c5c017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24693f220abbe03707da26fdde609336') in 0.031207 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/WallPropsWindowB1_ST.fbx
-  artifactKey: Guid(65a9a7838b1ea904f820f5565727a586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/WallPropsWindowB1_ST.fbx using Guid(65a9a7838b1ea904f820f5565727a586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b75a3850fda869c1763d3c8e063484f1') in 0.029822 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/PillarADEP_ST.fbx
-  artifactKey: Guid(a3fa2d70d3c31d04e9e8dbf67da39648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/PillarADEP_ST.fbx using Guid(a3fa2d70d3c31d04e9e8dbf67da39648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd156f3732fdf313fe0d064687b7e42') in 0.027556 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 16.924096 seconds.
-  path: Assets/Toby_Fredson
-  artifactKey: Guid(36ffffc5da3e54d45a72f3981bacd904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby_Fredson using Guid(36ffffc5da3e54d45a72f3981bacd904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42d0341dcdf6a920a9721d62e785d01') in 0.000737 seconds
+  Time since last request: 155.952766 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls
+  artifactKey: Guid(e637abc1b92f97e4eb97d118dfd480d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls using Guid(e637abc1b92f97e4eb97d118dfd480d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9af5c21e827f4fc6e101bddfa03852e') in 0.001569 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.559796 seconds.
-  path: Assets/The_ancient_forest_of_the_fairies
-  artifactKey: Guid(30d442d0bf6b9784ba59922f2b0b5294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/The_ancient_forest_of_the_fairies using Guid(30d442d0bf6b9784ba59922f2b0b5294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b99127b996ccf8223cc323a49a7d84') in 0.001000 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 15.925021 seconds.
-  path: Assets/Ghoul
-  artifactKey: Guid(5de5791ab04a6a241b23f45ca7a16f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ghoul using Guid(5de5791ab04a6a241b23f45ca7a16f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40ceb4b74cbdefe71d26e3c58c01e4c') in 0.000671 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.428107 seconds.
-  path: Assets/Free_Tree_02
-  artifactKey: Guid(c71e13622b3634d438bac5a205294184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free_Tree_02 using Guid(c71e13622b3634d438bac5a205294184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0becc4ba73dd4808e175e547f2c4ecd') in 0.000620 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.069361 seconds.
-  path: Assets/EasyNpcs
-  artifactKey: Guid(2b1919b80a7c7f748b2991414383673a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyNpcs using Guid(2b1919b80a7c7f748b2991414383673a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d32077952ea2b767c2a6229307b035') in 0.000633 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.389610 seconds.
-  path: Assets/Crates_0
-  artifactKey: Guid(719eb286b2b22ff49a86cf8d98d38b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Crates_0 using Guid(719eb286b2b22ff49a86cf8d98d38b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b032f8091b738f8f15bf56cc05714fd4') in 0.000711 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.370987 seconds.
-  path: Assets/Concrete_UP05
-  artifactKey: Guid(19a1eddc67054183b083e4f835cd0059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Concrete_UP05 using Guid(19a1eddc67054183b083e4f835cd0059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b40199f56ea409008f11d6d7d3089f') in 0.000618 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.350905 seconds.
-  path: Assets/Army Bunker
-  artifactKey: Guid(15ba8139a22ad7740a9fea2197f50574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Army Bunker using Guid(15ba8139a22ad7740a9fea2197f50574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2458fa7a331da14d593b179ff072638b') in 0.000794 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 21.169616 seconds.
-  path: Assets/Scenes/Day and Night Controller.prefab
-  artifactKey: Guid(9d7d028ecb695704dbc982cb572dec1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Day and Night Controller.prefab using Guid(9d7d028ecb695704dbc982cb572dec1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8430682851a6366a38ddbb56a59aa9f4') in 0.025845 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 25
-========================================================================
-Received Import Request.
-  Time since last request: 11.008411 seconds.
-  path: Assets/SciFi_Door/Prefabs
-  artifactKey: Guid(2206fe4384a1c3e49ba05c5a72f68eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFi_Door/Prefabs using Guid(2206fe4384a1c3e49ba05c5a72f68eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4846adedaf273c51375608a0baacdf7') in 0.000718 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.066343 seconds.
-  path: Assets/SciFi_Door/Prefabs/Door_Prefab.prefab
-  artifactKey: Guid(cfef738579cd02c40b3b1d63e67b0f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SciFi_Door/Prefabs/Door_Prefab.prefab using Guid(cfef738579cd02c40b3b1d63e67b0f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc2eab97b164a6fad73dc371a9e0893') in 0.057084 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 36
-========================================================================
-Received Import Request.
-  Time since last request: 24.440675 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets
-  artifactKey: Guid(53787cd94206fb940ad5722a088a2d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets using Guid(53787cd94206fb940ad5722a088a2d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4550abe44712a35bf70fc9b533a52aec') in 0.000732 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.591845 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs
-  artifactKey: Guid(c9acc6a1280ef9d439aaddb88af807b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs using Guid(c9acc6a1280ef9d439aaddb88af807b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df761e2559f56073d9c74b583f90d4c9') in 0.001077 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.042960 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/PillarA2DEP_ST.prefab
-  artifactKey: Guid(4881923339e8b8d49934c314a55bebf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/PillarA2DEP_ST.prefab using Guid(4881923339e8b8d49934c314a55bebf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f355e1179b8ac68cfe536f6bd2e28467') in 0.098067 seconds
+  Time since last request: 0.029468 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall.prefab
+  artifactKey: Guid(041973ab29edf1945958eb6965047048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall.prefab using Guid(041973ab29edf1945958eb6965047048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e3d65bf5cff2caa1be31c85d4a748ca') in 0.092535 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallPropsWindowB1_ST.prefab
-  artifactKey: Guid(c72196e78ca2bd144a6ece62fad0b798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallPropsWindowB1_ST.prefab using Guid(c72196e78ca2bd144a6ece62fad0b798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1939cdaa07b5e86988899175cba3f85a') in 0.088356 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallPropsTopA_ST.prefab
-  artifactKey: Guid(024b7e337c87e0149a4cbcfd8292ce7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallPropsTopA_ST.prefab using Guid(024b7e337c87e0149a4cbcfd8292ce7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6256e6fd301aef03310696155e481df5') in 0.063114 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallBlockA03ADEP.prefab
-  artifactKey: Guid(f881312789ac37f4e9a109e0dfd84b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallBlockA03ADEP.prefab using Guid(f881312789ac37f4e9a109e0dfd84b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ab307130a3a639866d1b32062937ab') in 0.073871 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallBlockA02ADEP.prefab
-  artifactKey: Guid(cc13072d91f23644ca13f679632426ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallBlockA02ADEP.prefab using Guid(cc13072d91f23644ca13f679632426ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b47c6218786c1966eab4ca8858d4a1d') in 0.034165 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallBlockA01ADEP.prefab
-  artifactKey: Guid(a017b7cfc91c81844ae3bc1ed6d84d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallBlockA01ADEP.prefab using Guid(a017b7cfc91c81844ae3bc1ed6d84d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23d51c452fefb471ebd0b460aa6cf35') in 0.037795 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/SuportBeamDDEP_ST.prefab
-  artifactKey: Guid(86aec6df794e71547af8e1258dbb0aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/SuportBeamDDEP_ST.prefab using Guid(86aec6df794e71547af8e1258dbb0aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe108e2df3d685bd621bf3682958447') in 0.036728 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallPropsWindowA1_ST.prefab
-  artifactKey: Guid(39d703c5b34d9a54985ce84532b098da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallPropsWindowA1_ST.prefab using Guid(39d703c5b34d9a54985ce84532b098da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3c2aa4ece091195f49524be8e2e7bf') in 0.070122 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 2.844098 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials
-  artifactKey: Guid(108e1e8036da843408f6a02e15a7b3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials using Guid(108e1e8036da843408f6a02e15a7b3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c0511d30c4c82406efda1943d57496') in 0.000709 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.044816 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/Grid_1X1.mat
-  artifactKey: Guid(4595729668b02834083e130e43a47740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/Grid_1X1.mat using Guid(4595729668b02834083e130e43a47740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5489d887f53f352513d14aa60abba5c4') in 0.056589 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/Helper 1.mat
-  artifactKey: Guid(b168f2b55eec71f47a92ae7fcaf22151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/Helper 1.mat using Guid(b168f2b55eec71f47a92ae7fcaf22151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9129da059f53a2101be74fa6c10e8f2e') in 0.011652 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/StoneArchDEP_ST.mat
-  artifactKey: Guid(fb5e3a3fa2012614a9b0635e75754245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/StoneArchDEP_ST.mat using Guid(fb5e3a3fa2012614a9b0635e75754245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8b1b3e0e2e2aee60d127e3a2a7bff6') in 0.047487 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
 ========================================================================
 Received Import Request.
   Time since last request: 0.000029 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/SuportBeamsDEP_ST.mat
-  artifactKey: Guid(ab3ba6e4563fc554f9c03138239143aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/SuportBeamsDEP_ST.mat using Guid(ab3ba6e4563fc554f9c03138239143aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bef8d0ffba72dbce41e75a00cc382c6') in 0.026554 seconds
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (7).prefab
+  artifactKey: Guid(793fd9a14ff29ca4f9abc014ec1d543c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (7).prefab using Guid(793fd9a14ff29ca4f9abc014ec1d543c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fdeef2147cade192e9bc925fb8470ed') in 0.099238 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
+Number of asset objects unloaded after import = 13
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000483 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/SandStoneDEEP C.mat
-  artifactKey: Guid(c5440f18b5ebf65439a4bc51f93d46d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/SandStoneDEEP C.mat using Guid(c5440f18b5ebf65439a4bc51f93d46d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea7d4474a383948b556adff992a1599') in 0.034066 seconds
+  Time since last request: 0.000041 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (12).prefab
+  artifactKey: Guid(778d21eddb358774fada15cfda0677c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (12).prefab using Guid(778d21eddb358774fada15cfda0677c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ebff94e070fb97e47c6acfe8adb8e9') in 0.094082 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/PillarA2DEP_ST.mat
-  artifactKey: Guid(c911cb6130bbc4541bf3925ca05af0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/PillarA2DEP_ST.mat using Guid(c911cb6130bbc4541bf3925ca05af0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b92b2faa0d48866b6f07606d0688af') in 0.052059 seconds
+  Time since last request: 0.000051 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (30).prefab
+  artifactKey: Guid(2770f186fe8356646acab0a7d3da69ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (30).prefab using Guid(2770f186fe8356646acab0a7d3da69ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a12b8161559e104d40652e4f93df4ae') in 0.034684 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
+Number of asset objects unloaded after import = 13
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/StoneTileDEP_ST.mat
-  artifactKey: Guid(195aac9089073be409ac4f63d833ec6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/StoneTileDEP_ST.mat using Guid(195aac9089073be409ac4f63d833ec6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ed2652b823e8d63b708cb91c3d3e39') in 0.023401 seconds
+  Time since last request: 0.000024 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (27).prefab
+  artifactKey: Guid(a719f38a5e92bb6419b1cc13291fd2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (27).prefab using Guid(a719f38a5e92bb6419b1cc13291fd2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2451a88e37f49c60bde50ed430729225') in 0.033417 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/SandStoneDEEP C 1.mat
-  artifactKey: Guid(e15c20183aa64db418e948b03f3803e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/SandStoneDEEP C 1.mat using Guid(e15c20183aa64db418e948b03f3803e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08655ee8595c119e059ba4af81a42452') in 0.027671 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000119 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/PillarADEP_ST.mat
-  artifactKey: Guid(171494acadf804a419f7619902517014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/PillarADEP_ST.mat using Guid(171494acadf804a419f7619902517014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49460110e42fed8afe440346117f23d3') in 0.053176 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/SandStoneDEEP B 1.mat
-  artifactKey: Guid(b3d6a79f06f359e4db683348b961ea35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/SandStoneDEEP B 1.mat using Guid(b3d6a79f06f359e4db683348b961ea35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47bc707198f9cb99b8c892f8d6c55ec6') in 0.032175 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/SandStoneDEEP B.mat
-  artifactKey: Guid(cadf5a12f935c11459ff29629d3fb963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/SandStoneDEEP B.mat using Guid(cadf5a12f935c11459ff29629d3fb963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e21a7de1a807293f1d1ce3491637e9b') in 0.023176 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/StoneTileC2DEP_ST.mat
-  artifactKey: Guid(422b8603c9e43844db3719c6bb70ac4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Materials/StoneTileC2DEP_ST.mat using Guid(422b8603c9e43844db3719c6bb70ac4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f9bfb5d6a4aa5427897dcf57464e6a') in 0.022524 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.130 seconds
-Refreshing native plugins compatible for Editor in 11.97 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-Texnologies Anaptixis
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.764 seconds
-Domain Reload Profiling: 3894ms
-	BeginReloadAssembly (414ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (25ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (195ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (625ms)
-		LoadAssemblies (703ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (45ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (31ms)
-	FinalizeReload (2765ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1061ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (129ms)
-			ProcessInitializeOnLoadAttributes (720ms)
-			ProcessInitializeOnLoadMethodAttributes (190ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (23ms)
-Refreshing native plugins compatible for Editor in 10.24 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 8529 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 339 unused Assets / (29.1 MB). Loaded Objects now: 9200.
-Memory consumption went from 366.5 MB to 337.4 MB.
-Total: 21.798600 ms (FindLiveObjects: 0.839400 ms CreateObjectMapping: 0.667700 ms MarkObjects: 11.629300 ms  DeleteObjects: 8.659900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.639 seconds
-Refreshing native plugins compatible for Editor in 8.38 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-Texnologies Anaptixis
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.274 seconds
-Domain Reload Profiling: 2909ms
-	BeginReloadAssembly (185ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (57ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (371ms)
-		LoadAssemblies (425ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (26ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (2274ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1016ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (137ms)
-			ProcessInitializeOnLoadAttributes (669ms)
-			ProcessInitializeOnLoadMethodAttributes (191ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (24ms)
-Refreshing native plugins compatible for Editor in 7.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 8529 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 338 unused Assets / (29.3 MB). Loaded Objects now: 9217.
-Memory consumption went from 368.3 MB to 339.1 MB.
-Total: 18.279300 ms (FindLiveObjects: 1.020300 ms CreateObjectMapping: 0.792600 ms MarkObjects: 7.156400 ms  DeleteObjects: 9.308300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.653 seconds
-Refreshing native plugins compatible for Editor in 9.25 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-Texnologies Anaptixis
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.200 seconds
-Domain Reload Profiling: 2850ms
-	BeginReloadAssembly (195ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (73ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (379ms)
-		LoadAssemblies (430ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (26ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (2201ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (972ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (129ms)
-			ProcessInitializeOnLoadAttributes (643ms)
-			ProcessInitializeOnLoadMethodAttributes (180ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (26ms)
-Refreshing native plugins compatible for Editor in 22.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 8529 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 338 unused Assets / (29.3 MB). Loaded Objects now: 9234.
-Memory consumption went from 370.3 MB to 341.1 MB.
-Total: 23.746400 ms (FindLiveObjects: 1.222300 ms CreateObjectMapping: 1.061600 ms MarkObjects: 9.456400 ms  DeleteObjects: 12.004100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.652 seconds
-Refreshing native plugins compatible for Editor in 8.17 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-Texnologies Anaptixis
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.217 seconds
-Domain Reload Profiling: 2864ms
-	BeginReloadAssembly (183ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (58ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (382ms)
-		LoadAssemblies (436ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (26ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (2218ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (977ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (129ms)
-			ProcessInitializeOnLoadAttributes (654ms)
-			ProcessInitializeOnLoadMethodAttributes (174ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (24ms)
-Refreshing native plugins compatible for Editor in 8.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 8529 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 338 unused Assets / (29.2 MB). Loaded Objects now: 9251.
-Memory consumption went from 372.2 MB to 343.0 MB.
-Total: 19.685400 ms (FindLiveObjects: 0.878100 ms CreateObjectMapping: 0.855500 ms MarkObjects: 7.144000 ms  DeleteObjects: 10.806200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1233.865304 seconds.
-  path: Assets/Delighton
-  artifactKey: Guid(60f7becf7819cfb4485ca74fc4c61058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Delighton using Guid(60f7becf7819cfb4485ca74fc4c61058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2445a1698adb94af8b44e9b5449fe371') in 0.013278 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.910690 seconds.
-  path: Assets/Delighton/DemonicSword
-  artifactKey: Guid(fb12c2c6e1955234c9fabfc7ff8676a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Delighton/DemonicSword using Guid(fb12c2c6e1955234c9fabfc7ff8676a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c25816dcc9a125008f428bd90d6794') in 0.001099 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.775285 seconds.
-  path: Assets/Delighton/DemonicSword/Prefabs
-  artifactKey: Guid(1371bef87a4223241a7f8f7a280e0515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Delighton/DemonicSword/Prefabs using Guid(1371bef87a4223241a7f8f7a280e0515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d774c53b3885d91b61d3771a30983b0') in 0.000754 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.197499 seconds.
-  path: Assets/Delighton/DemonicSword/Prefabs/DemonicSword.prefab
-  artifactKey: Guid(f87c2e55b95e4894c9c30592cce6d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Delighton/DemonicSword/Prefabs/DemonicSword.prefab using Guid(f87c2e55b95e4894c9c30592cce6d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50001d4ed4beb9499143cfa399aba1d3') in 0.351467 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 97
-========================================================================
-Received Import Request.
-  Time since last request: 26.274739 seconds.
-  path: Assets/Delighton/DemonicSword/Materials
-  artifactKey: Guid(ad88f9f302db4bb4ea7d638a8863c61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Delighton/DemonicSword/Materials using Guid(ad88f9f302db4bb4ea7d638a8863c61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ed6bdb66f4cb5f184773241b77db26') in 0.000675 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.055577 seconds.
-  path: Assets/Delighton/DemonicSword/Materials/DemonicSword_Material.mat
-  artifactKey: Guid(29e8991068455274d86fcb5bd93bcd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Delighton/DemonicSword/Materials/DemonicSword_Material.mat using Guid(29e8991068455274d86fcb5bd93bcd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f3db4363a3327ec5290e89138bcc03') in 0.029864 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Delighton/DemonicSword/Materials/Scabbard_Material.mat
-  artifactKey: Guid(627d77d102a0f9c47940fcae54176081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Delighton/DemonicSword/Materials/Scabbard_Material.mat using Guid(627d77d102a0f9c47940fcae54176081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca1d06cfaa92e29668bd7b102d7ef3f') in 0.023332 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.789 seconds
-Refreshing native plugins compatible for Editor in 10.45 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-Texnologies Anaptixis
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.770 seconds
-Domain Reload Profiling: 3555ms
-	BeginReloadAssembly (238ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (72ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (453ms)
-		LoadAssemblies (530ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (29ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (2770ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1259ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (21ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (187ms)
-			ProcessInitializeOnLoadAttributes (812ms)
-			ProcessInitializeOnLoadMethodAttributes (217ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (28ms)
-Refreshing native plugins compatible for Editor in 9.18 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 8529 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 338 unused Assets / (29.9 MB). Loaded Objects now: 9394.
-Memory consumption went from 374.4 MB to 344.5 MB.
-Total: 36.240800 ms (FindLiveObjects: 0.936800 ms CreateObjectMapping: 1.020900 ms MarkObjects: 12.281100 ms  DeleteObjects: 22.000000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.770 seconds
-Refreshing native plugins compatible for Editor in 9.97 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-Texnologies Anaptixis
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.789 seconds
-Domain Reload Profiling: 3554ms
-	BeginReloadAssembly (244ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (82ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (434ms)
-		LoadAssemblies (510ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (30ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (2789ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1333ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (154ms)
-			ProcessInitializeOnLoadAttributes (923ms)
-			ProcessInitializeOnLoadMethodAttributes (229ms)
-			AfterProcessingInitializeOnLoad (11ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (33ms)
-Refreshing native plugins compatible for Editor in 10.05 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 8529 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 338 unused Assets / (29.2 MB). Loaded Objects now: 9411.
-Memory consumption went from 376.2 MB to 347.0 MB.
-Total: 32.516200 ms (FindLiveObjects: 3.562900 ms CreateObjectMapping: 1.187800 ms MarkObjects: 8.318600 ms  DeleteObjects: 19.445000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.761 seconds
-Refreshing native plugins compatible for Editor in 10.79 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-Texnologies Anaptixis
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.842 seconds
-Domain Reload Profiling: 3599ms
-	BeginReloadAssembly (222ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (67ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (434ms)
-		LoadAssemblies (504ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (29ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (2843ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1163ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (148ms)
-			ProcessInitializeOnLoadAttributes (786ms)
-			ProcessInitializeOnLoadMethodAttributes (205ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (32ms)
-Refreshing native plugins compatible for Editor in 10.56 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 8529 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 338 unused Assets / (29.1 MB). Loaded Objects now: 9428.
-Memory consumption went from 378.1 MB to 349.0 MB.
-Total: 22.191200 ms (FindLiveObjects: 0.829500 ms CreateObjectMapping: 0.451300 ms MarkObjects: 8.770200 ms  DeleteObjects: 12.137700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.744 seconds
-Refreshing native plugins compatible for Editor in 9.41 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-Texnologies Anaptixis
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.736 seconds
-Domain Reload Profiling: 3476ms
-	BeginReloadAssembly (223ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (68ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (430ms)
-		LoadAssemblies (504ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (31ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (19ms)
-	FinalizeReload (2737ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1217ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (145ms)
-			ProcessInitializeOnLoadAttributes (817ms)
-			ProcessInitializeOnLoadMethodAttributes (232ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (32ms)
-Refreshing native plugins compatible for Editor in 15.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 8529 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 338 unused Assets / (29.5 MB). Loaded Objects now: 9445.
-Memory consumption went from 380.2 MB to 350.7 MB.
-Total: 28.751300 ms (FindLiveObjects: 1.017100 ms CreateObjectMapping: 0.923700 ms MarkObjects: 10.702700 ms  DeleteObjects: 16.105700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.735 seconds
-Refreshing native plugins compatible for Editor in 10.63 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-Texnologies Anaptixis
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.790 seconds
-Domain Reload Profiling: 3522ms
-	BeginReloadAssembly (208ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (62ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (434ms)
-		LoadAssemblies (498ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (29ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (2791ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1232ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (10ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (145ms)
-			ProcessInitializeOnLoadAttributes (791ms)
-			ProcessInitializeOnLoadMethodAttributes (264ms)
-			AfterProcessingInitializeOnLoad (13ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (63ms)
-Refreshing native plugins compatible for Editor in 14.69 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 8529 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 338 unused Assets / (29.2 MB). Loaded Objects now: 9462.
-Memory consumption went from 382.0 MB to 352.8 MB.
-Total: 25.612000 ms (FindLiveObjects: 2.116800 ms CreateObjectMapping: 1.132300 ms MarkObjects: 7.878000 ms  DeleteObjects: 14.482600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 199.881631 seconds.
-  path: Assets/Delighton/DemonicSword/Demo
-  artifactKey: Guid(f7dfd43db2e46ed44b8e7ab04dfee99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Delighton/DemonicSword/Demo using Guid(f7dfd43db2e46ed44b8e7ab04dfee99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e11defcde10414d2d05251e6f90f2a3') in 0.002307 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.649948 seconds.
-  path: Assets/Delighton/DemonicSword/Demo/DemoScene.unity
-  artifactKey: Guid(9be6e3e4b1ab9af4392dea0def2e2436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Delighton/DemonicSword/Demo/DemoScene.unity using Guid(9be6e3e4b1ab9af4392dea0def2e2436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb39de07b5616b4ec58da5be9b1818c') in 0.001003 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.749454 seconds.
-  path: Assets/Delighton/DemonicSword/Meshes
-  artifactKey: Guid(ecc6a1f5173b50843b83fc0429cb3d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Delighton/DemonicSword/Meshes using Guid(ecc6a1f5173b50843b83fc0429cb3d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b16d1d073d460d7f372bb75c721cf7b') in 0.000647 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.045058 seconds.
-  path: Assets/Delighton/DemonicSword/Meshes/DemonicSword.fbx
-  artifactKey: Guid(b2746521f5e317240a5bdaee09c9e72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Delighton/DemonicSword/Meshes/DemonicSword.fbx using Guid(b2746521f5e317240a5bdaee09c9e72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcfe9290d24f7d2627adff063ac32c59') in 0.472122 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 78
-========================================================================
-Received Import Request.
-  Time since last request: 8.806171 seconds.
-  path: Assets/Delighton/DemonicSword/Textures
-  artifactKey: Guid(ebd40dca3769f1d479c6371baf1b248a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Delighton/DemonicSword/Textures using Guid(ebd40dca3769f1d479c6371baf1b248a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e0393d3220b899ca2868fc1fcc7f43f') in 0.000706 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.856019 seconds.
-  path: Assets/Delighton/DemonicSword/Textures/DemonicSword
-  artifactKey: Guid(317f35a129735b948bdc7d3df2b6fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Delighton/DemonicSword/Textures/DemonicSword using Guid(317f35a129735b948bdc7d3df2b6fdad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22d529309ca0632182bc6cd46c42668') in 0.000660 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.052572 seconds.
-  path: Assets/Delighton/DemonicSword/Textures/DemonicSword/DemonicSword_AlbedoTransparency.png
-  artifactKey: Guid(c9f7ab088ade79d47bd49e082aebd63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Delighton/DemonicSword/Textures/DemonicSword/DemonicSword_AlbedoTransparency.png using Guid(c9f7ab088ade79d47bd49e082aebd63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ffba27e0b2cfd8efb6e938f13c4c2b') in 0.032849 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Delighton/DemonicSword/Textures/DemonicSword/DemonicSword_MetallicSmoothness.png
-  artifactKey: Guid(633f958272cf0da479e4cb8de543394e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Delighton/DemonicSword/Textures/DemonicSword/DemonicSword_MetallicSmoothness.png using Guid(633f958272cf0da479e4cb8de543394e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690cc25e496be557e35b383b74b9d82b') in 0.032516 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 12.462315 seconds.
-  path: Assets/Delighton/DemonicSword/Textures/DemonicSword/Materials
-  artifactKey: Guid(d6a2b7cb581506b48a54dec9631f7904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Delighton/DemonicSword/Textures/DemonicSword/Materials using Guid(d6a2b7cb581506b48a54dec9631f7904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a24da50d3f184f483273d6eb4d1703') in 0.001023 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.070986 seconds.
-  path: Assets/Delighton/DemonicSword/Textures/DemonicSword/Materials/DemonicSword_AlbedoTransparency.mat
-  artifactKey: Guid(81fae252bfe08a540a8174bceeca2b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Delighton/DemonicSword/Textures/DemonicSword/Materials/DemonicSword_AlbedoTransparency.mat using Guid(81fae252bfe08a540a8174bceeca2b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2ca3c59680e20eae1dfd0e7544f008') in 0.063450 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.765 seconds
-Refreshing native plugins compatible for Editor in 10.02 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-Texnologies Anaptixis
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.484 seconds
-Domain Reload Profiling: 3245ms
-	BeginReloadAssembly (223ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (69ms)
-	RebuildCommonClasses (41ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (451ms)
-		LoadAssemblies (513ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (28ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (2484ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1097ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (135ms)
-			ProcessInitializeOnLoadAttributes (744ms)
-			ProcessInitializeOnLoadMethodAttributes (195ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (32ms)
-Refreshing native plugins compatible for Editor in 12.91 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 8529 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 338 unused Assets / (30.0 MB). Loaded Objects now: 9605.
-Memory consumption went from 384.2 MB to 354.2 MB.
-Total: 40.773000 ms (FindLiveObjects: 3.576600 ms CreateObjectMapping: 2.790600 ms MarkObjects: 13.728900 ms  DeleteObjects: 20.674200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.733 seconds
-Refreshing native plugins compatible for Editor in 8.49 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-Texnologies Anaptixis
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.643 seconds
-Domain Reload Profiling: 3370ms
-	BeginReloadAssembly (202ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (58ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (435ms)
-		LoadAssemblies (495ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (28ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (2644ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1116ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (147ms)
-			ProcessInitializeOnLoadAttributes (753ms)
-			ProcessInitializeOnLoadMethodAttributes (193ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (45ms)
-Refreshing native plugins compatible for Editor in 11.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 8529 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 338 unused Assets / (29.2 MB). Loaded Objects now: 9622.
-Memory consumption went from 386.1 MB to 356.9 MB.
-Total: 24.616500 ms (FindLiveObjects: 3.511100 ms CreateObjectMapping: 1.341900 ms MarkObjects: 7.291800 ms  DeleteObjects: 12.468000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.009 seconds
-Refreshing native plugins compatible for Editor in 9.36 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-Texnologies Anaptixis
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 24.726 seconds
-Domain Reload Profiling: 25730ms
-	BeginReloadAssembly (196ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (56ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (724ms)
-		LoadAssemblies (725ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (87ms)
-			TypeCache.Refresh (17ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (52ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (24727ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (919ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (116ms)
-			ProcessInitializeOnLoadAttributes (619ms)
-			ProcessInitializeOnLoadMethodAttributes (166ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (40ms)
-Refreshing native plugins compatible for Editor in 8.99 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 8555 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 353 unused Assets / (31.0 MB). Loaded Objects now: 9650.
-Memory consumption went from 392.6 MB to 361.6 MB.
-Total: 29.148200 ms (FindLiveObjects: 0.860000 ms CreateObjectMapping: 1.181200 ms MarkObjects: 8.639700 ms  DeleteObjects: 18.465100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1314.925683 seconds.
-  path: Assets/TrueClouds/ExampleScenes/Materials
-  artifactKey: Guid(c5dc3e01badc0dc4b9782ecb4a004a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TrueClouds/ExampleScenes/Materials using Guid(c5dc3e01badc0dc4b9782ecb4a004a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ebfea889af06ff956b4cccfa72d8168') in 0.002331 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/TrueClouds/ExampleScenes/CloudRamp.png
-  artifactKey: Guid(79fc49341c0fd58439c6651b208e6370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TrueClouds/ExampleScenes/CloudRamp.png using Guid(79fc49341c0fd58439c6651b208e6370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8508a280502a6328f3a6c174ccf740') in 0.071186 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/TrueClouds/ExampleScenes/Materials/SkyboxMobile.mat
-  artifactKey: Guid(981d69f3f5c6bc140abcfd2a92599571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TrueClouds/ExampleScenes/Materials/SkyboxMobile.mat using Guid(981d69f3f5c6bc140abcfd2a92599571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f5950d138329e3848ddb112a9f7b207') in 0.380997 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 65
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/TrueClouds/ExampleScenes
-  artifactKey: Guid(e9f3372c7ff492941a68c7c533d822bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TrueClouds/ExampleScenes using Guid(e9f3372c7ff492941a68c7c533d822bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc4ce876af8e8a60fa4e0fcd77f9b3f') in 0.000819 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/TrueClouds/ExampleScenes/Materials/CloudsTint.mat
-  artifactKey: Guid(9561a7d9b2e7bea4ba26b84053629b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TrueClouds/ExampleScenes/Materials/CloudsTint.mat using Guid(9561a7d9b2e7bea4ba26b84053629b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30962ffbab6de0dc1167d4522e021ec9') in 0.046977 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 13
 ========================================================================
 Received Import Request.
   Time since last request: 0.000040 seconds.
-  path: Assets/TrueClouds/ExampleScenes/Materials/Green.mat
-  artifactKey: Guid(cae64ff752e6114479576acaf5daa4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TrueClouds/ExampleScenes/Materials/Green.mat using Guid(cae64ff752e6114479576acaf5daa4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8846208eae74f9190b69aee3772cf3a') in 0.028953 seconds
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (16).prefab
+  artifactKey: Guid(e3e7b52ead431b14cb167c835b5de2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (16).prefab using Guid(e3e7b52ead431b14cb167c835b5de2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97d2a3127c7c357ff7b57a3cdd6069b5') in 0.039326 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 13
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/TrueClouds/Resources
-  artifactKey: Guid(85ea45519996fb04e93a0f5829881ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TrueClouds/Resources using Guid(85ea45519996fb04e93a0f5829881ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10eb9518b8a1faa1cec7dc473936ccc7') in 0.000982 seconds
+  Time since last request: 0.000035 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (4).prefab
+  artifactKey: Guid(6a0a1affbe36879478f3f327f28efcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (4).prefab using Guid(6a0a1affbe36879478f3f327f28efcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4bfdc81411e7fa896a209040bdd5b8c') in 0.085026 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 13
 ========================================================================
 Received Import Request.
-  Time since last request: 11.260904 seconds.
-  path: Assets/TrueClouds/ExampleScenes/Materials/Dragon
-  artifactKey: Guid(457a8e377abb469409d8b244df8218d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TrueClouds/ExampleScenes/Materials/Dragon using Guid(457a8e377abb469409d8b244df8218d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f020aff726ca60800e5444cfc33d6172') in 0.000636 seconds
+  Time since last request: 0.000047 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (21).prefab
+  artifactKey: Guid(27a307b80dcb87c4aa8125fd7e8a2bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (21).prefab using Guid(27a307b80dcb87c4aa8125fd7e8a2bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b33285876cbe0e106ca4c0f1e912b66') in 2.906194 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.836680 seconds.
-  path: Assets/TrueClouds/ExampleScenes/Materials/Dragon/DragonBody.mat
-  artifactKey: Guid(e027e10034158204fb35f2da6fdb5c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TrueClouds/ExampleScenes/Materials/Dragon/DragonBody.mat using Guid(e027e10034158204fb35f2da6fdb5c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f2e4c5e812832ab7fe93c44e26c78d') in 0.013949 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 31.058740 seconds.
-  path: Assets/TrueClouds/ExampleScenes/Models
-  artifactKey: Guid(42f1caddfbd2c414eacc678e29f11f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TrueClouds/ExampleScenes/Models using Guid(42f1caddfbd2c414eacc678e29f11f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c630ef28a67d39b733fb49594a769f12') in 0.000660 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.060314 seconds.
-  path: Assets/TrueClouds/ExampleScenes/Models/cloud_01.fbx
-  artifactKey: Guid(86a54d4ab218ff7439810689af0e25a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TrueClouds/ExampleScenes/Models/cloud_01.fbx using Guid(86a54d4ab218ff7439810689af0e25a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2bcfd2e80fa56d61018cdfdd192b8a7') in 0.063341 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/TrueClouds/ExampleScenes/Models/Dragon.prefab
-  artifactKey: Guid(804c4a1cb4804ec4380818733520aac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TrueClouds/ExampleScenes/Models/Dragon.prefab using Guid(804c4a1cb4804ec4380818733520aac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47be99a30e40b2f2838820cae3804d2b') in 0.080889 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 108
-========================================================================
-Received Import Request.
-  Time since last request: 5.368401 seconds.
-  path: Assets/TrueClouds/ExampleScenes/Models/Materials
-  artifactKey: Guid(4c382e8583fed674290e5ef2846c759d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TrueClouds/ExampleScenes/Models/Materials using Guid(4c382e8583fed674290e5ef2846c759d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c735d6d69793a0c667f0e5730ceea397') in 0.000784 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.086852 seconds.
-  path: Assets/TrueClouds/ExampleScenes/Models/Materials/No Name.mat
-  artifactKey: Guid(5c6412180db71624ba8d7fe4bbc7d916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TrueClouds/ExampleScenes/Models/Materials/No Name.mat using Guid(5c6412180db71624ba8d7fe4bbc7d916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5422fb09a887b6536861be34bf070314') in 0.010068 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 99.590880 seconds.
-  path: Assets/TrueClouds/ExampleScenes/Scenes
-  artifactKey: Guid(44e9d3e037840fb4daf4ab53e260bf31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TrueClouds/ExampleScenes/Scenes using Guid(44e9d3e037840fb4daf4ab53e260bf31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55333c14481fdb53004150b216da584') in 0.000615 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.829238 seconds.
-  path: Assets/TrueClouds/ExampleScenes/Scenes/Dragon
-  artifactKey: Guid(ddfb671e2ce9e2444a914098ec196323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TrueClouds/ExampleScenes/Scenes/Dragon using Guid(ddfb671e2ce9e2444a914098ec196323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4944a0529a98bbc095ec66a5750cfc2') in 0.000594 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 81.364621 seconds.
-  path: Assets/TrueClouds/Textures
-  artifactKey: Guid(3f14afaf143233e4b88704d8e347cbd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TrueClouds/Textures using Guid(3f14afaf143233e4b88704d8e347cbd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce4655a3c52cc9fdaad42908ae1fb88') in 0.000857 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.038866 seconds.
-  path: Assets/TrueClouds/Textures/defaultNoise.png
-  artifactKey: Guid(ea4ad7e4f21a143478fefc813c9174ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TrueClouds/Textures/defaultNoise.png using Guid(ea4ad7e4f21a143478fefc813c9174ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f46a2e819b3f23c68ec7ca5cd6bc75e') in 0.054575 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 52.828872 seconds.
-  path: Assets/TrueClouds/Scripts/Editor
-  artifactKey: Guid(875ac255ab1c7584583442c4e5204e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TrueClouds/Scripts/Editor using Guid(875ac255ab1c7584583442c4e5204e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '433a7cbb718c4c14d8d3757a181450d1') in 0.000866 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 36.124754 seconds.
-  path: Assets/TrueClouds/ExampleScenes/Materials/Green.mat
-  artifactKey: Guid(cae64ff752e6114479576acaf5daa4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TrueClouds/ExampleScenes/Materials/Green.mat using Guid(cae64ff752e6114479576acaf5daa4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2ea66f251afef24c93758737f649df') in 0.020479 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.829973 seconds.
-  path: Assets/TrueClouds/ExampleScenes/Materials/Dragon/DragonBody.mat
-  artifactKey: Guid(e027e10034158204fb35f2da6fdb5c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TrueClouds/ExampleScenes/Materials/Dragon/DragonBody.mat using Guid(e027e10034158204fb35f2da6fdb5c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def3367a4ebe9c6ff4682bde1cc185c5') in 0.019361 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/TrueClouds/ExampleScenes/Materials/Dragon/DragonSpikes.mat
-  artifactKey: Guid(cdae10b910a1f9046ba80a9647921f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TrueClouds/ExampleScenes/Materials/Dragon/DragonSpikes.mat using Guid(cdae10b910a1f9046ba80a9647921f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c70c14b8394ea4d64bf8e0f10beac0') in 0.018509 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 56.458841 seconds.
-  path: Assets/TrueClouds/ExampleScenes/Scripts
-  artifactKey: Guid(66d5aa2cbe2731b4dbb7f3fdb01c34ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TrueClouds/ExampleScenes/Scripts using Guid(66d5aa2cbe2731b4dbb7f3fdb01c34ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4413e2e6fb1f2ca48590a664a0c09a02') in 0.000760 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.908503 seconds.
-  path: Assets/TrueClouds/ExampleScenes/Scripts/FPS60.cs
-  artifactKey: Guid(7be7d119fa0885749888a529ee15939c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TrueClouds/ExampleScenes/Scripts/FPS60.cs using Guid(7be7d119fa0885749888a529ee15939c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a2fa168e75003f00fbf98507b797b62') in 0.000629 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 3.496723 seconds.
-  path: Assets/TrueClouds/ExampleScenes/Scripts/FPSDisplay.cs
-  artifactKey: Guid(decb6cd4a830b824095100cbf102073c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TrueClouds/ExampleScenes/Scripts/FPSDisplay.cs using Guid(decb6cd4a830b824095100cbf102073c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e8186433e12c49adf8e862429a3f12') in 0.000813 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.091706 seconds.
-  path: Assets/TrueClouds/ExampleScenes/Scripts/ScriptPerformanceMeasure.cs
-  artifactKey: Guid(840226fd3bb23c049b6760bac0fca9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TrueClouds/ExampleScenes/Scripts/ScriptPerformanceMeasure.cs using Guid(840226fd3bb23c049b6760bac0fca9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a4fb73c3bcbdb1e8f9be1a016d88e4') in 0.000810 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 20.286466 seconds.
-  path: Assets/TrueClouds/Materials
-  artifactKey: Guid(470a9ad599a16b043aee4b95dd4139df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TrueClouds/Materials using Guid(470a9ad599a16b043aee4b95dd4139df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '130d22905353b6c524bdc502fded28e9') in 0.000712 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.102979 seconds.
-  path: Assets/TrueClouds/Materials/defaultNoise.mat
-  artifactKey: Guid(3a91e6773ebb070458360815b8afce55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TrueClouds/Materials/defaultNoise.mat using Guid(3a91e6773ebb070458360815b8afce55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16603ea5a841d688b52d48845705615d') in 0.025831 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 15.352960 seconds.
-  path: Assets/TrueClouds/Resources/Shaders
-  artifactKey: Guid(fbe05024de077914b83fbbb0caa1f521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TrueClouds/Resources/Shaders using Guid(fbe05024de077914b83fbbb0caa1f521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98835c3819bfd825f400807927e174fb') in 0.000712 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.068325 seconds.
-  path: Assets/TrueClouds/Resources/Shaders/CloudsDepth.cginc
-  artifactKey: Guid(ef7448b4e527ce249ae1dc9012dfdff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TrueClouds/Resources/Shaders/CloudsDepth.cginc using Guid(ef7448b4e527ce249ae1dc9012dfdff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '692da27839ff157ee1d10d94ba57bd55') in 0.001474 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1.222050 seconds.
-  path: Assets/TrueClouds/Resources/Shaders/Blur.shader
-  artifactKey: Guid(fd4453f270eb2734b886efe5223588ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TrueClouds/Resources/Shaders/Blur.shader using Guid(fd4453f270eb2734b886efe5223588ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b6a6889390c5d1cfe813c0ecbc9238') in 0.001947 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.369086 seconds.
-  path: Assets/TrueClouds/Resources/Shaders/Light
-  artifactKey: Guid(d33de735448b55d4fba9d7575abd9144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TrueClouds/Resources/Shaders/Light using Guid(d33de735448b55d4fba9d7575abd9144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5f2973db693d998d351dcab60bd900e') in 0.000642 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.055861 seconds.
-  path: Assets/TrueClouds/Resources/Shaders/Light/CloudsTint.cginc
-  artifactKey: Guid(bd0268fa4a5c5944dbb8408ef99f7a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TrueClouds/Resources/Shaders/Light/CloudsTint.cginc using Guid(bd0268fa4a5c5944dbb8408ef99f7a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5112f6cf87880550e2040198617cfe03') in 0.001402 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1.502954 seconds.
-  path: Assets/TrueClouds/Resources/Shaders/Light/CloudsPointLight.shader
-  artifactKey: Guid(e008cddabe2ee464e86c31af2b5b07c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TrueClouds/Resources/Shaders/Light/CloudsPointLight.shader using Guid(e008cddabe2ee464e86c31af2b5b07c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d53ee43154484ba2c07e68805a10123') in 0.001986 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 27.145403 seconds.
-  path: Assets/TrueClouds/Scripts/Editor/CloudCameraEditor.cs
-  artifactKey: Guid(a473be99239519747bfeb90d880217df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TrueClouds/Scripts/Editor/CloudCameraEditor.cs using Guid(a473be99239519747bfeb90d880217df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762fb5c4a11668f7518f2611072c840a') in 0.000832 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.369550 seconds.
-  path: Assets/TrueClouds/Scripts/Editor/NoiseGenerator.cs
-  artifactKey: Guid(b18428cc9340da84e87566b93d5a7bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TrueClouds/Scripts/Editor/NoiseGenerator.cs using Guid(b18428cc9340da84e87566b93d5a7bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87681ef64b0f9e3c088d8dc8c732d82d') in 0.000712 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.324170 seconds.
-  path: Assets/TrueClouds/Scripts/Editor/TrueCloudsReadonlyDrawer.cs
-  artifactKey: Guid(b431e3934ddb4404afe38690b5bc7d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TrueClouds/Scripts/Editor/TrueCloudsReadonlyDrawer.cs using Guid(b431e3934ddb4404afe38690b5bc7d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '045f7d1e7b0eac04622e7aedf5abc379') in 0.000864 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 264.397598 seconds.
-  path: Assets/TrueClouds/ExampleScenes/Materials/Green.mat
-  artifactKey: Guid(cae64ff752e6114479576acaf5daa4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TrueClouds/ExampleScenes/Materials/Green.mat using Guid(cae64ff752e6114479576acaf5daa4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0410e34b062a0ebf93a2234bf7302d0d') in 0.021994 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 13
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -1,0 +1,285 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.11f1 (d00248457e15) revision 13632072'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16264 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+C:/Users/ZE BEBE/Desktop/GameTech/Texnologies
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+52119
+Successfully changed project path to: C:/Users/ZE BEBE/Desktop/GameTech/Texnologies
+C:/Users/ZE BEBE/Desktop/GameTech/Texnologies
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [31260] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 3763396982 [EditorId] 3763396982 [Version] 1048832 [Id] WindowsEditor(7,ZEBEBE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [31260] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 3763396982 [EditorId] 3763396982 [Version] 1048832 [Id] WindowsEditor(7,ZEBEBE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 45.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.11f1 (d00248457e15)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ZE BEBE/Desktop/GameTech/Texnologies/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c91)
+    Vendor:   NVIDIA
+    VRAM:     2995 MB
+    Driver:   31.0.15.3713
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56024
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.015414 seconds.
+- Loaded All Assemblies, in  0.555 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.576 seconds
+Domain Reload Profiling: 1127ms
+	BeginReloadAssembly (146ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (95ms)
+	LoadAllAssembliesAndSetupDomain (239ms)
+		LoadAssemblies (143ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (236ms)
+			TypeCache.Refresh (230ms)
+				TypeCache.ScanAssembly (196ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (577ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (414ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (54ms)
+			SetLoadedEditorAssemblies (21ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (9ms)
+			ProcessInitializeOnLoadAttributes (255ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.640 seconds
+Refreshing native plugins compatible for Editor in 19.17 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Texnologies Anaptixis
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.867 seconds
+Domain Reload Profiling: 3494ms
+	BeginReloadAssembly (277ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (1233ms)
+		LoadAssemblies (715ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (656ms)
+			TypeCache.Refresh (512ms)
+				TypeCache.ScanAssembly (461ms)
+			ScanForSourceGeneratedMonoScriptInfo (106ms)
+			ResolveRequiredComponents (34ms)
+	FinalizeReload (1868ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1584ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (154ms)
+			ProcessInitializeOnLoadAttributes (1117ms)
+			ProcessInitializeOnLoadMethodAttributes (283ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 17.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8782 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 402 unused Assets / (30.0 MB). Loaded Objects now: 9017.
+Memory consumption went from 405.8 MB to 375.9 MB.
+Total: 19.359400 ms (FindLiveObjects: 1.332700 ms CreateObjectMapping: 1.236700 ms MarkObjects: 7.040900 ms  DeleteObjects: 9.747000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 602272.903719 seconds.
+  path: Assets/Rocks_and_Boulders_2/Rocks/Prefabs_snow/Rock1_grup2.prefab
+  artifactKey: Guid(af253cd095eb9d2489eaad42eb9d5087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks_and_Boulders_2/Rocks/Prefabs_snow/Rock1_grup2.prefab using Guid(af253cd095eb9d2489eaad42eb9d5087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2304b8a915a6f58124f0a4d99b9b522e') in 0.851958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Rocks_and_Boulders_2/Rocks/Prefabs_snow/Rock6B.prefab
+  artifactKey: Guid(083e56e07a6e31f47bda0bab778d3ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks_and_Boulders_2/Rocks/Prefabs_snow/Rock6B.prefab using Guid(083e56e07a6e31f47bda0bab778d3ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fced9317d8c6b446c7a0531c8df9314f') in 0.168324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Rocks_and_Boulders_2/Rocks/Prefabs_snow/Rock1E.prefab
+  artifactKey: Guid(0241c83bd39a3124fad536563eedb302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks_and_Boulders_2/Rocks/Prefabs_snow/Rock1E.prefab using Guid(0241c83bd39a3124fad536563eedb302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1579afd3715e0a86fd20cdf7138aa5e3') in 0.071535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Rocks_and_Boulders_2/Rocks/Prefabs_snow/Rock4A.prefab
+  artifactKey: Guid(87983935f31cb20419d017addd855376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks_and_Boulders_2/Rocks/Prefabs_snow/Rock4A.prefab using Guid(87983935f31cb20419d017addd855376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c16b4fe98e0417fbfcfd398930e6ad') in 0.175549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Rocks_and_Boulders_2/Rocks/Prefabs_snow/Rock1LOD_grup1.prefab
+  artifactKey: Guid(358464627c45ed2459452fec5a7663e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks_and_Boulders_2/Rocks/Prefabs_snow/Rock1LOD_grup1.prefab using Guid(358464627c45ed2459452fec5a7663e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c738732c7316ce0eed75c07045e195ec') in 0.107210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Rocks_and_Boulders_2/Rocks/Prefabs_snow/Rock6A.prefab
+  artifactKey: Guid(c445b94c5f10cc14db838116d8e08868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks_and_Boulders_2/Rocks/Prefabs_snow/Rock6A.prefab using Guid(c445b94c5f10cc14db838116d8e08868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a728fae3f3b62a85201f25bf1ee48ac3') in 0.060921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Rocks_and_Boulders_2/Rocks/Prefabs_snow/Rock2.prefab
+  artifactKey: Guid(d6b40ce3457ff954e8faab16436c9d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks_and_Boulders_2/Rocks/Prefabs_snow/Rock2.prefab using Guid(d6b40ce3457ff954e8faab16436c9d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c68918b55e78b9dbcd5c17ecc439a80d') in 0.149207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Rocks_and_Boulders_2/Rocks/Prefabs_snow/Rock1C.prefab
+  artifactKey: Guid(78018422469a48a40bb2bb44eb8c5d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks_and_Boulders_2/Rocks/Prefabs_snow/Rock1C.prefab using Guid(78018422469a48a40bb2bb44eb8c5d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ddba2ea849a7c13d5ee845d347001af') in 0.065720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Rocks_and_Boulders_2/Rocks/Prefabs_snow/Rock5A.prefab
+  artifactKey: Guid(2ee8881034f2f8344a6c8fce758b5513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks_and_Boulders_2/Rocks/Prefabs_snow/Rock5A.prefab using Guid(2ee8881034f2f8344a6c8fce758b5513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8b8af9857974c9de6d613378d45a27') in 0.070795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Rocks_and_Boulders_2/Rocks/Prefabs_snow/Rock4B.prefab
+  artifactKey: Guid(6f6a773cf2d27e24fa51d3392d6a241a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks_and_Boulders_2/Rocks/Prefabs_snow/Rock4B.prefab using Guid(6f6a773cf2d27e24fa51d3392d6a241a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e40ab0ff122eebf6a62c1afc2f0c5cc7') in 0.084518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Rocks_and_Boulders_2/Rocks/Prefabs_snow/Rock1LOD_grup5.prefab
+  artifactKey: Guid(cc97f7d64a5146f49895148c51f018b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks_and_Boulders_2/Rocks/Prefabs_snow/Rock1LOD_grup5.prefab using Guid(cc97f7d64a5146f49895148c51f018b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0868305c2ffa1e585d012b473d19ddaa') in 0.064122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Rocks_and_Boulders_2/Rocks/Prefabs_snow/Rock1B.prefab
+  artifactKey: Guid(f624abb379f46594b976cb8664abb194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocks_and_Boulders_2/Rocks/Prefabs_snow/Rock1B.prefab using Guid(f624abb379f46594b976cb8664abb194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466059c3f722f9515f6856d9ea7b421c') in 0.059745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.11f1 (d00248457e15) revision 13632072'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 15791 MB
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16264 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Phivos Theodorides/Desktop/UnityEnixerw/GameTech/Texnologies
+C:/Users/ZE BEBE/Desktop/GameTech/Texnologies
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65280
-Successfully changed project path to: C:/Users/Phivos Theodorides/Desktop/UnityEnixerw/GameTech/Texnologies
-C:/Users/Phivos Theodorides/Desktop/UnityEnixerw/GameTech/Texnologies
+61712
+Successfully changed project path to: C:/Users/ZE BEBE/Desktop/GameTech/Texnologies
+C:/Users/ZE BEBE/Desktop/GameTech/Texnologies
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,65 +49,65 @@ C:/Users/Phivos Theodorides/Desktop/UnityEnixerw/GameTech/Texnologies
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19916] Host "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 2625188062 [EditorId] 2625188062 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7F5CPF2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [3308] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 2409058384 [EditorId] 2409058384 [Version] 1048832 [Id] WindowsEditor(7,ZEBEBE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [19916] Host "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 2625188062 [EditorId] 2625188062 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7F5CPF2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [3308] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 2409058384 [EditorId] 2409058384 [Version] 1048832 [Id] WindowsEditor(7,ZEBEBE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 14.12 ms, found 3 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 58.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.11f1 (d00248457e15)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Phivos Theodorides/Desktop/UnityEnixerw/GameTech/Texnologies/Assets
+[Subsystems] Discovering subsystems at path C:/Users/ZE BEBE/Desktop/GameTech/Texnologies/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c91)
     Vendor:   NVIDIA
-    VRAM:     3949 MB
-    Driver:   31.0.15.3734
+    VRAM:     2995 MB
+    Driver:   31.0.15.3713
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56712
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008315 seconds.
-- Loaded All Assemblies, in  0.605 seconds
+Registered in 0.031507 seconds.
+- Loaded All Assemblies, in  0.664 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.307 seconds
-Domain Reload Profiling: 909ms
-	BeginReloadAssembly (215ms)
+- Finished resetting the current domain, in  0.380 seconds
+Domain Reload Profiling: 1040ms
+	BeginReloadAssembly (207ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (76ms)
-	LoadAllAssembliesAndSetupDomain (256ms)
-		LoadAssemblies (216ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (128ms)
+	LoadAllAssembliesAndSetupDomain (235ms)
+		LoadAssemblies (203ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (252ms)
-			TypeCache.Refresh (250ms)
-				TypeCache.ScanAssembly (230ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (232ms)
+			TypeCache.Refresh (230ms)
+				TypeCache.ScanAssembly (208ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (308ms)
+	FinalizeReload (381ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (244ms)
+		SetupLoadedEditorAssemblies (289ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (10ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (14ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (158ms)
-			ProcessInitializeOnLoadMethodAttributes (62ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (189ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,9 +115,36 @@ Domain Reload Profiling: 909ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.010 seconds
-Refreshing native plugins compatible for Editor in 6.86 ms, found 3 plugins.
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.812 seconds
+Refreshing native plugins compatible for Editor in 58.66 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\ZE BEBE\Desktop\GameTech\Texnologies\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <9920ff0c944845d7b9f9a61ef1478edc>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
+UnityEditor.Tools:get_get ()
+UnityEditor.Tools:get_visibleLayers ()
+UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs:121)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
+
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-Texnologies Anaptixis
@@ -126,47 +153,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.195 seconds
-Domain Reload Profiling: 2202ms
-	BeginReloadAssembly (167ms)
+- Finished resetting the current domain, in  3.247 seconds
+Domain Reload Profiling: 6035ms
+	BeginReloadAssembly (362ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (18ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (743ms)
-		LoadAssemblies (434ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (79ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (116ms)
+	LoadAllAssembliesAndSetupDomain (2206ms)
+		LoadAssemblies (1383ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (403ms)
-			TypeCache.Refresh (326ms)
-				TypeCache.ScanAssembly (299ms)
-			ScanForSourceGeneratedMonoScriptInfo (56ms)
-			ResolveRequiredComponents (19ms)
-	FinalizeReload (1195ms)
+		AnalyzeDomain (1028ms)
+			TypeCache.Refresh (860ms)
+				TypeCache.ScanAssembly (797ms)
+			ScanForSourceGeneratedMonoScriptInfo (124ms)
+			ResolveRequiredComponents (40ms)
+	FinalizeReload (3248ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (901ms)
+		SetupLoadedEditorAssemblies (2678ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (11ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (114ms)
-			ProcessInitializeOnLoadAttributes (681ms)
-			ProcessInitializeOnLoadMethodAttributes (85ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (430ms)
+			ProcessInitializeOnLoadAttributes (1714ms)
+			ProcessInitializeOnLoadMethodAttributes (475ms)
+			AfterProcessingInitializeOnLoad (31ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 4.64 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (17ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 37.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7791 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 265 unused Assets / (15.6 MB). Loaded Objects now: 8158.
-Memory consumption went from 387.3 MB to 371.7 MB.
-Total: 9.680100 ms (FindLiveObjects: 0.989300 ms CreateObjectMapping: 0.827100 ms MarkObjects: 4.186200 ms  DeleteObjects: 3.675200 ms)
+Unloading 8783 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 297 unused Assets / (15.7 MB). Loaded Objects now: 9123.
+Memory consumption went from 410.2 MB to 394.5 MB.
+Total: 36.251200 ms (FindLiveObjects: 1.460300 ms CreateObjectMapping: 1.700600 ms MarkObjects: 26.041300 ms  DeleteObjects: 7.046800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -183,70 +210,703 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 788709.046584 seconds.
-  path: Assets/IgniteCoders
-  artifactKey: Guid(73e5e31f34a05a4479bd26e14c6f9859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IgniteCoders using Guid(73e5e31f34a05a4479bd26e14c6f9859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3147fcfddd2ea261eb1429546ed041ce') in 0.004068 seconds
-Number of updated asset objects reloaded before import = 12
-Number of asset objects unloaded after import = 0
+  Time since last request: 659256.746757 seconds.
+  path: Assets/Scenes/Mat1.mat
+  artifactKey: Guid(a4f7104e4de290d4fa091a3994072fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mat1.mat using Guid(a4f7104e4de290d4fa091a3994072fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ab5463021d235b893ef29b2f275491') in 0.861706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.789498 seconds.
-  path: Assets/IgniteCoders/Simple Water Shader
-  artifactKey: Guid(c7121f33a7f1d634680a29fe514ecf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IgniteCoders/Simple Water Shader using Guid(c7121f33a7f1d634680a29fe514ecf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80929d492a1b27473bf13fcce9cadcb7') in 0.000772 seconds
+  Time since last request: 551.810329 seconds.
+  path: Assets/StylizedSpruceTree/Assets/Vegetation/Texture
+  artifactKey: Guid(4366274e8a20a0d4db4a7fa41db6ae9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedSpruceTree/Assets/Vegetation/Texture using Guid(4366274e8a20a0d4db4a7fa41db6ae9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e9df68e61b795d978579630290390a') in 0.000818 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 6.068288 seconds.
-  path: Assets/LiquidFire Assets/Mausoleum/Mesh
-  artifactKey: Guid(85e76f324ebb7574799b91f68d0caadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LiquidFire Assets/Mausoleum/Mesh using Guid(85e76f324ebb7574799b91f68d0caadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ca8788794ed4e44211296e2847f2e99') in 0.000703 seconds
+  Time since last request: 0.001994 seconds.
+  path: Assets/StylizedSpruceTree/Assets/Vegetation/Texture/Leaf_Spruce_BaseMap.png
+  artifactKey: Guid(561c922f02bef684babf90109b6ac5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedSpruceTree/Assets/Vegetation/Texture/Leaf_Spruce_BaseMap.png using Guid(561c922f02bef684babf90109b6ac5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd8e2d7003346510b08239713088895') in 0.127797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/StylizedSpruceTree/Assets/Vegetation/Texture/Stylize_Bark_V4_Mask.png
+  artifactKey: Guid(09dc5366f1487944591ff841531fdea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedSpruceTree/Assets/Vegetation/Texture/Stylize_Bark_V4_Mask.png using Guid(09dc5366f1487944591ff841531fdea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'affba5b37344b4556f47c5e475738aed') in 0.112457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/StylizedSpruceTree/Assets/Vegetation/Texture/Stylize_Bark_V3_Mask.png
+  artifactKey: Guid(ca7b21c8fafad3a4284554e6b3705e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedSpruceTree/Assets/Vegetation/Texture/Stylize_Bark_V3_Mask.png using Guid(ca7b21c8fafad3a4284554e6b3705e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1213daea57c25a5c35350c62d588dd') in 0.091241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/StylizedSpruceTree/Assets/Vegetation/Texture/Stylize_Bark_V3_normal.png
+  artifactKey: Guid(e91b6b27f1551a14091499a5f589a713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedSpruceTree/Assets/Vegetation/Texture/Stylize_Bark_V3_normal.png using Guid(e91b6b27f1551a14091499a5f589a713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54a093a5bbae4732e21c10bb0d2b9ac2') in 0.081405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/StylizedSpruceTree/Assets/Vegetation/Texture/Stylize_Bark_V3_basecolor.png
+  artifactKey: Guid(4e0464c4a122e5440b8c897c101e3957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedSpruceTree/Assets/Vegetation/Texture/Stylize_Bark_V3_basecolor.png using Guid(4e0464c4a122e5440b8c897c101e3957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221f89ad4b2d1e2ef40ac7d104ff7a36') in 0.067401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/StylizedSpruceTree/Assets/Vegetation/Texture/Stylize_Bark_V4_basecolor.png
+  artifactKey: Guid(8a38aebe1e74946428c938ab8fd55a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedSpruceTree/Assets/Vegetation/Texture/Stylize_Bark_V4_basecolor.png using Guid(8a38aebe1e74946428c938ab8fd55a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811a747ce768100cb0d9a2d9f146bec7') in 0.055116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.585529 seconds.
+  path: Assets/StylizedSpruceTree/Assets/Vegetation/Texture/Materials
+  artifactKey: Guid(2d18c265b7d165542936a1639ee2a945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedSpruceTree/Assets/Vegetation/Texture/Materials using Guid(2d18c265b7d165542936a1639ee2a945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5135036dfdb3bff83c24a9c2b29e678') in 0.001121 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.033878 seconds.
-  path: Assets/LiquidFire Assets/Mausoleum/Mesh/Mausoleum.fbx
-  artifactKey: Guid(8dc6ce22d64643940a2b25e3370784cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LiquidFire Assets/Mausoleum/Mesh/Mausoleum.fbx using Guid(8dc6ce22d64643940a2b25e3370784cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10dfbb3287fcc93bab99f8367cb6a475') in 0.419999 seconds
+  Time since last request: 0.050895 seconds.
+  path: Assets/StylizedSpruceTree/Assets/Vegetation/Texture/Materials/Leaf_Spruce_BaseMap.mat
+  artifactKey: Guid(9b458268864a19c448457bff4893f820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedSpruceTree/Assets/Vegetation/Texture/Materials/Leaf_Spruce_BaseMap.mat using Guid(9b458268864a19c448457bff4893f820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '048f07f0925750cce60b34be98c52e43') in 0.035228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/StylizedSpruceTree/Assets/Vegetation/Texture/Materials/Stylize_Bark_V3_Mask.mat
+  artifactKey: Guid(3504163686ef2874a880854e15b34483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedSpruceTree/Assets/Vegetation/Texture/Materials/Stylize_Bark_V3_Mask.mat using Guid(3504163686ef2874a880854e15b34483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ae429408cb80c342d1a5a0ed336eb9') in 0.041799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/StylizedSpruceTree/Assets/Vegetation/Texture/Materials/Stylize_Bark_V4_basecolor.mat
+  artifactKey: Guid(8144179ee50bd8b4985d479e8a7253c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedSpruceTree/Assets/Vegetation/Texture/Materials/Stylize_Bark_V4_basecolor.mat using Guid(8144179ee50bd8b4985d479e8a7253c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b38fc1c87af91a2ecd947fff2f70c10c') in 0.036045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/StylizedSpruceTree/Assets/Vegetation/Texture/Materials/Stylize_Bark_V4_Mask.mat
+  artifactKey: Guid(f130c83be20712040bbfa3bdab8c7195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedSpruceTree/Assets/Vegetation/Texture/Materials/Stylize_Bark_V4_Mask.mat using Guid(f130c83be20712040bbfa3bdab8c7195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a4b2712ee660090a19fd48a9cf51c72') in 0.037357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 31.886712 seconds.
+  path: Assets/StylizedSpruceTree/OutdoorsScene/Showcase.asset
+  artifactKey: Guid(272399c067b5a084fbc54cfdb9224c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StylizedSpruceTree/OutdoorsScene/Showcase.asset using Guid(272399c067b5a084fbc54cfdb9224c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2babf2a1e0ce6871b62fc388d2711af') in 0.010959 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 12
 ========================================================================
 Received Import Request.
-  Time since last request: 10.097981 seconds.
-  path: Assets/LiquidFire Assets/Mausoleum/Materials/Mausoleum_AlbedoTransparency.mat
-  artifactKey: Guid(b3abcc3724c6ec348a32b714a1f248cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LiquidFire Assets/Mausoleum/Materials/Mausoleum_AlbedoTransparency.mat using Guid(b3abcc3724c6ec348a32b714a1f248cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c7571e4590af7c81705e7fb61f19e94') in 0.059058 seconds
+  Time since last request: 1036.331184 seconds.
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/Helpers/Human Scale.prefab
+  artifactKey: Guid(e697b4c0cb7bda04aa7b228361542aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/Helpers/Human Scale.prefab using Guid(e697b4c0cb7bda04aa7b228361542aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655f178d7e708549bafd60674c749b1a') in 0.060219 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/LiquidFire Assets/Mausoleum/Materials/Mausoleum_Normal.mat
-  artifactKey: Guid(5e390e84913281c45b386175fddf806f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LiquidFire Assets/Mausoleum/Materials/Mausoleum_Normal.mat using Guid(5e390e84913281c45b386175fddf806f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8548cf01176652c8e7e5d8a14109406e') in 0.022474 seconds
+  Time since last request: 0.000025 seconds.
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/Helpers/UnitScale.prefab
+  artifactKey: Guid(982ef0054f278fc47b3f5c0b34f3e9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/Helpers/UnitScale.prefab using Guid(982ef0054f278fc47b3f5c0b34f3e9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a9f232b6a2a6ea600098b795ad25f0') in 0.030952 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/LiquidFire Assets/Mausoleum/Materials/MausoleumLFE.mat
-  artifactKey: Guid(33c8236d945b46a4dbecc558ba44076c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LiquidFire Assets/Mausoleum/Materials/MausoleumLFE.mat using Guid(33c8236d945b46a4dbecc558ba44076c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b28119c93f7c11575014b2e62d56103') in 0.026749 seconds
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/Helpers/MaterialCube.prefab
+  artifactKey: Guid(04c7c6a2c92416646b2c59f027bff876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/Helpers/MaterialCube.prefab using Guid(04c7c6a2c92416646b2c59f027bff876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '938f01da3334ec0cba790d4c4f243017') in 0.026220 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 2.207280 seconds.
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/Examples/Example_02.prefab
+  artifactKey: Guid(f27f59872961e1c4893033bb8cfb1a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/Examples/Example_02.prefab using Guid(f27f59872961e1c4893033bb8cfb1a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f08677636119aef376de335b524b44') in 0.249899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/Examples/Example_03.prefab
+  artifactKey: Guid(0330d5ad9182258438d231d4b1b651ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/Examples/Example_03.prefab using Guid(0330d5ad9182258438d231d4b1b651ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff6c63096a17d8f812f511d3917a14ac') in 0.181701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 22.143118 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/BackgroundTest_Night.mat
+  artifactKey: Guid(a133f63705bd27d42851eb839dd5fa26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/BackgroundTest_Night.mat using Guid(a133f63705bd27d42851eb839dd5fa26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f93659ddb85d7d1901be8dc99e3e275') in 0.044986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (1).mat
+  artifactKey: Guid(3965c05904ee2f8419083d07642ef925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (1).mat using Guid(3965c05904ee2f8419083d07642ef925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7660222c53284ff8705d22818ea91250') in 0.125326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (11).mat
+  artifactKey: Guid(c2e687bde7256d840b017e4441ff68cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (11).mat using Guid(c2e687bde7256d840b017e4441ff68cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df87d9fb09039c02cc37ba1b376a045') in 0.105415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (15).mat
+  artifactKey: Guid(00379ebe02669b74e8060c1c6b458fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (15).mat using Guid(00379ebe02669b74e8060c1c6b458fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48227348b47e5b7f03132cd2a903c549') in 0.090671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/Plane.mat
+  artifactKey: Guid(779ff5660ac1a1341b9446c45bc59607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/Plane.mat using Guid(779ff5660ac1a1341b9446c45bc59607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee9619425e17793f357a15e46696041b') in 0.193824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall.mat
+  artifactKey: Guid(c278e146e2886b341b396bfc3cc71966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall.mat using Guid(c278e146e2886b341b396bfc3cc71966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42954981ea0b96ee8adf880e47ca34ed') in 0.127303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/Glow.mat
+  artifactKey: Guid(53eb15056eefa9e4988904ab82897ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/Glow.mat using Guid(53eb15056eefa9e4988904ab82897ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bfdf0973866a381fc37a761db0d42ec') in 0.029476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000031 seconds.
-  path: Assets/LiquidFire Assets/Mausoleum/Materials/Mausoleum_Occlusion.mat
-  artifactKey: Guid(6c0c54a4b539c1045b142da2e46556b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LiquidFire Assets/Mausoleum/Materials/Mausoleum_Occlusion.mat using Guid(6c0c54a4b539c1045b142da2e46556b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6760efde8b10788ecf6b70ec795e06c8') in 0.019346 seconds
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (31).mat
+  artifactKey: Guid(87bc55b0873f55e41b928b94cfbe6db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (31).mat using Guid(87bc55b0873f55e41b928b94cfbe6db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db55907693a6bc45b3d2b0f46441e862') in 0.094163 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (22).mat
+  artifactKey: Guid(02d672bfe24484e4482c958654aa51f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (22).mat using Guid(02d672bfe24484e4482c958654aa51f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f369f0b343b9b33afc11218069963534') in 0.178596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (6).mat
+  artifactKey: Guid(08ef62b969aab0540a9f2e4819167368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (6).mat using Guid(08ef62b969aab0540a9f2e4819167368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c1c4b2c397d9530691e51e3bce3d0f') in 0.144034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (29).mat
+  artifactKey: Guid(b39366051ecefe946bc13c623a9c4aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (29).mat using Guid(b39366051ecefe946bc13c623a9c4aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd163ac68383fa38d9bba838b96acf8') in 0.072847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (30).mat
+  artifactKey: Guid(01a86c5a05ee60c479a65d48adf5624e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (30).mat using Guid(01a86c5a05ee60c479a65d48adf5624e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e983496cefc8760aeb792c9a314ec1cd') in 0.075577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (13).mat
+  artifactKey: Guid(29ce6482481fa35459bacdd412ac60ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (13).mat using Guid(29ce6482481fa35459bacdd412ac60ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df101f6106e4ea6d135c12830bf84f00') in 0.104193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (32).mat
+  artifactKey: Guid(587daea4dfebae444b996e85e5c89aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (32).mat using Guid(587daea4dfebae444b996e85e5c89aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8560787a66b8f6783c76973d5385442') in 0.072799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (8).mat
+  artifactKey: Guid(f430c84f32a5850499b42d485118ec6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (8).mat using Guid(f430c84f32a5850499b42d485118ec6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50e050d9dad740fc24264f3a181edf9') in 0.118410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (28).mat
+  artifactKey: Guid(39db1ca9b8c10cd40a2a14aed376cb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (28).mat using Guid(39db1ca9b8c10cd40a2a14aed376cb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02e10270a865e80807bd6aa289809b9') in 0.032048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (3).mat
+  artifactKey: Guid(640ab8a269ee0234f9e2de274db60fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (3).mat using Guid(640ab8a269ee0234f9e2de274db60fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed89cf09f08f63acdf2568ea5a252d28') in 0.132330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (19).mat
+  artifactKey: Guid(c81c6cca08418a44f94719559374d8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (19).mat using Guid(c81c6cca08418a44f94719559374d8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb74f89ef4c7b962acf8da9024693aa') in 0.070143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/Ground.mat
+  artifactKey: Guid(8d326828e234122429e5ad716f81e647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/Ground.mat using Guid(8d326828e234122429e5ad716f81e647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e3d875ca1f93da2cd30ab1ad420824') in 0.024653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (2).mat
+  artifactKey: Guid(bddd73eb535bb654d9eb3da00f24c7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (2).mat using Guid(bddd73eb535bb654d9eb3da00f24c7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1098a59bf84c82f7a4b7f2d0a9117d72') in 0.133347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MushroomsGlowB.mat
+  artifactKey: Guid(c43cd70eae1ab1348a68300debb62c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MushroomsGlowB.mat using Guid(c43cd70eae1ab1348a68300debb62c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d9bef87f586560d49b8b6dbcf49589') in 0.181361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/WoodPlanksA.mat
+  artifactKey: Guid(0f5b783800577ea4693b5e01d66f9afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/WoodPlanksA.mat using Guid(0f5b783800577ea4693b5e01d66f9afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '931bf94c7593fd185300eb8005927f0b') in 0.062819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (20).mat
+  artifactKey: Guid(12623d01e183a764cb65069a1170755f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (20).mat using Guid(12623d01e183a764cb65069a1170755f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6cd3ccc57d5df15d81db7cb046555a') in 0.076744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (24).mat
+  artifactKey: Guid(c415515ea9d45324b9609c1e89469611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (24).mat using Guid(c415515ea9d45324b9609c1e89469611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c7ab1e84ff418b7d95e3cf4452f201') in 0.092670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (14).mat
+  artifactKey: Guid(b91fdf682f7f7d545b64a106df5b0433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (14).mat using Guid(b91fdf682f7f7d545b64a106df5b0433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2815d9507c231416b35f00fc83396823') in 0.076403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (10).mat
+  artifactKey: Guid(02655825da2de104b878cee701087304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (10).mat using Guid(02655825da2de104b878cee701087304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd41cca330952a9c28b9a77aed4ae199') in 0.069719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (16).mat
+  artifactKey: Guid(aa1e97473fce8264e99404431d77ad46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (16).mat using Guid(aa1e97473fce8264e99404431d77ad46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a42cb693e52824edea9be1335d1b3d3') in 0.076094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (9).mat
+  artifactKey: Guid(cffce43df0decfe4c9a99194253f022f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (9).mat using Guid(cffce43df0decfe4c9a99194253f022f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e3944de6e1db43fe1d9ce88f66bc16') in 0.132928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (26).mat
+  artifactKey: Guid(e331fd61c80571746b5cccebaf09ec56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (26).mat using Guid(e331fd61c80571746b5cccebaf09ec56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe0f3f6704d7f5a9ce893ab0d746e03') in 0.065377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (33).mat
+  artifactKey: Guid(53ed1e05d6bfa5741b19efe9faae3455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (33).mat using Guid(53ed1e05d6bfa5741b19efe9faae3455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54821e669d864c212957636457b7c580') in 0.073358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (18).mat
+  artifactKey: Guid(d1269d1adc88c5442a0a2cf4846056f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (18).mat using Guid(d1269d1adc88c5442a0a2cf4846056f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d37451c686c0bcd1ab26920587638bd') in 0.059724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MushroomsGlowA.mat
+  artifactKey: Guid(3ffbe2acb6e7bba47974171cc39497b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MushroomsGlowA.mat using Guid(3ffbe2acb6e7bba47974171cc39497b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d6d8632394aee8412c10ed6e6adcdeb') in 0.076327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (21).mat
+  artifactKey: Guid(85c91b155642606458b213f1c68a5328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (21).mat using Guid(85c91b155642606458b213f1c68a5328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c19e568ca68b721fc00214aeae6b8f65') in 0.090275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (34).mat
+  artifactKey: Guid(4811b3b433d8f8246a1603f1816609a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (34).mat using Guid(4811b3b433d8f8246a1603f1816609a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0494e52b73325277836681bbb2171db2') in 0.122930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (23).mat
+  artifactKey: Guid(b534da835a11eea49b7be522a668fad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (23).mat using Guid(b534da835a11eea49b7be522a668fad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76016e15022d71011bff9a1f3db5b9e1') in 0.039413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (12).mat
+  artifactKey: Guid(52627172691059e47882993358ec0182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (12).mat using Guid(52627172691059e47882993358ec0182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9cd3c6b6aa67ddf4f4257a0d499d591') in 0.145623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (4).mat
+  artifactKey: Guid(45cdef92231fc1947be7f03646a05c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (4).mat using Guid(45cdef92231fc1947be7f03646a05c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e62786ab0f6919c9365c78e91265c5cb') in 0.065845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (17).mat
+  artifactKey: Guid(05aab9f0e98d6d445899f102a8bc7add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (17).mat using Guid(05aab9f0e98d6d445899f102a8bc7add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cceebdb70074729b6415b9a3b05a6f9') in 0.075585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (7).mat
+  artifactKey: Guid(d14aec11236bce8438eda03e6e0ee731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (7).mat using Guid(d14aec11236bce8438eda03e6e0ee731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e2fe499bf197706e11e615076f1855') in 0.132475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (25).mat
+  artifactKey: Guid(ffd49f52b7cb1494c8550e849d5c0fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall (25).mat using Guid(ffd49f52b7cb1494c8550e849d5c0fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923a8c2066c6a9da1ce5b7324fb74ad9') in 0.081991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MushroomsGlowC.mat
+  artifactKey: Guid(387ebe65256a78f4c8fff4e206a81715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Materials/MushroomsGlowC.mat using Guid(387ebe65256a78f4c8fff4e206a81715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63f7a4026806005a9200b2357f04ce80') in 0.062948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 155.935489 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (1).prefab
+  artifactKey: Guid(db604ee117db1734199baa9e94e18d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (1).prefab using Guid(db604ee117db1734199baa9e94e18d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a9c7ca0ef7aa2bd2a951d116d453f51') in 0.092678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (13).prefab
+  artifactKey: Guid(d0a5e2f65a0150543aab3fec2d5992b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (13).prefab using Guid(d0a5e2f65a0150543aab3fec2d5992b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1eef238b485fe2f4b50cca8ea0d5877') in 0.089931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (23).prefab
+  artifactKey: Guid(cb991a4a2ba6e624880cc45a61acacf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (23).prefab using Guid(cb991a4a2ba6e624880cc45a61acacf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f148fb1cfa697109ac5afc2d7d4238') in 0.043565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (33).prefab
+  artifactKey: Guid(3e5c6d4c760de434a848c9b174ad7e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (33).prefab using Guid(3e5c6d4c760de434a848c9b174ad7e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '519be5155f8078eb94c1b3fe9ceb1f54') in 0.038816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (6).prefab
+  artifactKey: Guid(814022b5b61f5e64a9a04000fe40c6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (6).prefab using Guid(814022b5b61f5e64a9a04000fe40c6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b88fca0b0222dc2cf578806bb0b961') in 0.083549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (14).prefab
+  artifactKey: Guid(caff95c6411cfbd45b8e84f7419349a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (14).prefab using Guid(caff95c6411cfbd45b8e84f7419349a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10be6bdd3bb70c0ce7ac1eb44b0ac5ae') in 0.078030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (20).prefab
+  artifactKey: Guid(cb9e1955c4a1e6c4296a604ef178cd37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (20).prefab using Guid(cb9e1955c4a1e6c4296a604ef178cd37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49ab4ad562ab51fcf93b9f50bd9b118') in 0.042416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (34).prefab
+  artifactKey: Guid(79ea68e0005305848a5f9b3af44459b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (34).prefab using Guid(79ea68e0005305848a5f9b3af44459b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a0933e2ac7d84e627d60bae3faf7f6') in 0.056775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (24).prefab
+  artifactKey: Guid(18570abdcb1e65f43a3bf97d6f416dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (24).prefab using Guid(18570abdcb1e65f43a3bf97d6f416dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7356384989ce57b630a86870f067fa6') in 0.050370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (22).prefab
+  artifactKey: Guid(cd2a375529381174ea6bda892c9050ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (22).prefab using Guid(cd2a375529381174ea6bda892c9050ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa250703282bb797c99e60af0941e4c') in 0.109210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (25).prefab
+  artifactKey: Guid(a9e8f9400b783424a9a629d0102d8ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (25).prefab using Guid(a9e8f9400b783424a9a629d0102d8ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9893362fab20fe1ab63ab8e4d6cc9334') in 0.073275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (8).prefab
+  artifactKey: Guid(8db06c7a6ef0ff643a7411521c73c184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (8).prefab using Guid(8db06c7a6ef0ff643a7411521c73c184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e421af7b04dd5cee999205bd6c9cc0') in 0.118862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (19).prefab
+  artifactKey: Guid(60765dc343d1d4441a7aef34d4e09719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (19).prefab using Guid(60765dc343d1d4441a7aef34d4e09719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f289c7ebf99166876bb34212c4723579') in 0.046801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (17).prefab
+  artifactKey: Guid(acac9503f343cf24e8d6a5189c980c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (17).prefab using Guid(acac9503f343cf24e8d6a5189c980c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa33019e555135fb542e92c4cca2dbeb') in 0.045651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (28).prefab
+  artifactKey: Guid(5db71970e4b8ce64aac574fba945a76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (28).prefab using Guid(5db71970e4b8ce64aac574fba945a76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f0f15dfd6f252419756a811de93bec') in 0.037491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (26).prefab
+  artifactKey: Guid(f5bd04048be77684199e00fed16ffec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (26).prefab using Guid(f5bd04048be77684199e00fed16ffec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f904ecf53b8129ed4cfe912c49c81f') in 0.046935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (5).prefab
+  artifactKey: Guid(53dc7d7b0a359e04fbc13f7bfaf48ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (5).prefab using Guid(53dc7d7b0a359e04fbc13f7bfaf48ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f7cda6b951ac682855c81ef7a442fc') in 0.089592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (29).prefab
+  artifactKey: Guid(769519aa930e5a944a1c8f3365f0337c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (29).prefab using Guid(769519aa930e5a944a1c8f3365f0337c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3026d8c27cb738b8c7f520c288c67964') in 0.035213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (18).prefab
+  artifactKey: Guid(3c3dc54415b649a44b8dd7efe2ff68b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (18).prefab using Guid(3c3dc54415b649a44b8dd7efe2ff68b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e69c6f64fbb1f87a80d351ef6d7c5663') in 0.033985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (11).prefab
+  artifactKey: Guid(29ba81f1d6a46984295afd9c3009ac83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (11).prefab using Guid(29ba81f1d6a46984295afd9c3009ac83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e06875aa45b55f53e07d856e1ef719') in 0.074871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (3).prefab
+  artifactKey: Guid(947ae9d1f6b3ad141b5c0e94a4c7613a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (3).prefab using Guid(947ae9d1f6b3ad141b5c0e94a4c7613a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c6b84014c2192b279b34ad74e5a3473') in 0.095908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (9).prefab
+  artifactKey: Guid(391afe8641f0edc4aa0a8a9482d1fbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (9).prefab using Guid(391afe8641f0edc4aa0a8a9482d1fbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211c6cb3da423f8192ba8c21914408e6') in 0.103914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (31).prefab
+  artifactKey: Guid(6032b0c1fae7cc84c94d36b6ca8c3e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (31).prefab using Guid(6032b0c1fae7cc84c94d36b6ca8c3e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf10339b9aa3ead4aa24609a5bd311e1') in 0.049176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (15).prefab
+  artifactKey: Guid(95f1771ea6a106848b24b349e48a7296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (15).prefab using Guid(95f1771ea6a106848b24b349e48a7296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99fb374e938de4eedb74e96a4d0e8480') in 0.052674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (10).prefab
+  artifactKey: Guid(c450f47df544de241b81bd17648395c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (10).prefab using Guid(c450f47df544de241b81bd17648395c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd8cea8b78bbd1a1cc262ee221cc3f63') in 0.079325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (2).prefab
+  artifactKey: Guid(51236d4cf1407b54abf74f89a3ef5d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (2).prefab using Guid(51236d4cf1407b54abf74f89a3ef5d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d27000ff35dae27b5c7698bd8aad7b') in 0.125170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (32).prefab
+  artifactKey: Guid(1d523b9f4730d7a4196401409eb91f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall (32).prefab using Guid(1d523b9f4730d7a4196401409eb91f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c448a59f404df771ec54670bac09b541') in 0.057269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0

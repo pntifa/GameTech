@@ -1,0 +1,759 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.11f1 (d00248457e15) revision 13632072'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16264 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/ZE BEBE/Desktop/GameTech/Texnologies
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+52119
+Successfully changed project path to: C:/Users/ZE BEBE/Desktop/GameTech/Texnologies
+C:/Users/ZE BEBE/Desktop/GameTech/Texnologies
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [32512] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 832143829 [EditorId] 832143829 [Version] 1048832 [Id] WindowsEditor(7,ZEBEBE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [32512] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 832143829 [EditorId] 832143829 [Version] 1048832 [Id] WindowsEditor(7,ZEBEBE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 223.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.11f1 (d00248457e15)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ZE BEBE/Desktop/GameTech/Texnologies/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c91)
+    Vendor:   NVIDIA
+    VRAM:     2995 MB
+    Driver:   31.0.15.3713
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56632
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.071034 seconds.
+- Loaded All Assemblies, in  1.247 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.002 seconds
+Domain Reload Profiling: 2241ms
+	BeginReloadAssembly (382ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (116ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (291ms)
+	LoadAllAssembliesAndSetupDomain (423ms)
+		LoadAssemblies (375ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (417ms)
+			TypeCache.Refresh (414ms)
+				TypeCache.ScanAssembly (367ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1003ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (770ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (28ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (494ms)
+			ProcessInitializeOnLoadMethodAttributes (205ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  3.377 seconds
+Refreshing native plugins compatible for Editor in 33.60 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\ZE BEBE\Desktop\GameTech\Texnologies\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <9920ff0c944845d7b9f9a61ef1478edc>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
+UnityEditor.Tools:get_get ()
+UnityEditor.Tools:get_visibleLayers ()
+UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs:121)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Texnologies Anaptixis
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.479 seconds
+Domain Reload Profiling: 6834ms
+	BeginReloadAssembly (944ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (35ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (113ms)
+	RebuildCommonClasses (147ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (184ms)
+	LoadAllAssembliesAndSetupDomain (2045ms)
+		LoadAssemblies (1745ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (830ms)
+			TypeCache.Refresh (655ms)
+				TypeCache.ScanAssembly (593ms)
+			ScanForSourceGeneratedMonoScriptInfo (125ms)
+			ResolveRequiredComponents (42ms)
+	FinalizeReload (3480ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2606ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (308ms)
+			ProcessInitializeOnLoadAttributes (1798ms)
+			ProcessInitializeOnLoadMethodAttributes (446ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.25 seconds
+Refreshing native plugins compatible for Editor in 90.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8782 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 402 unused Assets / (29.8 MB). Loaded Objects now: 9017.
+Memory consumption went from 406.0 MB to 376.2 MB.
+Total: 212.231700 ms (FindLiveObjects: 33.210100 ms CreateObjectMapping: 24.049900 ms MarkObjects: 118.694700 ms  DeleteObjects: 36.274100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 600667.094763 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/PT_UpdatesA.jpg
+  artifactKey: Guid(1841f3528c6e1354995e5c687c955625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/PT_UpdatesA.jpg using Guid(1841f3528c6e1354995e5c687c955625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4033ec82754c0dd6c53b6b795a790a2d') in 0.231963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.085486 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest
+  artifactKey: Guid(e7c81919470a4834cb1f46882bb34fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest using Guid(e7c81919470a4834cb1f46882bb34fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73cf15b594d6fda61cdcc69aac739c8a') in 0.000990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.599278 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Models
+  artifactKey: Guid(7bff2bba72061b14ca2772fdfaea9537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Models using Guid(7bff2bba72061b14ca2772fdfaea9537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d9abb9c7adb325abac17f8cc3102ae') in 0.000963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.042047 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Models/DetailsProp.fbx
+  artifactKey: Guid(882a6c7becabed6469330ff3e7f84de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Models/DetailsProp.fbx using Guid(882a6c7becabed6469330ff3e7f84de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77fc016dc858918abad6cb232d7293fa') in 1.176163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Models/MushroomsB.fbx
+  artifactKey: Guid(1ded1acff092efa499a142157f2c5a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Models/MushroomsB.fbx using Guid(1ded1acff092efa499a142157f2c5a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8fc9dceb132289cb75bb331ff9f52c1') in 0.044297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Models/PT_PlantA_singlemesh.fbx
+  artifactKey: Guid(e8775cc5869edbd468f997c2f4747730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Models/PT_PlantA_singlemesh.fbx using Guid(e8775cc5869edbd468f997c2f4747730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198d3931ee7dae0d96e6b773a27a87f0') in 0.045528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Models/PT_PlantA.fbx
+  artifactKey: Guid(680065dcb69653e43bf5201f19fb83e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Models/PT_PlantA.fbx using Guid(680065dcb69653e43bf5201f19fb83e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d3da98601d5078044c8e38267993e3') in 0.208470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Models/GrassC.fbx
+  artifactKey: Guid(8704f26b4a4d49b4f807856e97343a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Models/GrassC.fbx using Guid(8704f26b4a4d49b4f807856e97343a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05048e5d280bbe840e043d07b900d76') in 0.032266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Models/MushroomsA.fbx
+  artifactKey: Guid(90c7625e366b10d46b8891a7e6957cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Models/MushroomsA.fbx using Guid(90c7625e366b10d46b8891a7e6957cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a362b60440040e140ab5f841d7519ff8') in 0.030101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Models/GrassB.fbx
+  artifactKey: Guid(e450d46f8c8f2cb4bacd2df8c06d9e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Models/GrassB.fbx using Guid(e450d46f8c8f2cb4bacd2df8c06d9e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73b8bc825d9cfd546585590ae1b17f0a') in 0.031314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.768356 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs
+  artifactKey: Guid(955dcce7ccb87874db12e13fdc91ed1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs using Guid(955dcce7ccb87874db12e13fdc91ed1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48bb127521561b76dc55c8c83f86169e') in 0.001287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.026593 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/BackgroundTest_Day.prefab
+  artifactKey: Guid(1a660dc2133f09d44a3403801e946bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/BackgroundTest_Day.prefab using Guid(1a660dc2133f09d44a3403801e946bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6fa587187f277d90a4dc0dafd1e95e6') in 0.100067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom1GlowB.prefab
+  artifactKey: Guid(ddf426dca87c8764581b6f20963d8702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom1GlowB.prefab using Guid(ddf426dca87c8764581b6f20963d8702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db42911e3465149e98034710c916b447') in 0.161906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Fireflies.prefab
+  artifactKey: Guid(3e3b841b2b7887e4188545c8cdc43de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Fireflies.prefab using Guid(3e3b841b2b7887e4188545c8cdc43de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5706bd25d32a2608aac207a956209fbf') in 0.039543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/GrassC.prefab
+  artifactKey: Guid(acd0fc6e24fb9ef4aaf29a99fd289962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/GrassC.prefab using Guid(acd0fc6e24fb9ef4aaf29a99fd289962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed2bad7c868e134a1eb5806c0be0493') in 0.057379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/PT_PlantB_singlemesh.prefab
+  artifactKey: Guid(4625afc93c07e7942b6f275fc5cc00d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/PT_PlantB_singlemesh.prefab using Guid(4625afc93c07e7942b6f275fc5cc00d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d6392c6278f5ceba01c2d520696f024') in 0.057839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom2GlowC.prefab
+  artifactKey: Guid(1a48cee851dc6fa42bd9f79c60aaaade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom2GlowC.prefab using Guid(1a48cee851dc6fa42bd9f79c60aaaade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba95dafa290761f23239605b0647c5e7') in 0.082144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MushroomsBGlowC.prefab
+  artifactKey: Guid(0e0ca3b6968289b4b895c644827e59c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MushroomsBGlowC.prefab using Guid(0e0ca3b6968289b4b895c644827e59c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f5720ecbf1943ad15320c7e839051d') in 0.068770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/DetailsProp.prefab
+  artifactKey: Guid(03214d11c037894438716e83c06cb3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/DetailsProp.prefab using Guid(03214d11c037894438716e83c06cb3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb39178eda08461df0783c167074e620') in 0.245482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MushroomsA.prefab
+  artifactKey: Guid(1f651640988d69640a2b6d7bdddbd75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MushroomsA.prefab using Guid(1f651640988d69640a2b6d7bdddbd75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1290a33dd85147368f89adfd96def4') in 0.066357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom1.prefab
+  artifactKey: Guid(92b70ab6225aafa4fad041ade10385f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom1.prefab using Guid(92b70ab6225aafa4fad041ade10385f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05cdcbe53cf77fc434e28d80d3530dc') in 0.064541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom1GlowA.prefab
+  artifactKey: Guid(411947d4870f01e40bbf25dd7c82b418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom1GlowA.prefab using Guid(411947d4870f01e40bbf25dd7c82b418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f31d5083b67c4278afc23d5f0d4b47') in 0.070936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/WoodPlanksA.prefab
+  artifactKey: Guid(e6f3c11ea3e28134aac8e2b5e34730c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/WoodPlanksA.prefab using Guid(e6f3c11ea3e28134aac8e2b5e34730c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59006db328951f420d19216cb28211f') in 0.133872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/WoodPlanksD.prefab
+  artifactKey: Guid(7599e0659bc5b624e82b23fdcf3ae6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/WoodPlanksD.prefab using Guid(7599e0659bc5b624e82b23fdcf3ae6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04f5aedf905ef20f5c8e129578f8dc7') in 0.073350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/GrassB.prefab
+  artifactKey: Guid(bee6e51bb25fec34682cf2dd4934f0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/GrassB.prefab using Guid(bee6e51bb25fec34682cf2dd4934f0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf24e938a39f37a5ac852e2395a9c1d') in 0.060466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom3.prefab
+  artifactKey: Guid(994183c05f20a8b4796c60bbfa5ecaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom3.prefab using Guid(994183c05f20a8b4796c60bbfa5ecaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30b053e1f2218d10070ccd5d982379bb') in 0.061097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MushroomsB.prefab
+  artifactKey: Guid(b56e4f2ef8fe514479bec09548cc3caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MushroomsB.prefab using Guid(b56e4f2ef8fe514479bec09548cc3caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc8b36f6caf46a416a2aa105cfcec1c') in 0.058249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom2GlowB.prefab
+  artifactKey: Guid(8b334644df99d5140846d8a760b37728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom2GlowB.prefab using Guid(8b334644df99d5140846d8a760b37728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99418985210b4be4b37803734aff0679') in 0.065019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/DetailsPropGlowB.prefab
+  artifactKey: Guid(6fa09e7d260a54d489f0bbe456dfd3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/DetailsPropGlowB.prefab using Guid(6fa09e7d260a54d489f0bbe456dfd3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39fb98e7ea50c06ccfb447489c09b609') in 0.131330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/PT_PlantA.prefab
+  artifactKey: Guid(a8a87d269d00c7e4db6a6f6a74b2a03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/PT_PlantA.prefab using Guid(a8a87d269d00c7e4db6a6f6a74b2a03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e5f888ffc7e63dba95efe1f4db922a') in 0.057111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/PT_PlantB.prefab
+  artifactKey: Guid(443fd84b49ee56b49bd64ad597de45b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/PT_PlantB.prefab using Guid(443fd84b49ee56b49bd64ad597de45b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60184ec53f1cee79cec47d2dcf439ea4') in 0.059765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom2GlowA.prefab
+  artifactKey: Guid(8472e5dd64757bb478795ab9af391d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom2GlowA.prefab using Guid(8472e5dd64757bb478795ab9af391d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a04bb092efa12563ccfc399a5376d006') in 0.081941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom2.prefab
+  artifactKey: Guid(9bd0c738c2766d94987e70a54db8bbad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom2.prefab using Guid(9bd0c738c2766d94987e70a54db8bbad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976f0e1a8a991645fbffa1b5736dd6b6') in 0.063139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom3GlowC.prefab
+  artifactKey: Guid(1a0572422e05e8344946f6f0b02e6b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom3GlowC.prefab using Guid(1a0572422e05e8344946f6f0b02e6b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8421f5ca5010af979c0ee710fc171f4') in 0.069508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/WoodPlanksC.prefab
+  artifactKey: Guid(c4a51ae42e8897347880260c3f9ef7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/WoodPlanksC.prefab using Guid(c4a51ae42e8897347880260c3f9ef7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73972f125b73d4313d9278136cf1ae01') in 0.191849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/WoodPlanksB.prefab
+  artifactKey: Guid(43185398077a8d64da4510ab952f2f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/WoodPlanksB.prefab using Guid(43185398077a8d64da4510ab952f2f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de37f468ed237b6b63dc131b6462c607') in 0.114542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MushroomsAGlowB.prefab
+  artifactKey: Guid(e52341ae6bcc8c54788e0666a24256d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MushroomsAGlowB.prefab using Guid(e52341ae6bcc8c54788e0666a24256d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03f5ee8e40d38b2a3139c73a7a73e68') in 0.067528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MushroomsAGlowA.prefab
+  artifactKey: Guid(0c76a08a07048064fb27b91c8b6ee159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MushroomsAGlowA.prefab using Guid(0c76a08a07048064fb27b91c8b6ee159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0caca5160756075029d3d57ca589caa') in 0.068452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MushroomsBGlowA.prefab
+  artifactKey: Guid(c0429de14730885469ca6793af0a9998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MushroomsBGlowA.prefab using Guid(c0429de14730885469ca6793af0a9998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b38811e68dcf4c82d7cf7aecc958a2f4') in 0.087594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom3GlowB.prefab
+  artifactKey: Guid(fb87ddde793a0944e9025fb850300e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom3GlowB.prefab using Guid(fb87ddde793a0944e9025fb850300e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab643246b727f9164f16842d4f9469f') in 0.077530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MushroomsAGlowC.prefab
+  artifactKey: Guid(742ea88d9445a8a48bf55602da608980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MushroomsAGlowC.prefab using Guid(742ea88d9445a8a48bf55602da608980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35f7ed802a0a3a8b59fc94f22a0047b') in 0.058918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MushroomsBGlowB.prefab
+  artifactKey: Guid(b59b26482f944fb4c8330e2c03111820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MushroomsBGlowB.prefab using Guid(b59b26482f944fb4c8330e2c03111820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb8f50ef8e908bbf0260988a23c7df4') in 0.056652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/PT_PlantA_singlemesh.prefab
+  artifactKey: Guid(dc7654a424dcf1541b554e217b72f112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/PT_PlantA_singlemesh.prefab using Guid(dc7654a424dcf1541b554e217b72f112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82951386be8f2d92c26cc39ceccb6d27') in 0.055322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/WoodPlanksE.prefab
+  artifactKey: Guid(d9a274a6a4b03f24684aac9c975430d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/WoodPlanksE.prefab using Guid(d9a274a6a4b03f24684aac9c975430d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10201243cb47f5d335236414d4ee400') in 0.070155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom1GlowC.prefab
+  artifactKey: Guid(f8fb0594531c65642ac8295b2154675b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby_Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom1GlowC.prefab using Guid(f8fb0594531c65642ac8295b2154675b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc256f93f372609993528a6ec4ace54c') in 0.068483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 6.938985 seconds.
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets
+  artifactKey: Guid(53787cd94206fb940ad5722a088a2d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets using Guid(53787cd94206fb940ad5722a088a2d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25fdda22bc385a4cdb42800b1b7001a2') in 0.001016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.511796 seconds.
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models
+  artifactKey: Guid(fdf6563d133a25f47affd8f64c0d260b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models using Guid(fdf6563d133a25f47affd8f64c0d260b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09bd933aab342fdd18434ebee3d792f9') in 0.000899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.053391 seconds.
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/Dirctions.fbx
+  artifactKey: Guid(5ba48a5df40adc2488fbf4f1253c9f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/Dirctions.fbx using Guid(5ba48a5df40adc2488fbf4f1253c9f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7034c2630b3ae29662c61a465ab3752f') in 0.034059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/Dwarven Dungeon Entrance_Scene.fbx
+  artifactKey: Guid(eb9e95a556e5c564b8353689b7a14f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/Dwarven Dungeon Entrance_Scene.fbx using Guid(eb9e95a556e5c564b8353689b7a14f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22de1e8ce38f9ecade0fd9d4c435d7b') in 0.136699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/WallPropsBottomB_ST.fbx
+  artifactKey: Guid(b02adadd5bc61b24db65519981458219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/WallPropsBottomB_ST.fbx using Guid(b02adadd5bc61b24db65519981458219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '065a10ddd78d97ba29670028c0e8cf7a') in 0.036692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/WallPropsTopA_ST.fbx
+  artifactKey: Guid(5e8c305eed7297c4c932f1a08714fab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/WallPropsTopA_ST.fbx using Guid(5e8c305eed7297c4c932f1a08714fab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f69409906b0dd3a3cb9849e705a37ab7') in 0.037137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/UnitScale.fbx
+  artifactKey: Guid(5c3da8f6cc2dde64ca08016646a7405a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/UnitScale.fbx using Guid(5c3da8f6cc2dde64ca08016646a7405a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1162de242cf658aa05665931f6692ec2') in 0.037827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/PillarADEP_ST.fbx
+  artifactKey: Guid(a3fa2d70d3c31d04e9e8dbf67da39648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/PillarADEP_ST.fbx using Guid(a3fa2d70d3c31d04e9e8dbf67da39648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225f40b43b15014ca222de35ffbdb518') in 0.041112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/SuportBeamADEP_ST.fbx
+  artifactKey: Guid(2f49947bc0f92bc4cb12bdd1bff98074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/SuportBeamADEP_ST.fbx using Guid(2f49947bc0f92bc4cb12bdd1bff98074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24052f1e38686fb7437de386f0528a5b') in 0.043236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/WallBlockA02ADEP.fbx
+  artifactKey: Guid(cfe43512fab166f4dabe233ed848057a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/WallBlockA02ADEP.fbx using Guid(cfe43512fab166f4dabe233ed848057a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ffb77c9a06ca2d7b102db647f0ac6c') in 0.046595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/DungeonStructureHeadDEP_ST.fbx
+  artifactKey: Guid(b2fc918c62ce5544fa086429c4c5d429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/DungeonStructureHeadDEP_ST.fbx using Guid(b2fc918c62ce5544fa086429c4c5d429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff94a379d913a73fce15b6ad6ccf3bd9') in 0.122181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/PillarA2DEP_ST.fbx
+  artifactKey: Guid(c64ea5e1d8cd5674993d9fe9edcb2187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/PillarA2DEP_ST.fbx using Guid(c64ea5e1d8cd5674993d9fe9edcb2187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd7f2d46a942a8e3e751120254b76d5') in 0.044724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/WallBlockA01ADEP.fbx
+  artifactKey: Guid(b1e98f823992d3c418aaf5220fffd662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Models/WallBlockA01ADEP.fbx using Guid(b1e98f823992d3c418aaf5220fffd662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '775a73ee5e6870e32e05c3203d57c6f3') in 0.039633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 6.825758 seconds.
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs
+  artifactKey: Guid(c9acc6a1280ef9d439aaddb88af807b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs using Guid(c9acc6a1280ef9d439aaddb88af807b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd50bc946934fdd106f16c6f2360fb7a4') in 0.000886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.056104 seconds.
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/DungeonGateDEP_ST.prefab
+  artifactKey: Guid(b7d21f1436f2e9943bcc6a2ade057053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/DungeonGateDEP_ST.prefab using Guid(b7d21f1436f2e9943bcc6a2ade057053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f90b21120b54bcbdfa232f912e8d86d') in 0.121015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallPropsBottomA_ST.prefab
+  artifactKey: Guid(fee4035f303fb1e48b130b830c23f49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallPropsBottomA_ST.prefab using Guid(fee4035f303fb1e48b130b830c23f49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05fda094aacd83fd1806c46a97cf71f6') in 0.197950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/PillarA2DEP_ST.prefab
+  artifactKey: Guid(4881923339e8b8d49934c314a55bebf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/PillarA2DEP_ST.prefab using Guid(4881923339e8b8d49934c314a55bebf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9117cf29a2a13261086ccc84106f11') in 0.163556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallBlockA01ADEP.prefab
+  artifactKey: Guid(a017b7cfc91c81844ae3bc1ed6d84d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallBlockA01ADEP.prefab using Guid(a017b7cfc91c81844ae3bc1ed6d84d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28350de8de1d99f943e36974fe57533a') in 0.139341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/PillarADEP_ST.prefab
+  artifactKey: Guid(6f4246912bea49942a823a954f93d157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/PillarADEP_ST.prefab using Guid(6f4246912bea49942a823a954f93d157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46dcbc3c7ea14b232c51a9994ac7482e') in 0.172343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/Dwarven Dungeon Entrance_Scene.prefab
+  artifactKey: Guid(6cd36f5ade0ee474ab43ad38e0ba25b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/Dwarven Dungeon Entrance_Scene.prefab using Guid(6cd36f5ade0ee474ab43ad38e0ba25b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47255437980f897f2f5ba2b9451d863b') in 0.607947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallBlockA03ADEP.prefab
+  artifactKey: Guid(f881312789ac37f4e9a109e0dfd84b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/WallBlockA03ADEP.prefab using Guid(f881312789ac37f4e9a109e0dfd84b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88da3848e810c8871a2b561f370dd94') in 0.074149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/SuportBeamCDEP_ST.prefab
+  artifactKey: Guid(0ed637d1075a0184e8b49e81b3c66097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/SuportBeamCDEP_ST.prefab using Guid(0ed637d1075a0184e8b49e81b3c66097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d339437d07755da4dad578fff715b3') in 0.053466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/DungeonStructureTowerDEP_ST.prefab
+  artifactKey: Guid(3bdfacaee031fad44a81bc6c2a67d179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toby Fredson/Dwarven Expedition Pack - Stylized Assets/Prefabs/DungeonStructureTowerDEP_ST.prefab using Guid(3bdfacaee031fad44a81bc6c2a67d179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '188c47f424f06f23d73c46bde22f6f39') in 0.106116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
