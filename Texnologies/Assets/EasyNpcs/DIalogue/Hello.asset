@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Hello
   m_EditorClassIdentifier: 
   playerText: 
-  npcText: Hello
-  nextSentence: {fileID: 0}
+  npcText: Hello Hero
+  nextSentence: {fileID: 11400000}
   choices: []

@@ -2,8 +2,10 @@ using UnityEngine;
 
 public class DoorScript : MonoBehaviour
 {
- 
- Animator animator;
+  Animator animator;
+  [SerializeField] bool player=false;
+  bool isOpen = false;
+  [SerializeField] private KeyCode interactKey = KeyCode.E;
 
   void Start(){
 
@@ -13,12 +15,24 @@ public class DoorScript : MonoBehaviour
 
   void Update(){
 
-    if(Input.GetKeyDown(KeyCode.P)){
-      animator.SetBool("character_nearby",true);
-    }
-    else if (Input.GetKeyDown(KeyCode.C)) {
-      animator.SetBool("character_nearby",false);
-    }
+    if (player==true)
+      if (Input.GetKeyDown(interactKey)){
+        isOpen = !isOpen;
+        animator.SetBool("character_nearby",isOpen);
+      }
+
   }
 
+
+   private void OnTriggerEnter(Collider other){
+        if (other.gameObject.CompareTag("Player")){
+            player=true;
+        }
+    }
+    
+     private void OnTriggerExit(Collider other){
+        if (other.gameObject.CompareTag("Player")){
+            player=false;
+        }
+    }
 }

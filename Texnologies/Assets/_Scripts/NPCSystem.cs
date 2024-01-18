@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.Rendering.HighDefinition;
 
 public class NPCSystem : MonoBehaviour
 {
     bool player_detection = false;
+    bool isOpen = false;
     public GameObject d_template;
     public GameObject canvas;
 
@@ -14,7 +16,8 @@ public class NPCSystem : MonoBehaviour
     void Update()
     {
         if (player_detection && Input.GetKeyDown(KeyCode.F)){
-            canvas.SetActive(true);
+            isOpen = !isOpen;
+            canvas.SetActive(isOpen);
             NewDialogue("I am done with this");
             canvas.transform.GetChild(1).gameObject.SetActive(true);
         }
@@ -32,6 +35,5 @@ public class NPCSystem : MonoBehaviour
 
     private void OnTriggerExit(Collider other){
         player_detection = false;
-        canvas.SetActive(false);
     }
 }
