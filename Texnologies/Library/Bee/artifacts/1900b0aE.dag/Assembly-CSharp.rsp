@@ -109,6 +109,7 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
+-define:UNITY_PRO_LICENSE
 -define:ENABLE_CUSTOM_RENDER_TEXTURE
 -define:ENABLE_DIRECTOR
 -define:ENABLE_LOCALIZATION
@@ -470,11 +471,17 @@
 "Assets/TrueClouds/Scripts/CloudCamera3D.cs"
 "Assets/TrueClouds/Scripts/CloudPointLight.cs"
 "Assets/TrueClouds/Scripts/CloudsReadonlyAttribute.cs"
+"Assets/_Scripts/Crate1.cs"
 "Assets/_Scripts/DoorScript.cs"
+"Assets/_Scripts/Interactable.cs"
+"Assets/_Scripts/Interactor.cs"
+"Assets/_Scripts/InteractorUI.cs"
 "Assets/_Scripts/NewDialogue.cs"
+"Assets/_Scripts/NpcDialogueStory.cs"
 "Assets/_Scripts/NPCSystem.cs"
 "Assets/_Scripts/PauseMenu.cs"
 "Assets/_Scripts/SettingsMenu.cs"
+"Assets/_Scripts/TextSign.cs"
 -langversion:9.0
 
 /deterministic
