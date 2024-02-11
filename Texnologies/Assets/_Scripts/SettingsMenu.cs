@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -23,7 +24,6 @@ public class SettingsMenu : MonoBehaviour
         {
             string option = resolutions[i].width + "x" + resolutions[i].height;
             options.Add(option);
-
             if (resolutions[i].width == Screen.currentResolution.width && resolutions[i].height == Screen.currentResolution.height)
             {
                 currentResolutionIndex = i;
@@ -33,6 +33,11 @@ public class SettingsMenu : MonoBehaviour
         resolutionDropdown.AddOptions(options);
         resolutionDropdown.value = currentResolutionIndex;
         resolutionDropdown.RefreshShownValue();
+    }
+
+    private void print(string v, Resolution[] resolutions)
+    {
+        throw new NotImplementedException();
     }
 
     public void SetResolution (int resolutionIndex)
