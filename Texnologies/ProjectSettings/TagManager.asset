@@ -8,6 +8,7 @@ TagManager:
   - Npc
   - Crate
   - Interactable
+  - Weapon
   layers:
   - Default
   - TransparentFX
