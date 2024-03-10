@@ -476,6 +476,7 @@
 "Assets/_Scripts/Interactable.cs"
 "Assets/_Scripts/Interactor.cs"
 "Assets/_Scripts/InteractorUI.cs"
+"Assets/_Scripts/LookAtTheCamera.cs"
 "Assets/_Scripts/NewDialogue.cs"
 "Assets/_Scripts/NpcDialogueStory.cs"
 "Assets/_Scripts/NPCSystem.cs"

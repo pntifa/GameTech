@@ -522,6 +522,7 @@ m_ResolvedPackages:
     - 2.9.4
     - 2.9.5
     - 2.9.7
+    - 2.10.0
     - 3.0.0-pre.3
     - 3.0.0-pre.4
     - 3.0.0-pre.5
@@ -533,6 +534,7 @@ m_ResolvedPackages:
     compatible:
     - 2.9.5
     - 2.9.7
+    - 2.10.0
     - 3.0.0-pre.3
     - 3.0.0-pre.4
     - 3.0.0-pre.5
@@ -696,9 +698,11 @@ m_ResolvedPackages:
     - 2.1.0-preview.6
     - 2.1.0
     - 2.2.0
+    - 2.3.1
     compatible:
     - 2.1.0
     - 2.2.0
+    - 2.3.1
     recommended: 2.1.0
     deprecated: []
   dependencies: []
@@ -971,11 +975,13 @@ m_ResolvedPackages:
     - 3.0.25
     - 3.0.26
     - 3.0.27
+    - 3.0.28
     compatible:
     - 3.0.25
     - 3.0.26
     - 3.0.27
-    recommended: 3.0.27
+    - 3.0.28
+    recommended: 3.0.28
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
@@ -2677,9 +2683,11 @@ m_ResolvedPackages:
     - 1.8.0
     - 1.9.0
     - 1.9.1
+    - 1.9.2
     compatible:
     - 1.9.1
-    recommended: 1.9.1
+    - 1.9.2
+    recommended: 1.9.2
     deprecated:
     - 1.8.0-pre.1
   dependencies:
@@ -5716,11 +5724,13 @@ m_ResolvedPackages:
     - 1.12.0
     - 1.12.1
     - 1.12.2
+    - 1.12.4
     compatible:
     - 1.11.0
     - 1.12.0
     - 1.12.1
     - 1.12.2
+    - 1.12.4
     recommended: 1.11.0
     deprecated: []
   dependencies:
