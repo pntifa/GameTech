@@ -28,6 +28,7 @@ public class Crate1 : MonoBehaviour
                 canvas.SetActive(!isOpen);
                 canvas2.SetActive(isOpen);
             }
+            
 
     }
     
