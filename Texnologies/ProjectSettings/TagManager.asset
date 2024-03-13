@@ -9,6 +9,7 @@ TagManager:
   - Crate
   - Interactable
   - Weapon
+  - Waypoints
   layers:
   - Default
   - TransparentFX

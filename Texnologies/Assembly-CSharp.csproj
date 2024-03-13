@@ -71,6 +71,7 @@
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\TrueClouds\ExampleScenes\Scenes\Sky\CloudsGenerator.cs" />
     <Compile Include="Assets\TrueClouds\ExampleScenes\Scripts\FPS60.cs" />
+    <Compile Include="Assets\_Scripts\AttackScript.cs" />
     <Compile Include="Assets\TrueClouds\ExampleScenes\Scripts\ScriptPerformanceMeasure.cs" />
     <Compile Include="Assets\_Scripts\Interactable.cs" />
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
@@ -83,6 +84,7 @@
     <Compile Include="Assets\SciFi_Door\Script\door.cs" />
     <Compile Include="Assets\_Scripts\PickUp.cs" />
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+    <Compile Include="Assets\_Scripts\Run.cs" />
     <Compile Include="Assets\_Scripts\StartMenu.cs" />
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\_Scripts\InteractorUI.cs" />
@@ -129,11 +131,14 @@
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\TrueClouds\ExampleScenes\Scripts\FPSDisplay.cs" />
+    <Compile Include="Assets\_Scripts\health.cs" />
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+    <Compile Include="Assets\_Scripts\IdleOne.cs" />
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
+    <Compile Include="Assets\_Scripts\HealthNpc.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TrueClouds\Resources\Shaders\Depth.shader" />

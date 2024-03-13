@@ -353,7 +353,6 @@
 "Packages/com.unity.starter-assets/Runtime/Mobile/Scripts/TouchscreenInput.cs"
 "Packages/com.unity.starter-assets/Runtime/Mobile/Scripts/Utilities/MobileDisableAutoSwitchControls.cs"
 "Packages/com.unity.starter-assets/Runtime/Mobile/Scripts/VirtualInput.cs"
-"Packages/com.unity.starter-assets/Runtime/ThirdPersonController/Character/Animations/AttackScript.cs"
 "Packages/com.unity.starter-assets/Runtime/ThirdPersonController/Scripts/ThirdPersonController.cs"
 -langversion:9.0
 

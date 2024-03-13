@@ -65,7 +65,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Packages\com.unity.starter-assets\Runtime\Mobile\Scripts\VirtualInput.cs" />
-    <Compile Include="Packages\com.unity.starter-assets\Runtime\ThirdPersonController\Character\Animations\AttackScript.cs" />
     <Compile Include="Packages\com.unity.starter-assets\Runtime\ThirdPersonController\Scripts\ThirdPersonController.cs" />
     <Compile Include="Packages\com.unity.starter-assets\Runtime\Mobile\Scripts\TouchscreenInput.cs" />
     <Compile Include="Packages\com.unity.starter-assets\Runtime\InputSystem\StarterAssetsInputs.cs" />
