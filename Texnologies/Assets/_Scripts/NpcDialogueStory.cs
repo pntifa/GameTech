@@ -23,15 +23,15 @@ public class NpcDialogueStory : MonoBehaviour
 
     void Update(){
         if(player == true){
-            if(Input.GetKeyDown(KeyCode.E)){
+            if(Input.GetKeyDown(KeyCode.E)){ //if the player pressed the certain button
                 if (text_dialogue.text == lines[index]){
-                    NextLine2();
+                    NextLine2(); //the player gets some dialogue from the npc
                 }else{
                     StopAllCoroutines();
                     text_dialogue.text = lines[index];
                 }
             }
-            
+
         }
     }
 
@@ -64,7 +64,7 @@ public class NpcDialogueStory : MonoBehaviour
             StartDialogue2();
         }
     }
-    
+
      private void OnTriggerExit(Collider other){
         if (other.gameObject.CompareTag("Player")){
             player=false;

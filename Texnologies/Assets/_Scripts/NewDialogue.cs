@@ -4,7 +4,7 @@ using System.Xml.Serialization;
 using UnityEngine;
 
 public class NewDialogue : MonoBehaviour
-{   
+{
    int index=2; 
    private void Update(){
         if(Input.GetMouseButtonDown(0) && transform.childCount > 1){

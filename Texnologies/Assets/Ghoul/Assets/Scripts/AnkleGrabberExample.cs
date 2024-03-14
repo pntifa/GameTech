@@ -165,7 +165,7 @@ public class AnkleGrabberExample : MonoBehaviour {
 				anim.SetBool (HushLittleBaby, false);
 				anim.SetBool (Run, false);  
 			}
-		} else if (Input.GetKeyDown(KeyCode.W)) {
+		} else if (Input.GetKeyDown(KeyCode.X)) {
 			if (anim.GetCurrentAnimatorStateInfo (0).IsName ("IdleOne")) {
 				anim.SetBool (IdleAlert, false); 
 				anim.SetBool (IdleOne, false);                                      
@@ -178,7 +178,7 @@ public class AnkleGrabberExample : MonoBehaviour {
 				anim.SetBool (HushLittleBaby, false);
 				anim.SetBool (Run, false);  
 			}
-		} else if (Input.GetKeyUp(KeyCode.W)) {
+		} else if (Input.GetKeyUp(KeyCode.X)) {
 			if (anim.GetCurrentAnimatorStateInfo (0).IsName ("CrochBite")) {          //W to croch bite
 				anim.SetBool (IdleAlert, false); 
 				anim.SetBool (IdleOne, true);                                      

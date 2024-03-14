@@ -7,7 +7,7 @@ public class NewBehaviourScript : MonoBehaviour
 
     public GameObject MainCharacter;
 
-    // Update is called once per frame
+//Attack Animation according to the pressed button
     void Update()
     {
         if(Input.GetButtonDown("Attack")){
@@ -16,6 +16,6 @@ public class NewBehaviourScript : MonoBehaviour
         if(Input.GetButtonDown("Attack Combo")){
             MainCharacter.GetComponent<Animator>().Play("One Hand Sword Combo");
         }
-        
+
     }
 }

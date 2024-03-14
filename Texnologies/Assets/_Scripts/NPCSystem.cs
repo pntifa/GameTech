@@ -12,12 +12,11 @@ public class NPCSystem : MonoBehaviour
     public GameObject d_template;
     public GameObject canvas;
 
-    // Update is called once per frame
     void Update()
     {
-        if (player_detection && Input.GetKeyDown(KeyCode.F)){
+        if (player_detection && Input.GetKeyDown(KeyCode.F)){ //when the player press "F"
             isOpen = !isOpen;
-            canvas.SetActive(isOpen);
+            canvas.SetActive(isOpen); //plays this dialogue
             NewDialogue("I am done with this");
             canvas.transform.GetChild(1).gameObject.SetActive(true);
         }

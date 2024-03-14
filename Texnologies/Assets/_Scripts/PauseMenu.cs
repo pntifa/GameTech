@@ -9,8 +9,8 @@ public class PauseMenu : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
+        if (Input.GetKeyDown(KeyCode.Escape)) //when you press "Esc", your game pauses or resumes, depending
+        {				      // on the current state
             if (GameIsPaused)
             {
                 Resume();
@@ -24,29 +24,29 @@ public class PauseMenu : MonoBehaviour
 
     public void Resume()
     {
-        pauseMenuUI.SetActive(false);
-        Time.timeScale = 1f;
-        GameIsPaused = false;
+        pauseMenuUI.SetActive(false); //disable the Pause Menu UI
+        Time.timeScale = 1f; //time is going normally
+        GameIsPaused = false; //the game is not paused
 
-        playerObject.SetActive(true);
+        playerObject.SetActive(true); //the player is visible
     }
 
     public void Pause()
     {
-        pauseMenuUI.SetActive(true);
-        Time.timeScale = 0f;
+        pauseMenuUI.SetActive(true); //shows the Pause Menu UI
+        Time.timeScale = 0f; //time is stopped
         GameIsPaused = true;
-        
+
         playerObject.SetActive(false);
     }
 
     public void LoadMenu()
     {
-        SceneManager.LoadScene("Options Menu");
+        SceneManager.LoadScene("Options Menu"); //loads the scene Options Menu when you press "Menu"
     }
 
     public void QuitGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1); //Quits the game
     }
 }

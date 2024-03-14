@@ -10,7 +10,7 @@ public class SettingsMenu : MonoBehaviour
     public AudioMixer audioMixer;
     public Dropdown resolutionDropdown;
     Resolution[] resolutions; //array
-
+//resolution and quality doesn't work as intended so we removed them
     void Start()
     {
         resolutions = Screen.resolutions;
@@ -46,10 +46,10 @@ public class SettingsMenu : MonoBehaviour
         Resolution resolution = resolutions[resolutionIndex];
         Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
     }
-    
+
     public void SetVolume (float volume)
     {
-        audioMixer.SetFloat("volume", volume);
+        audioMixer.SetFloat("volume", volume); //sets volume according to the slider
     }
 
     public void SetQuality (int qualityIndex)
@@ -64,6 +64,6 @@ public class SettingsMenu : MonoBehaviour
 
     public void Back()
     {
-        SceneManager.LoadScene("Main");
+        SceneManager.LoadScene("Main"); //go back to the main scene
     }
 }
