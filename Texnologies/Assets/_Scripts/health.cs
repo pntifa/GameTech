@@ -32,7 +32,7 @@ public class health : MonoBehaviour
                 animator.SetBool("idleOne",false);
                 animator.SetBool("AngryReaction",false);
                 animator.SetBool("Dies",true);
-
+               
 		//the healthbar disappears after the hp is below or equal to zero
                 hpbar.SetActive(false);
 

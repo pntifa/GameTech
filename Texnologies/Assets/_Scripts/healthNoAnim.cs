@@ -8,6 +8,8 @@ public class healthNoAnim : MonoBehaviour
     public int HP = 100;
     public int dmg = 20;
 
+    Animator animator;
+
     [SerializeField] bool player=false;
     public GameObject monsterObject;
     public GameObject hpbar;
@@ -17,6 +19,13 @@ public class healthNoAnim : MonoBehaviour
     [SerializeField] private KeyCode interactKey2 = KeyCode.Alpha2;
 
     public Slider healthbar;
+
+    void Start(){
+
+    animator = this.GetComponent<Animator>();
+    animator.SetBool("Fly",true);
+    
+    }
 
     void Update(){
         healthbar.value=HP;
@@ -28,8 +37,9 @@ public class healthNoAnim : MonoBehaviour
             }
             else if(HP <= 0){
 
+                animator.SetBool("Fly",false); //if character is nearby, open the door
                 hpbar.SetActive(false);
-
+                
             }
     }
 
