@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: MenuStrings Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: MenuStrings
+  m_TableCollectionNameGuidString: 72caf3706a8ed9141a1b30e60eb88f3d
+  m_Entries:
+  - m_Id: 1786633969664
+    m_Key: playkey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2837751717888
+    m_Key: optionskey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3766093799424
+    m_Key: quitkey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3847924670464
+    m_Key: settingskey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3956150296576
+    m_Key: fullscreenkey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4046017454080
+    m_Key: volumekey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4952687566848
+    m_Key: menukey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5065858277376
+    m_Key: backkey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11770428055552
+    m_Key: resumekey
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 5242608135059800068
+  references:
+    version: 2
+    RefIds:
+    - rid: 5242608135059800068
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1710521142275
