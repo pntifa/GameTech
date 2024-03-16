@@ -1244,6 +1244,8 @@ m_ResolvedPackages:
     - 1.5.0-pre.3
     - 1.5.0-pre.4
     - 1.5.0-pre.5
+    - 1.5.0-pre.6
+    - 1.5.0-pre.7
     compatible:
     - 1.4.4
     - 1.4.5
@@ -1251,6 +1253,8 @@ m_ResolvedPackages:
     - 1.5.0-pre.3
     - 1.5.0-pre.4
     - 1.5.0-pre.5
+    - 1.5.0-pre.6
+    - 1.5.0-pre.7
     recommended: 1.4.5
     deprecated: []
   dependencies:
@@ -6053,13 +6057,16 @@ m_ResolvedPackages:
     - 1.21.17
     - 1.21.18
     - 1.21.19
+    - 1.21.20
     - 2.0.3
     - 2.0.4
     - 2.0.6
+    - 2.0.8
     compatible:
     - 1.21.18
     - 1.21.19
-    recommended: 1.21.19
+    - 1.21.20
+    recommended: 1.21.20
     deprecated: []
   dependencies:
   - name: com.unity.scriptablebuildpipeline
@@ -6629,16 +6636,20 @@ m_ResolvedPackages:
     - 1.21.9
     - 1.21.20
     - 1.21.21
+    - 1.21.22
     - 2.0.1
     - 2.0.2
     - 2.1.0
+    - 2.1.2
     compatible:
     - 1.21.20
     - 1.21.21
+    - 1.21.22
     - 2.0.1
     - 2.0.2
     - 2.1.0
-    recommended: 1.21.21
+    - 2.1.2
+    recommended: 1.21.22
     deprecated: []
   dependencies: []
   resolvedDependencies: []

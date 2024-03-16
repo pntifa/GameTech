@@ -73,7 +73,6 @@
     <Compile Include="Assets\TrueClouds\ExampleScenes\Scripts\FPS60.cs" />
     <Compile Include="Assets\_Scripts\AttackScript.cs" />
     <Compile Include="Assets\TrueClouds\ExampleScenes\Scripts\ScriptPerformanceMeasure.cs" />
-    <Compile Include="Assets\_Scripts\healthNoAnim.cs" />
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TrueClouds\Scripts\CloudsReadonlyAttribute.cs" />
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
@@ -126,8 +125,10 @@
     <Compile Include="Assets\TrueClouds\Scripts\CloudPointLight.cs" />
     <Compile Include="Assets\Crates_0\Scene\Scripts\FlickeringLights.cs" />
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+    <Compile Include="Assets\_Scripts\healthFlyingInsect.cs" />
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+    <Compile Include="Assets\_Scripts\healthMonsterScavenger.cs" />
     <Compile Include="Assets\TrueClouds\ExampleScenes\Scripts\FPSDisplay.cs" />
     <Compile Include="Assets\_Scripts\health.cs" />
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
