@@ -37,7 +37,7 @@ public class healthFlyingInsect : MonoBehaviour
             }
             else if(HP <= 0){
 
-                animator.SetBool("Fly",false); //if character is nearby, open the door
+                animator.SetBool("Fly",false); 
                 hpbar.SetActive(false);
                 
             }
@@ -60,3 +60,5 @@ public class healthFlyingInsect : MonoBehaviour
     }
 
 }
+
+

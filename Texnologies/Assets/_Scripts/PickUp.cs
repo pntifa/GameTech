@@ -38,8 +38,8 @@ public class PickUp : MonoBehaviour
             { //positions it correctly in the player's hand
                 itemRb = colRb;
                 itemRb.transform.parent = rightHand;
-                itemRb.transform.localPosition = new Vector3(0f, -0.05f, 0f);
-                itemRb.transform.localRotation = Quaternion.Euler(new Vector3(270f, 0f, 0f));
+                itemRb.transform.localPosition = new Vector3(0f, 0.1f, 0.03f);
+                itemRb.transform.localRotation = Quaternion.Euler(new Vector3(0f, 0f, 90f));
                 itemRb.isKinematic = true;
                 itemRb.detectCollisions = false;
             }

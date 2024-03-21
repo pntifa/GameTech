@@ -37,7 +37,7 @@ public class healthMonsterScavenger : MonoBehaviour
             }
             else if(HP <= 0){
 
-                animator.SetBool("attack",true); //if character is nearby, open the door
+                animator.SetBool("attack",true); 
                 hpbar.SetActive(false);
                 
             }
