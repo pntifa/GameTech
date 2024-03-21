@@ -71,6 +71,7 @@
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\TrueClouds\ExampleScenes\Scenes\Sky\CloudsGenerator.cs" />
     <Compile Include="Assets\TrueClouds\ExampleScenes\Scripts\FPS60.cs" />
+    <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\AotStubs.cs" />
     <Compile Include="Assets\_Scripts\AttackScript.cs" />
     <Compile Include="Assets\TrueClouds\ExampleScenes\Scripts\ScriptPerformanceMeasure.cs" />
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
@@ -155,13 +156,11 @@
     <None Include="Assets\TrueClouds\Resources\Shaders\Light\CloudsTintAdditive.shader" />
     <None Include="Assets\TextMesh_Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
     <None Include="Assets\Army Bunker\Info.txt" />
-    <None Include="Assets\Fantasy_Skybox_FREE\Readme.txt" />
     <None Include="Assets\TextMesh_Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
     <None Include="Assets\TextMesh_Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh_Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\Toby Fredson\Dwarven Expedition Pack - Stylized Assets\Models\1. Models.txt" />
     <None Include="Assets\SciFi_Door\readme.txt" />
-    <None Include="Assets\Fantasy_Skybox_FREE\ReleaseNotes.txt" />
     <None Include="Assets\TextMesh_Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TrueClouds\Resources\Shaders\Light\CloudsTintSubtractive.shader" />
     <None Include="Assets\Toby Fredson\Dwarven Expedition Pack - Stylized Assets\Textures\1. Main Texture Folder.txt" />
