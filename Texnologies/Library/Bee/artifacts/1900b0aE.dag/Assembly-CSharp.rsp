@@ -109,7 +109,6 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
--define:UNITY_PRO_LICENSE
 -define:ENABLE_CUSTOM_RENDER_TEXTURE
 -define:ENABLE_DIRECTOR
 -define:ENABLE_LOCALIZATION
@@ -480,6 +479,7 @@
 "Assets/TrueClouds/Scripts/CloudsReadonlyAttribute.cs"
 "Assets/_Scripts/AttackScript.cs"
 "Assets/_Scripts/Crate1.cs"
+"Assets/_Scripts/DayNight.cs"
 "Assets/_Scripts/DoorScript.cs"
 "Assets/_Scripts/health.cs"
 "Assets/_Scripts/healthFlyingInsect.cs"
@@ -496,6 +496,7 @@
 "Assets/_Scripts/Run.cs"
 "Assets/_Scripts/SettingsMenu.cs"
 "Assets/_Scripts/StartMenu.cs"
+"Assets/_Scripts/TimeManager.cs"
 -langversion:9.0
 
 /deterministic
