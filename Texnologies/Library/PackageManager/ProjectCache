@@ -1246,6 +1246,7 @@ m_ResolvedPackages:
     - 1.5.0-pre.5
     - 1.5.0-pre.6
     - 1.5.0-pre.7
+    - 1.5.1
     compatible:
     - 1.4.4
     - 1.4.5
@@ -1255,6 +1256,7 @@ m_ResolvedPackages:
     - 1.5.0-pre.5
     - 1.5.0-pre.6
     - 1.5.0-pre.7
+    - 1.5.1
     recommended: 1.4.5
     deprecated: []
   dependencies:

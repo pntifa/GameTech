@@ -1,8 +1,11 @@
 Library\Bee\artifacts\mvdfrm\Unity.AI.Navigation.ref.dll_B497EB86AC0F5A7D.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Addressables.ref.dll_1059048E9DD8D528.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Analytics.DataPrivacy.ref.dll_CB4D93EC20F07CC9.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Animation.Rigging.ref.dll_105F3AD6C3912434.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Burst.ref.dll_14316E70964BB953.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.InputSystem.ForUI.ref.dll_72EE3CA5CEB6E69B.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.InputSystem.ref.dll_29109081F030768C.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Localization.ref.dll_151F7BC093EF395C.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Mathematics.ref.dll_14D1A32168A0AD59.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Postprocessing.Runtime.ref.dll_AB90C03FF8D63420.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.RenderPipeline.Universal.ShaderLibrary.ref.dll_3F999310E5378770.mvfrm
@@ -13,6 +16,12 @@ Library\Bee\artifacts\mvdfrm\Unity.RenderPipelines.HighDefinition.Runtime.ref.dl
 Library\Bee\artifacts\mvdfrm\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.ref.dll_2AC6C82FC7FB4B7D.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.RenderPipelines.Universal.Runtime.ref.dll_F2E669F900AB6F15.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.RenderPipelines.Universal.Shaders.ref.dll_334E79423F1A0A4B.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.ResourceManager.ref.dll_0B88880A5261CF92.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.ScriptableBuildPipeline.ref.dll_12B15CD22EFCA75E.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Services.Analytics.ref.dll_EB4B42A2B9006E39.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Services.Core.Analytics.ref.dll_D88AC28E7AE24D0A.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Services.Core.Environments.ref.dll_29C0C4FBB515A292.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Services.Core.ref.dll_8733AE466239FA82.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.StarterAssets.ref.dll_4CC003F7491CFF75.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.TerrainTools.ref.dll_0B0A8E3C9AE2B709.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.TextMeshPro.ref.dll_B085F143991618E6.mvfrm
@@ -21,6 +30,12 @@ Library\Bee\artifacts\mvdfrm\Unity.VisualEffectGraph.Runtime.ref.dll_AADBF31707A
 Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.Core.ref.dll_27ACA245D8399F39.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.Flow.ref.dll_6EBD829C5A4313E8.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.State.ref.dll_F0190167D28F2F4D.mvfrm
+Library\Bee\artifacts\mvdfrm\UnityEngine.Advertisements.ref.dll_829A9F68D56B752F.mvfrm
+Library\Bee\artifacts\mvdfrm\UnityEngine.Purchasing.Codeless.ref.dll_F4E278E41B88977B.mvfrm
+Library\Bee\artifacts\mvdfrm\UnityEngine.Purchasing.SecurityCore.ref.dll_37D362000A37D944.mvfrm
+Library\Bee\artifacts\mvdfrm\UnityEngine.Purchasing.SecurityStub.ref.dll_82FA26F3ADA49483.mvfrm
+Library\Bee\artifacts\mvdfrm\UnityEngine.Purchasing.Stores.ref.dll_BCC932A586FE2DF7.mvfrm
+Library\Bee\artifacts\mvdfrm\UnityEngine.Purchasing.ref.dll_03C7ACED11CBE8AF.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.UI.ref.dll_FAE6DBEA21006BE5.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.AccessibilityModule.dll_12A4A5F909827B2B.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.AIModule.dll_DD94D93429464D5F.mvfrm

@@ -477,6 +477,7 @@
 "Assets/TrueClouds/Scripts/CloudCamera3D.cs"
 "Assets/TrueClouds/Scripts/CloudPointLight.cs"
 "Assets/TrueClouds/Scripts/CloudsReadonlyAttribute.cs"
+"Assets/Unity.VisualScripting.Generated/VisualScripting.Core/AotStubs.cs"
 "Assets/_Scripts/AttackScript.cs"
 "Assets/_Scripts/Crate1.cs"
 "Assets/_Scripts/DayNight.cs"
