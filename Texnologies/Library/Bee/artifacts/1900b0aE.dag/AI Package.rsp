@@ -354,7 +354,6 @@
 "Assets/EasyNpcs/Scripts/AI/CombatAI/AimRig.cs"
 "Assets/EasyNpcs/Scripts/AI/CombatAI/AttackHandler.cs"
 "Assets/EasyNpcs/Scripts/AI/CombatAI/CombatAI.cs"
-"Assets/EasyNpcs/Scripts/AI/CombatAI/DrawFov.cs"
 "Assets/EasyNpcs/Scripts/AI/CombatAI/Observe.cs"
 "Assets/EasyNpcs/Scripts/AI/CombatAI/OnBlockAnimAI.cs"
 "Assets/EasyNpcs/Scripts/AI/CombatAI/OnBlockImpact_Anim.cs"
