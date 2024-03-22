@@ -10,6 +10,7 @@ TagManager:
   - Interactable
   - Weapon
   - Waypoints
+  - SF_Door
   layers:
   - Default
   - TransparentFX
@@ -17,7 +18,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Npc
   - 
   - 
   - 

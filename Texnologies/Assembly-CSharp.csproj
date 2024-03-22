@@ -71,7 +71,6 @@
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\TrueClouds\ExampleScenes\Scenes\Sky\CloudsGenerator.cs" />
     <Compile Include="Assets\TrueClouds\ExampleScenes\Scripts\FPS60.cs" />
-    <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\AotStubs.cs" />
     <Compile Include="Assets\_Scripts\AttackScript.cs" />
     <Compile Include="Assets\TrueClouds\ExampleScenes\Scripts\ScriptPerformanceMeasure.cs" />
     <Compile Include="Assets\TextMesh_Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />

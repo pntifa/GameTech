@@ -138,7 +138,6 @@ PlayerSettings:
   bundleVersion: 0.1
   preloadedAssets:
   - {fileID: 11400000, guid: 8c37a8d6f028a23449fdba235bd38367, type: 2}
-  - {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -745,6 +744,7 @@ PlayerSettings:
   vrEditorSettings: {}
   cloudServicesEnabled:
     UNet: 1
+    Unity Ads: 0
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
@@ -764,11 +764,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: ebe7c9e3-626b-41f6-ae3e-1cc874927b2b
+  cloudProjectId: b9e76d63-cf8c-4f44-abda-534746fb17fe
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: Texnologies Anaptixis
-  organizationId: fivoscyp
+  organizationId: bluuterrainz
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

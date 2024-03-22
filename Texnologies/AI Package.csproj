@@ -83,7 +83,6 @@
     <Compile Include="Assets\EasyNpcs\Scripts\TakeDamage\Attack.cs" />
     <Compile Include="Assets\EasyNpcs\Scripts\AI\CombatAI\AimRig.cs" />
     <Compile Include="Assets\EasyNpcs\Scripts\AI\NpcAI\Home.cs" />
-    <Compile Include="Assets\EasyNpcs\Scripts\AI\CombatAI\DrawFov.cs" />
     <Compile Include="Assets\EasyNpcs\Scripts\DayAndNightControl.cs" />
     <Compile Include="Assets\EasyNpcs\Scripts\TakeDamage\TargetVerifier.cs" />
     <Compile Include="Assets\EasyNpcs\Scripts\AI\CombatAI\OnBlockAnimAI.cs" />
