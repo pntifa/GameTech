@@ -16,9 +16,6 @@ namespace AIPackage
             agent = GetComponent<NavMeshAgent>();
         }
 
-        void Update()
-        {
-            anim.SetFloat("Speed", agent.velocity.magnitude);
-        }
+
     }
 }
