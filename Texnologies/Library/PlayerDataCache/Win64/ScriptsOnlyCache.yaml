@@ -72,17 +72,11 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.InputSystemObject
     - UnityEngine.InputSystem.PlayerInput
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
-    Unity.Localization.Editor.dll:
-    - UnityEditor.Localization.LocalizationProjectSettings
-    - UnityEditor.Localization.StringTableCollection
     Unity.Localization.dll:
     - UnityEngine.Localization.Components.LocalizeStringEvent
     - UnityEngine.Localization.Locale
     - UnityEngine.Localization.LocalizationBehaviour
     - UnityEngine.Localization.Settings.LocalizationSettings
-    - UnityEngine.Localization.Tables.SharedTableData
-    - UnityEngine.Localization.Tables.StringTable
-    - UnityEngine.Localization.VariantsPropertyDriver
     Unity.RenderPipelines.Core.Runtime:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
     - UnityEngine.Rendering.UI.DebugUIHandlerButton
@@ -119,79 +113,16 @@ ScriptsOnlyBuild:
     Unity.RenderPipelines.HighDefinition.Editor.dll:
     - UnityEditor.Rendering.HighDefinition.HDProjectSettings
     - UnityEditor.Rendering.HighDefinition.HDUserSettings
-    Unity.RenderPipelines.HighDefinition.Runtime.dll:
-    - UnityEngine.Rendering.HighDefinition.Bloom
-    - UnityEngine.Rendering.HighDefinition.ChannelMixer
-    - UnityEngine.Rendering.HighDefinition.ChromaticAberration
-    - UnityEngine.Rendering.HighDefinition.CloudLayer
-    - UnityEngine.Rendering.HighDefinition.ColorAdjustments
-    - UnityEngine.Rendering.HighDefinition.ColorCurves
-    - UnityEngine.Rendering.HighDefinition.Compositor.AlphaInjection
-    - UnityEngine.Rendering.HighDefinition.Compositor.ChromaKeying
-    - UnityEngine.Rendering.HighDefinition.ContactShadows
-    - UnityEngine.Rendering.HighDefinition.DepthOfField
-    - UnityEngine.Rendering.HighDefinition.DiffusionProfileList
-    - UnityEngine.Rendering.HighDefinition.ExponentialFog
-    - UnityEngine.Rendering.HighDefinition.Exposure
-    - UnityEngine.Rendering.HighDefinition.FilmGrain
-    - UnityEngine.Rendering.HighDefinition.Fog
-    - UnityEngine.Rendering.HighDefinition.GlobalIllumination
-    - UnityEngine.Rendering.HighDefinition.GradientSky
-    - UnityEngine.Rendering.HighDefinition.HDRISky
-    - UnityEngine.Rendering.HighDefinition.HDShadowSettings
-    - UnityEngine.Rendering.HighDefinition.IndirectLightingController
-    - UnityEngine.Rendering.HighDefinition.LensDistortion
-    - UnityEngine.Rendering.HighDefinition.LiftGammaGain
-    - UnityEngine.Rendering.HighDefinition.LightCluster
-    - UnityEngine.Rendering.HighDefinition.MicroShadowing
-    - UnityEngine.Rendering.HighDefinition.MotionBlur
-    - UnityEngine.Rendering.HighDefinition.PaniniProjection
-    - UnityEngine.Rendering.HighDefinition.PathTracing
-    - UnityEngine.Rendering.HighDefinition.PhysicallyBasedSky
-    - UnityEngine.Rendering.HighDefinition.RayTracingSettings
-    - UnityEngine.Rendering.HighDefinition.RecursiveRendering
-    - UnityEngine.Rendering.HighDefinition.ScreenSpaceAmbientOcclusion
-    - UnityEngine.Rendering.HighDefinition.ScreenSpaceReflection
-    - UnityEngine.Rendering.HighDefinition.ScreenSpaceRefraction
-    - UnityEngine.Rendering.HighDefinition.ShadowsMidtonesHighlights
-    - UnityEngine.Rendering.HighDefinition.SplitToning
-    - UnityEngine.Rendering.HighDefinition.SubSurfaceScattering
-    - UnityEngine.Rendering.HighDefinition.Tonemapping
-    - UnityEngine.Rendering.HighDefinition.Vignette
-    - UnityEngine.Rendering.HighDefinition.VisualEnvironment
-    - UnityEngine.Rendering.HighDefinition.VolumetricClouds
-    - UnityEngine.Rendering.HighDefinition.VolumetricFog
-    - UnityEngine.Rendering.HighDefinition.VolumetricLightingController
-    - UnityEngine.Rendering.HighDefinition.WaterRendering
-    - UnityEngine.Rendering.HighDefinition.WhiteBalance
-    - UnityEngine.Rendering.ProbeVolumesOptions
     Unity.RenderPipelines.Universal.Editor.dll:
     - UnityEditor.Rendering.Universal.UniversalProjectSettings
     Unity.RenderPipelines.Universal.Runtime.dll:
-    - UnityEngine.Rendering.Universal.Bloom
-    - UnityEngine.Rendering.Universal.ChannelMixer
-    - UnityEngine.Rendering.Universal.ChromaticAberration
-    - UnityEngine.Rendering.Universal.ColorAdjustments
-    - UnityEngine.Rendering.Universal.ColorCurves
-    - UnityEngine.Rendering.Universal.ColorLookup
-    - UnityEngine.Rendering.Universal.DepthOfField
-    - UnityEngine.Rendering.Universal.FilmGrain
-    - UnityEngine.Rendering.Universal.LensDistortion
-    - UnityEngine.Rendering.Universal.LiftGammaGain
-    - UnityEngine.Rendering.Universal.MotionBlur
-    - UnityEngine.Rendering.Universal.PaniniProjection
     - UnityEngine.Rendering.Universal.PostProcessData
-    - UnityEngine.Rendering.Universal.ShadowsMidtonesHighlights
-    - UnityEngine.Rendering.Universal.SplitToning
-    - UnityEngine.Rendering.Universal.Tonemapping
     - UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
     - UnityEngine.Rendering.Universal.UniversalAdditionalLightData
     - UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset
     - UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorResources
     - UnityEngine.Rendering.Universal.UniversalRenderPipelineGlobalSettings
     - UnityEngine.Rendering.Universal.UniversalRendererData
-    - UnityEngine.Rendering.Universal.Vignette
-    - UnityEngine.Rendering.Universal.WhiteBalance
     - UnityEngine.Rendering.Universal.XRSystemData
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -644,67 +575,67 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12474}
     - Class: 114
-      Script: {instanceID: 13222}
+      Script: {instanceID: 13220}
     - Class: 114
-      Script: {instanceID: 13318}
+      Script: {instanceID: 13316}
     - Class: 114
-      Script: {instanceID: 13450}
+      Script: {instanceID: 13448}
     - Class: 114
-      Script: {instanceID: 13478}
+      Script: {instanceID: 13476}
     - Class: 114
-      Script: {instanceID: 13678}
+      Script: {instanceID: 13676}
     - Class: 114
-      Script: {instanceID: 13684}
+      Script: {instanceID: 13682}
     - Class: 114
-      Script: {instanceID: 13750}
+      Script: {instanceID: 13748}
     - Class: 114
-      Script: {instanceID: 14038}
+      Script: {instanceID: 14036}
     - Class: 114
-      Script: {instanceID: 14042}
+      Script: {instanceID: 14040}
     - Class: 114
-      Script: {instanceID: 14290}
+      Script: {instanceID: 14288}
     - Class: 114
-      Script: {instanceID: 14832}
+      Script: {instanceID: 14830}
     - Class: 114
-      Script: {instanceID: 15012}
+      Script: {instanceID: 15010}
     - Class: 114
-      Script: {instanceID: 15362}
+      Script: {instanceID: 15360}
     - Class: 114
-      Script: {instanceID: 15772}
+      Script: {instanceID: 15770}
     - Class: 114
-      Script: {instanceID: 15802}
+      Script: {instanceID: 15800}
     - Class: 114
-      Script: {instanceID: 16274}
+      Script: {instanceID: 16272}
     - Class: 114
-      Script: {instanceID: 16694}
+      Script: {instanceID: 16692}
     - Class: 114
-      Script: {instanceID: 16810}
+      Script: {instanceID: 16808}
     - Class: 114
-      Script: {instanceID: 17258}
+      Script: {instanceID: 17256}
     - Class: 114
-      Script: {instanceID: 17262}
+      Script: {instanceID: 17260}
     - Class: 114
-      Script: {instanceID: 17616}
+      Script: {instanceID: 17614}
     - Class: 114
-      Script: {instanceID: 17680}
+      Script: {instanceID: 17678}
     - Class: 114
-      Script: {instanceID: 17830}
+      Script: {instanceID: 17828}
     - Class: 114
-      Script: {instanceID: 17860}
+      Script: {instanceID: 17858}
     - Class: 114
-      Script: {instanceID: 18182}
+      Script: {instanceID: 18180}
     - Class: 114
-      Script: {instanceID: 18410}
+      Script: {instanceID: 18408}
     - Class: 114
-      Script: {instanceID: 18542}
+      Script: {instanceID: 18540}
     - Class: 114
-      Script: {instanceID: 19408}
+      Script: {instanceID: 19406}
     - Class: 114
-      Script: {instanceID: 20310}
+      Script: {instanceID: 20308}
     - Class: 114
-      Script: {instanceID: 20374}
+      Script: {instanceID: 20372}
     - Class: 114
-      Script: {instanceID: 20544}
+      Script: {instanceID: 20542}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -793,17 +724,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10546}
     - Class: 114
-      Script: {instanceID: 13222}
+      Script: {instanceID: 13220}
     - Class: 114
-      Script: {instanceID: 13478}
+      Script: {instanceID: 13476}
     - Class: 114
-      Script: {instanceID: 14042}
+      Script: {instanceID: 14040}
     - Class: 114
-      Script: {instanceID: 16694}
+      Script: {instanceID: 16692}
     - Class: 114
-      Script: {instanceID: 16810}
+      Script: {instanceID: 16808}
     - Class: 114
-      Script: {instanceID: 18410}
+      Script: {instanceID: 18408}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -932,51 +863,51 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12922}
     - Class: 114
-      Script: {instanceID: 13222}
+      Script: {instanceID: 13220}
     - Class: 114
-      Script: {instanceID: 13478}
+      Script: {instanceID: 13476}
     - Class: 114
-      Script: {instanceID: 14554}
+      Script: {instanceID: 14552}
     - Class: 114
-      Script: {instanceID: 14648}
+      Script: {instanceID: 14646}
     - Class: 114
-      Script: {instanceID: 14744}
+      Script: {instanceID: 14742}
     - Class: 114
-      Script: {instanceID: 15060}
+      Script: {instanceID: 15058}
     - Class: 114
-      Script: {instanceID: 15232}
+      Script: {instanceID: 15230}
     - Class: 114
-      Script: {instanceID: 15280}
+      Script: {instanceID: 15278}
     - Class: 114
-      Script: {instanceID: 15656}
+      Script: {instanceID: 15654}
     - Class: 114
-      Script: {instanceID: 15782}
+      Script: {instanceID: 15780}
     - Class: 114
-      Script: {instanceID: 16722}
+      Script: {instanceID: 16720}
     - Class: 114
-      Script: {instanceID: 16810}
+      Script: {instanceID: 16808}
     - Class: 114
-      Script: {instanceID: 17108}
+      Script: {instanceID: 17106}
     - Class: 114
-      Script: {instanceID: 17512}
+      Script: {instanceID: 17510}
     - Class: 114
-      Script: {instanceID: 18042}
+      Script: {instanceID: 18040}
     - Class: 114
-      Script: {instanceID: 18266}
+      Script: {instanceID: 18264}
     - Class: 114
-      Script: {instanceID: 18410}
+      Script: {instanceID: 18408}
     - Class: 114
-      Script: {instanceID: 18428}
+      Script: {instanceID: 18426}
     - Class: 114
-      Script: {instanceID: 18564}
+      Script: {instanceID: 18562}
     - Class: 114
-      Script: {instanceID: 18752}
+      Script: {instanceID: 18750}
     - Class: 114
-      Script: {instanceID: 18974}
+      Script: {instanceID: 18972}
     - Class: 114
-      Script: {instanceID: 19402}
+      Script: {instanceID: 19400}
     - Class: 114
-      Script: {instanceID: 20678}
+      Script: {instanceID: 20676}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -4543,4 +4474,4 @@ ScriptsOnlyBuild:
   - Assets/_Scenes/Start Menu.unity
   - Assets/_Scenes/Main.unity
   - Assets/_Scenes/Options Menu.unity
-  playerPath: C:/Users/ZE BEBE/Desktop/spacegame/Texnologies Anaptixis.exe
+  playerPath: C:/Users/ZE BEBE/Desktop/spacegame/second try/Texnologies Anaptixis.exe
